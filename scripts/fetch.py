@@ -160,10 +160,8 @@ def merge(name, fresh):
             old = []
 
     by_url = {i["url"]: i for i in old if i.get("url")}
-    added = 0
+    known = set(by_url)
     for it in fresh:
-        if it["url"] not in by_url:
-            added += 1
         by_url[it["url"]] = it
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=RETAIN_DAYS)
@@ -174,11 +172,16 @@ def merge(name, fresh):
             kept.append(it)
     kept.sort(key=lambda x: x.get("published_iso") or "", reverse=True)
 
+    # Count "new" only among survivors. Items past the retention cutoff are pruned,
+    # re-fetched next run and would otherwise be reported as new forever.
+    added = sum(1 for it in kept if it["url"] not in known)
+    newest = kept[0].get("published_iso", "")[:10] if kept else ""
+
     path.write_text(json.dumps(
         {"source": name, "fetched_at": datetime.now(timezone.utc).isoformat(),
-         "count": len(kept), "items": kept},
+         "count": len(kept), "newest_item": newest, "items": kept},
         ensure_ascii=False, indent=1))
-    return len(kept), added
+    return len(kept), added, newest
 
 
 def main():
@@ -188,18 +191,20 @@ def main():
     for name, url in FEEDS:
         try:
             items = parse_feed(get(url))
-            total, added = merge(name, items)
-            status[name] = {"ok": True, "fetched": len(items), "archived": total, "new": added}
-            print(f"[ok]   {name}: fetched {len(items)}, +{added} new, {total} archived")
+            total, added, newest = merge(name, items)
+            status[name] = {"ok": True, "fetched": len(items), "archived": total,
+                            "new": added, "newest_item": newest}
+            print(f"[ok]   {name}: fetched {len(items)}, +{added} new, {total} archived, newest {newest or 'n/a'}")
         except Exception as e:
             status[name] = {"ok": False, "error": f"{type(e).__name__}: {e}"}
             print(f"[FAIL] {name}: {type(e).__name__}: {e}", file=sys.stderr)
 
     try:
         items = fetch_hn()
-        total, added = merge("hackernews", items)
-        status["hackernews"] = {"ok": True, "fetched": len(items), "archived": total, "new": added}
-        print(f"[ok]   hackernews: fetched {len(items)}, +{added} new, {total} archived")
+        total, added, newest = merge("hackernews", items)
+        status["hackernews"] = {"ok": True, "fetched": len(items), "archived": total,
+                                "new": added, "newest_item": newest}
+        print(f"[ok]   hackernews: fetched {len(items)}, +{added} new, {total} archived, newest {newest or 'n/a'}")
     except Exception as e:
         status["hackernews"] = {"ok": False, "error": f"{type(e).__name__}: {e}"}
         print(f"[FAIL] hackernews: {type(e).__name__}: {e}", file=sys.stderr)

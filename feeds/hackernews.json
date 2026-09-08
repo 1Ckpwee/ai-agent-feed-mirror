@@ -1,7 +1,8 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-09-08T02:18:14.555237+00:00",
+ "fetched_at": "2026-09-08T02:30:03.934267+00:00",
  "count": 38,
+ "newest_item": "2026-09-07",
  "items": [
   {
    "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
@@ -27,8 +28,8 @@
    "title": "Speculative Decoding in vLLM on AMD GPUs",
    "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
    "hn_url": "https://news.ycombinator.com/item?id=49596054",
-   "points": 133,
-   "num_comments": 49,
+   "points": 134,
+   "num_comments": 50,
    "published_iso": "2026-09-07T09:26:41+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -37,7 +38,7 @@
    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
    "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
    "hn_url": "https://news.ycombinator.com/item?id=49585644",
-   "points": 709,
+   "points": 710,
    "num_comments": 433,
    "published_iso": "2026-09-06T11:56:43+00:00",
    "content": "",
@@ -108,7 +109,7 @@
    "url": "https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone",
    "hn_url": "https://news.ycombinator.com/item?id=49576124",
    "points": 338,
-   "num_comments": 388,
+   "num_comments": 389,
    "published_iso": "2026-09-05T13:02:14+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -167,7 +168,7 @@
    "title": "Babylonian Lamb Stew with Beets (1750–1730 BCE)",
    "url": "https://babylonian-collection.yale.edu/about/babylonian-cooking",
    "hn_url": "https://news.ycombinator.com/item?id=49554622",
-   "points": 164,
+   "points": 165,
    "num_comments": 131,
    "published_iso": "2026-09-03T18:40:07+00:00",
    "content": "",
@@ -318,7 +319,7 @@
    "url": "https://news.ycombinator.com/item?id=49522896",
    "hn_url": "https://news.ycombinator.com/item?id=49522896",
    "points": 111,
-   "num_comments": 502,
+   "num_comments": 503,
    "published_iso": "2026-09-01T15:01:17+00:00",
    "content": "",
    "matched_query": "AI agent"
