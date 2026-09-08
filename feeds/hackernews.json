@@ -1,14 +1,24 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-09-07T17:26:21.061149+00:00",
- "count": 37,
+ "fetched_at": "2026-09-08T02:18:14.555237+00:00",
+ "count": 38,
  "items": [
+  {
+   "title": "Tell HN: OpenAI brings back 5 hour limit for plus and business standard users",
+   "url": "https://news.ycombinator.com/item?id=49600233",
+   "hn_url": "https://news.ycombinator.com/item?id=49600233",
+   "points": 121,
+   "num_comments": 134,
+   "published_iso": "2026-09-07T16:40:32+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "Apparently CodePen 2.0 sends data to their servers as you type",
    "url": "https://news.ycombinator.com/item?id=49596976",
    "hn_url": "https://news.ycombinator.com/item?id=49596976",
-   "points": 92,
-   "num_comments": 39,
+   "points": 108,
+   "num_comments": 56,
    "published_iso": "2026-09-07T11:22:40+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -17,8 +27,8 @@
    "title": "Speculative Decoding in vLLM on AMD GPUs",
    "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
    "hn_url": "https://news.ycombinator.com/item?id=49596054",
-   "points": 98,
-   "num_comments": 32,
+   "points": 133,
+   "num_comments": 49,
    "published_iso": "2026-09-07T09:26:41+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -27,8 +37,8 @@
    "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
    "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
    "hn_url": "https://news.ycombinator.com/item?id=49585644",
-   "points": 690,
-   "num_comments": 422,
+   "points": 709,
+   "num_comments": 433,
    "published_iso": "2026-09-06T11:56:43+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -37,8 +47,8 @@
    "title": "AI, Tools and Transformation",
    "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
    "hn_url": "https://news.ycombinator.com/item?id=49582656",
-   "points": 153,
-   "num_comments": 74,
+   "points": 154,
+   "num_comments": 75,
    "published_iso": "2026-09-06T02:12:46+00:00",
    "content": "",
    "matched_query": "evals"
@@ -48,7 +58,7 @@
    "url": "https://github.com/okf-memory/okf-agent-memory",
    "hn_url": "https://news.ycombinator.com/item?id=49581240",
    "points": 78,
-   "num_comments": 26,
+   "num_comments": 31,
    "published_iso": "2026-09-05T22:15:52+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -58,7 +68,7 @@
    "url": "https://arxiv.org/abs/2609.03344",
    "hn_url": "https://news.ycombinator.com/item?id=49580164",
    "points": 391,
-   "num_comments": 251,
+   "num_comments": 252,
    "published_iso": "2026-09-05T20:02:35+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -68,7 +78,7 @@
    "url": "https://usr.lmf.cnrs.fr/lpo/",
    "hn_url": "https://news.ycombinator.com/item?id=49578280",
    "points": 312,
-   "num_comments": 138,
+   "num_comments": 139,
    "published_iso": "2026-09-05T16:45:02+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -77,8 +87,8 @@
    "title": "Ask HN: Fable hacked my piano, can I release the results?",
    "url": "https://news.ycombinator.com/item?id=49577129",
    "hn_url": "https://news.ycombinator.com/item?id=49577129",
-   "points": 241,
-   "num_comments": 140,
+   "points": 285,
+   "num_comments": 153,
    "published_iso": "2026-09-05T14:54:44+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -98,7 +108,7 @@
    "url": "https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone",
    "hn_url": "https://news.ycombinator.com/item?id=49576124",
    "points": 338,
-   "num_comments": 386,
+   "num_comments": 388,
    "published_iso": "2026-09-05T13:02:14+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -107,7 +117,7 @@
    "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
    "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
    "hn_url": "https://news.ycombinator.com/item?id=49572875",
-   "points": 73,
+   "points": 74,
    "num_comments": 74,
    "published_iso": "2026-09-05T03:38:56+00:00",
    "content": "",
@@ -147,7 +157,7 @@
    "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
    "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
    "hn_url": "https://news.ycombinator.com/item?id=49562219",
-   "points": 216,
+   "points": 217,
    "num_comments": 45,
    "published_iso": "2026-09-04T09:03:00+00:00",
    "content": "",
@@ -157,8 +167,8 @@
    "title": "Babylonian Lamb Stew with Beets (1750–1730 BCE)",
    "url": "https://babylonian-collection.yale.edu/about/babylonian-cooking",
    "hn_url": "https://news.ycombinator.com/item?id=49554622",
-   "points": 160,
-   "num_comments": 126,
+   "points": 164,
+   "num_comments": 131,
    "published_iso": "2026-09-03T18:40:07+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -178,7 +188,7 @@
    "url": "https://reactoratlas.com",
    "hn_url": "https://news.ycombinator.com/item?id=49549148",
    "points": 77,
-   "num_comments": 25,
+   "num_comments": 26,
    "published_iso": "2026-09-03T12:33:01+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -198,7 +208,7 @@
    "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
    "hn_url": "https://news.ycombinator.com/item?id=49547763",
    "points": 87,
-   "num_comments": 96,
+   "num_comments": 97,
    "published_iso": "2026-09-03T09:21:53+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -298,7 +308,7 @@
    "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
    "hn_url": "https://news.ycombinator.com/item?id=49523720",
    "points": 241,
-   "num_comments": 249,
+   "num_comments": 250,
    "published_iso": "2026-09-01T15:53:42+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -308,7 +318,7 @@
    "url": "https://news.ycombinator.com/item?id=49522896",
    "hn_url": "https://news.ycombinator.com/item?id=49522896",
    "points": 111,
-   "num_comments": 496,
+   "num_comments": 502,
    "published_iso": "2026-09-01T15:01:17+00:00",
    "content": "",
    "matched_query": "AI agent"

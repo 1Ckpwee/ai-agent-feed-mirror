@@ -1,8 +1,43 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-09-07T17:26:16.444519+00:00",
- "count": 30,
+ "fetched_at": "2026-09-08T02:18:12.453804+00:00",
+ "count": 38,
  "items": [
+  {
+   "title": "llm 0.35",
+   "url": "https://simonwillison.net/2026/Sep/7/llm/",
+   "published": "2026-09-07T23:54:54+00:00",
+   "content": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+   "published_iso": "2026-09-07T23:54:54+00:00"
+  },
+  {
+   "title": "Creepy crawlies",
+   "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+   "published": "2026-09-07T23:08:58+00:00",
+   "content": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
+   "published_iso": "2026-09-07T23:08:58+00:00"
+  },
+  {
+   "title": "Quoting Jakub Pachocki",
+   "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+   "published": "2026-09-07T22:26:25+00:00",
+   "content": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. &mdash; Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
+   "published_iso": "2026-09-07T22:26:25+00:00"
+  },
+  {
+   "title": "Video compressor",
+   "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+   "published": "2026-09-07T18:29:07+00:00",
+   "content": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable",
+   "published_iso": "2026-09-07T18:29:07+00:00"
+  },
+  {
+   "title": "Mercator ↔ Equal Earth",
+   "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+   "published": "2026-09-07T16:24:16+00:00",
+   "content": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
+   "published_iso": "2026-09-07T16:24:16+00:00"
+  },
   {
    "title": "Research acceleration: The view inside OpenAI",
    "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
@@ -72,6 +107,27 @@
    "published": "2026-09-03T20:18:41+00:00",
    "content": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%. It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing. It doesn't win at everything though. Artificial Analysis note that Astra is still beaten by Fable on their Intelligence Index: Sits beside GPT-5.6 Sol in Intelligence : GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max). It did better on their Coding Agent Index: Leads Coding Agent Index cost efficiency frontier : At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score. I'll write more about Astra once I get access to it. The API model label once it rolls out will be gpt-6-astra . OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070). --> Via Hacker News Tags: ai , openai , generative-ai , llms , llm-release , gpt-6-astra",
    "published_iso": "2026-09-03T20:18:41+00:00"
+  },
+  {
+   "title": "llm-openrouter 0.7.1",
+   "url": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+   "published": "2026-09-02T20:23:26+00:00",
+   "content": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
+   "published_iso": "2026-09-02T20:23:26+00:00"
+  },
+  {
+   "title": "llm 0.34",
+   "url": "https://simonwillison.net/2026/Sep/2/llm/",
+   "published": "2026-09-02T19:23:52+00:00",
+   "content": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm",
+   "published_iso": "2026-09-02T19:23:52+00:00"
+  },
+  {
+   "title": "llm-anthropic 0.28",
+   "url": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+   "published": "2026-09-02T17:59:32+00:00",
+   "content": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , anthropic , claude , claude-mythos-fable",
+   "published_iso": "2026-09-02T17:59:32+00:00"
   },
   {
    "title": "llm-gemini 0.34",
