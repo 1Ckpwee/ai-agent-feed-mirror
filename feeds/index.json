@@ -1,0 +1,30 @@
+{
+ "updated_at": "2026-09-07T17:26:21.069030+00:00",
+ "retain_days": 60,
+ "sources": {
+  "simonwillison": {
+   "ok": true,
+   "fetched": 30,
+   "archived": 30,
+   "new": 0
+  },
+  "latentspace": {
+   "ok": true,
+   "fetched": 20,
+   "archived": 20,
+   "new": 0
+  },
+  "interconnects": {
+   "ok": true,
+   "fetched": 20,
+   "archived": 10,
+   "new": 10
+  },
+  "hackernews": {
+   "ok": true,
+   "fetched": 37,
+   "archived": 37,
+   "new": 0
+  }
+ }
+}

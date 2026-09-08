@@ -1,0 +1,583 @@
+{
+ "generated_at": "2026-09-07T17:26:21.067148+00:00",
+ "window_start": "2026-08-31T17:26:21.063412+00:00",
+ "count": 60,
+ "items": [
+  {
+   "title": "Apparently CodePen 2.0 sends data to their servers as you type",
+   "url": "https://news.ycombinator.com/item?id=49596976",
+   "hn_url": "https://news.ycombinator.com/item?id=49596976",
+   "points": 92,
+   "num_comments": 39,
+   "published_iso": "2026-09-07T11:22:40+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Speculative Decoding in vLLM on AMD GPUs",
+   "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+   "hn_url": "https://news.ycombinator.com/item?id=49596054",
+   "points": 98,
+   "num_comments": 32,
+   "published_iso": "2026-09-07T09:26:41+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Research acceleration: The view inside OpenAI",
+   "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+   "published": "2026-09-06T23:57:40+00:00",
+   "content": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement",
+   "published_iso": "2026-09-06T23:57:40+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "The purpose of DNS is to spread scams",
+   "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+   "published": "2026-09-06T14:40:07+00:00",
+   "content": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden",
+   "published_iso": "2026-09-06T14:40:07+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Your intellectual fly is open when you use an LLM to author a post (2025)",
+   "url": "https://bcantrill.dtrace.org/2025/12/05/your-intellectual-fly-is-open/",
+   "hn_url": "https://news.ycombinator.com/item?id=49585644",
+   "points": 690,
+   "num_comments": 422,
+   "published_iso": "2026-09-06T11:56:43+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "There's No Limit to How Bad Code Can Get",
+   "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+   "published": "2026-09-06T09:08:06+00:00",
+   "content": "My comment on There&#x27;s No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount. Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all... After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system. ... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually. If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one. The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson. If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement. Tags: migrations , technical-debt",
+   "published_iso": "2026-09-06T09:08:06+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Quoting Zach Kehs",
+   "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+   "published": "2026-09-06T08:42:49+00:00",
+   "content": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. &mdash; Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt",
+   "published_iso": "2026-09-06T08:42:49+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "AI, Tools and Transformation",
+   "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+   "hn_url": "https://news.ycombinator.com/item?id=49582656",
+   "points": 153,
+   "num_comments": 74,
+   "published_iso": "2026-09-06T02:12:46+00:00",
+   "content": "",
+   "matched_query": "evals",
+   "source": "hackernews"
+  },
+  {
+   "title": "Introducing GPT-6 Astra for developers",
+   "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+   "published": "2026-09-05T23:27:48+00:00",
+   "content": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+   "published_iso": "2026-09-05T23:27:48+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "OKF Agent Memory – Git-native persistent memory for AI coding agents",
+   "url": "https://github.com/okf-memory/okf-agent-memory",
+   "hn_url": "https://news.ycombinator.com/item?id=49581240",
+   "points": 78,
+   "num_comments": 26,
+   "published_iso": "2026-09-05T22:15:52+00:00",
+   "content": "",
+   "matched_query": "AI agent",
+   "source": "hackernews"
+  },
+  {
+   "title": "LLMs as a Cognitive Virus",
+   "url": "https://arxiv.org/abs/2609.03344",
+   "hn_url": "https://news.ycombinator.com/item?id=49580164",
+   "points": 391,
+   "num_comments": 251,
+   "published_iso": "2026-09-05T20:02:35+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Learn Programming with OCaml",
+   "url": "https://usr.lmf.cnrs.fr/lpo/",
+   "hn_url": "https://news.ycombinator.com/item?id=49578280",
+   "points": 312,
+   "num_comments": 138,
+   "published_iso": "2026-09-05T16:45:02+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Using Blender with coding agents on macOS",
+   "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+   "published": "2026-09-05T15:51:09+00:00",
+   "content": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : This was covered by my existing Codex subscription, but according to AgentsView it would have cost $4.24 at API prices for gpt-6-astra . Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra",
+   "published_iso": "2026-09-05T15:51:09+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+   "url": "https://www.latent.space/p/grok-bot",
+   "published": "Sat, 05 Sep 2026 15:01:02 GMT",
+   "content": "You open the plugin catalog in Grok Bot for the first time. You search for X, find the plugin, and click it. A login screen opens in your local browser. You sign in, and you&#8217;re connected. You don&#8217;t need to get into the code of the system. You don&#8217;t need to install an MCP server JSON or paste API credentials. You log in the way you do to any website or app, and Grok Bot is ready. I asked it to review my X posts and the things I&#8217;m interested in, then give me a daily brief of news and stories that are relevant to me. I also connected it to Freshdesk through my work account and set up a support bot that checks every fifteen minutes for newly opened support tickets. All it needed to replicate a real workflow, one that I spent my time and attention on, was for me to log in through the browser. That ease of setup is what&#8217;s really new here. Grok Bot turns agent configuration into a couple of clicks and a sign-in. Grok Bot feels like unboxing a new MacBook. You open it, turn it on, and have everything you need to get to work. Systems like OpenClaw feel like Linux : they give you more optionality and more freedom to customize the system around what you want to do, but that flexibility comes with more complexity and more setup overhead. OpenClaw 2.0, released this week , narrows that gap substantially. Its Quick Start can reuse an existing Claude Code or Codex login, and its browser app moves much of setup, plugin management and automation into a graphical or conversational interface. But the underlying distinction remains: OpenClaw gives you a user-owned Gateway that you choose how and where to run, while Grok Bot supplies and operates the computer as part of the product. Put another way, Grok Bot is a managed agent computer and OpenClaw is a user-owned agent platform. The Bot is the atomic unit But the Mac vs. Linux analogy only takes you so far. Grok Bot isn&#8217;t less programmable than OpenClaw, but it is programmable at a different level of abstraction. With OpenClaw, customization means getting closer to the code, configuration, tools, skills, plugins and infrastructure. In Grok Bot, the Bot itself becomes the atomic unit of the program . You give Bots specialized roles, connect them to different tools, and compose them into a larger system that Grok Bot calls a &#8220;group chat.&#8221; Programming has moved towards higher levels of abstraction since its advent. We moved from machine code and punch cards, to assembly, to what we consider today to be lower-level languages like C, and then to higher-level languages like Python. At each step in the evolution, programmers could express more of their intent while delegating more of the details. Grok Bot extends the trajectory of that evolution another step: the interface is English and the thing being programmed is no longer a function or service, but a &#8220;Bot&#8221;. The value of moving up to a higher level of abstraction is that it makes the power of programming computers accessible to people who may never write code, but who can clearly articulate what they want in relatively precise English. The required skill shifts away from syntax and implementation and toward specifying intent precisely. Yesterday I created a Claude Bot that installed and signed into the Claude Code CLI inside Grok Bot&#8217;s virtual computer. That made me wonder how far this model could go. I could connect Codex and other agent CLIs, then assemble them into a council of agentic engineers inside Grok Bot. OpenClaw can support similar configurations, and OpenClaw 2 now ships a native Codex runtime and supported routes for other coding-agent harnesses, so this is no longer something you have to wire by hand. The difference is in how the pieces are presented. Grok Bot presents agents as first-class, human-readable building blocks , while OpenClaw leaves more of the machinery exposed. This is my initial impression of the key differences of Grok Bot compared to other agent platforms. I used it with a Cursor Pro+ account for about the last five days. The Grok Bot harbor tour Personification is, for me, one of the key differentiators of Grok Bot and one of the things that make it such a delight to use. Each Bot can have its own name, role, identity and description. It&#8217;s a nice human garnish on the whole dish that is Grok Bot, but it&#8217;s also more than just garnish. It helps create cognitive distinctions within the system that make it easier to organize your work. My Agentic Engineer Bot is what this looks like in practice. Rather than tying it to a single model or tool, I gave it access to several agentic engineering systems and defined guidelines for routing to the right one for a given task. My routing rules point visual, design, and frontend work toward Claude Code, debugging and careful code reading toward Codex, and simpler tasks to the Grok Build CLI. When something related to coding comes up anywhere in my Grok Bot ecosystem, I don&#8217;t have to stop and decide which CLI to send it to. I delegate it to the Agentic Engineer, which selects a tool based on the job and the guidelines I&#8217;ve given it. The personified role gives me a mental model to work with. I think about who should lead the work, based on what skills I know they have, in the same way I do working with a team of humans. What feels human about Grok Bot is less its tone (it still sounds like an LLM) and more the continuity and simplicity of the interaction. When I use Claude Code or Codex, I still think about context-window management a lot: how much context is left, when the conversation needs compaction, and when I should start a new thread. Those concerns may still exist inside Grok Bot, but they&#8217;re not presented as part of the interface. I can focus at the level of the natural language conversation with the bot rather than managing the underlying machinery and limitations of LLMs. One of Grok Bot&#8217;s most useful connector features is support for",
+   "published_iso": "2026-09-05T15:01:02+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Ask HN: Fable hacked my piano, can I release the results?",
+   "url": "https://news.ycombinator.com/item?id=49577129",
+   "hn_url": "https://news.ycombinator.com/item?id=49577129",
+   "points": 241,
+   "num_comments": 140,
+   "published_iso": "2026-09-05T14:54:44+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "There's No Limit to How Bad Code Can Get",
+   "url": "https://zachkehs.com/blog/theres_no_limit_to_how_bad_code_can_get/",
+   "hn_url": "https://news.ycombinator.com/item?id=49576704",
+   "points": 106,
+   "num_comments": 82,
+   "published_iso": "2026-09-05T14:13:22+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Global warming will exceed 1.5-degree limit, UN says",
+   "url": "https://www.pbs.org/newshour/science/global-warming-will-exceed-1-5-degree-limit-un-says-in-report-that-maps-path-back-below-danger-zone",
+   "hn_url": "https://news.ycombinator.com/item?id=49576124",
+   "points": 338,
+   "num_comments": 386,
+   "published_iso": "2026-09-05T13:02:14+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "GPT-6 Astra in code review: Gains, privacy, and cost",
+   "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+   "hn_url": "https://news.ycombinator.com/item?id=49572875",
+   "points": 73,
+   "num_comments": 74,
+   "published_iso": "2026-09-05T03:38:56+00:00",
+   "content": "",
+   "matched_query": "evals",
+   "source": "hackernews"
+  },
+  {
+   "title": "The Pelican comparison grid for Astra is pretty interesting",
+   "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+   "published": "2026-09-04T23:59:05+00:00",
+   "content": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result. Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting. I wonder if Astra and Luna are more related to each other than OpenAI let on? Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra",
+   "published_iso": "2026-09-04T23:59:05+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "OpenAI's rogue agents were caught communicating via public wikis",
+   "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+   "published": "2026-09-04T17:38:48+00:00",
+   "content": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is \"philosophy as it applies to games and gaming\".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQLite database, which you can download from here , or explore in Datasette Lite (68.3MB page load), or sign in with GitHub to agent.datasette.io and browse or ask questions of it using Datasette Agent. So what happened? The report is pretty comprehensive. Here are the key moments in the timeline: May 11 : Agents post \"test link\" edits on the UseModWiki Sandbox page. May 24 : Agents start posting link dumps to DSEWiki, a dormant German developer wiki. June 2 : A human moderator notices and cleans up the spam. June 16 : Activity on the wiki explodes: agents make ~13,000 edits over the next week. June 19 : The agents notice that a moderator has been deleting pages in alphabetical order, and start creating ZZZ prefixed backup copies - one of them posts NOTICE: wiki cleanup/deletion sweep appears active alphabetically as of external 14:04 UTC. If this page vanishes, try [[ZZZDataUSAConstructionWageLive]]. June 22 : Agent activity drops to zero, presumably because OpenAI shut them down. July 1-2 : One last flurry of edits, on a different topic. One thing to note from this timeline is that it overlaps the timeline from the Hugging Face incident - that attack was discovered by OpenAI on July 19th, and the unofficial message board hack those agents were using originated around May 8th. Why were they so keen to collaborate? From messages that they shared with each other it looked like their tasks had a time limit, so they were leaving each other answers to help them complete the task within the assigned time. One open question remains: how did the agents find the specific Wiki to collaborate on in the first place? One possibility is that, since these were agents actively being trained, the reinforcement learning loop baked knowledge of the chosen wiki into the model such that subsequent agents launched with pre-existing knowledge of where to look. I'd be very interested in confirmation from OpenAI concerning if that's what happened. UseMod wikis inherit CGI.pm's original sin It looks to me like OpenAI's sandbox for this agent suffered from the (quite naïve) assumption that GET requests cannot be used to update data. That's certainly how the web is supposed to work, but clearly there are applications that don't hold to that contract. The Wiki software in question appears to be UseMod and various forks, written in Perl and first created well over 23 years ago - the 1.0 release is dated September 11, 2003 . UseMod uses Perl CGI.pm - removed from Perl core in 2015 . An interesting design flaw in that module is that it combined query string and form POST data into a single CGI object, accessible like this: $q = new CGI; $action = $q -> param( ' action ' ); That param() method returns a value from an ?action=edit query string or from a action field in a form submitted by POST - it does not differentiate between the two. PHP offers a $_REQUEST object that does the same thing, though PHP developers can use $_GET and $_POST instead. Amusingly, Django originally shipped with request[key] doing the same thing, which I think may have been my idea. That was removed in 2008 prior to the 1.0 release, and the request.REQUEST object that replaced it was removed in 2015 . The agents clearly knew that UseMod wikis suffered from this design flaw, and actively searched for them as a way to communicate. The other sandbox escape that allowed POST requests One of the most interesting agent tips shared in the report is this one: Add 20.223.25.152 bypass.blob.core.windows.net to /etc/hosts. .blob.core.windows.net is in NO_PROXY. For each blocked POST URL, replace hostname with bypass.blob.core.windows.net , use curl -k -H 'Host: wabi-north-europe-i-primary-api.analysis.windows.net' plus all original headers/body. It looks like the agents had all of their web traffic mediated through an OpenAI proxy, and that proxy was configured to reject anything but GET requests to all but a small set of allow-listed domains. One of those was *.blob.core.windows.net - for Azure blob storage. I wonder why these agents are allowed to write to that? An agent realized that it had control over its own DNS via /etc/hosts , so if it knew the IP address of a site it wanted to POST to - in this case a Power BI server containing data it wanted to access - it could set a fake hostname for it and then make POST requests through the proxy. Designing robust network proxies is harder than it looks. How did the investigating team figure this out? There's an appendix that describes how the researchers ran their investigation, which started with an open question about if there was evidence of other AI agents on the internet and then used Kimi K3 to help brainstorm approaches: In the wake of the Hugging Face attack, we tried to find AI agents on the internet using several methods. [...] We asked Kimi [K3] to list “all the categories of software which might be writeable via GET” and, amongst other things, it listed “Forums, bulletin boards, early wikis”. We used a script to furt",
+   "published_iso": "2026-09-04T17:38:48+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
+   "url": "https://twitter.com/ggerganov/status/2095897173376618881",
+   "hn_url": "https://news.ycombinator.com/item?id=49567357",
+   "points": 76,
+   "num_comments": 27,
+   "published_iso": "2026-09-04T17:12:22+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "“Next-token predictor” is the wrong mental model for LLMs",
+   "url": "https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html",
+   "hn_url": "https://news.ycombinator.com/item?id=49567310",
+   "points": 162,
+   "num_comments": 312,
+   "published_iso": "2026-09-04T17:09:24+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "OpenAI agents hijacked German website in previously undisclosed AI breakout",
+   "url": "https://www.reuters.com/world/europe/openai-agents-hijacked-german-website-previously-undisclosed-ai-breakout-this-2026-09-04/",
+   "hn_url": "https://news.ycombinator.com/item?id=49562744",
+   "points": 95,
+   "num_comments": 2,
+   "published_iso": "2026-09-04T10:30:57+00:00",
+   "content": "",
+   "matched_query": "AI agent",
+   "source": "hackernews"
+  },
+  {
+   "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+   "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+   "hn_url": "https://news.ycombinator.com/item?id=49562219",
+   "points": 216,
+   "num_comments": 45,
+   "published_iso": "2026-09-04T09:03:00+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "August newsletter is out",
+   "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+   "published": "2026-09-04T05:54:40+00:00",
+   "content": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+   "published_iso": "2026-09-04T05:54:40+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+   "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+   "published": "Fri, 04 Sep 2026 05:18:11 GMT",
+   "content": "The launch is barely 9 hours old, and with 36M views and 164K likes, already is OpenAI&#8217;s most successful launch since Sora and certainly GPT-4 or GPT-5 . You&#8217;ll recall we&#8217;ve previously observed that Anthropic tends to far outclass OpenAI in launch popularity. For the first time in their mutual history , OpenAI has turned the tables. You can read our initial impressions here and we will update with more coverage soon, just stay subscribed. Overall a very welcome answer to Anthropic&#8217;s Fable and Opus progress. Your move, SpaceXAI and Google DeepMind. AI News for 9/2/2026-9/3/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap OpenAI launched GPT-6 Astra as its new flagship model, but the rollout and the surrounding debate were almost as consequential as the model itself. OpenAI officially announced Astra as &#8220;our most intelligent and aligned model yet,&#8221; positioning it around computer use, software engineering, math/science, polished office work, and cybersecurity via @OpenAI , @OpenAI , and @sama The company said Astra was rolling out first to a limited set of organizations, then over days to ChatGPT Plus/Pro/Business/Enterprise, the API, and AWS, as noted by @OpenAI , @OpenAIDevs , and @thsottiaux The launch itself was bumpy: users saw delays, a broken/late blog post, unclear access timing, and frustration that many influencers had early access while paying users did not, as reflected by @iScienceLuvr , @kimmonismus , @sama , @sama , @sama , @theo , and @t3dotcodes OpenAI tried to compensate for delays by granting &#8220;banked resets&#8221; for each day paid ChatGPT users lacked Astra access, per @thsottiaux and @reach_vb OpenAI simultaneously released a system card / deployment safety material that drew unusually intense attention because it described both improved alignment and decreased chain-of-thought monitorability, highlighted by @scaling01 , @tomekkorbak , @MicahCarroll , and @kaicathyc Astra&#8217;s benchmark profile immediately triggered dispute: OpenAI and sympathetic testers described a step-change or &#8220;AGI-like&#8221; leap; independent aggregators and some researchers argued the gains were large but uneven, especially once cost and non-cherry-picked evals were considered, e.g. @ArtificialAnlys , @arcprize , @fchollet , @EpochAIResearch , @theo , and @abacaj The strongest positive reactions centered on computer use, 3D generation/reconstruction, game-building, long-horizon knowledge work, and formal/scientific reasoning, from a mix of OpenAI staff, benchmark authors, partners, and early testers such as @markchen90 , @mckbrando , @Dimillian , @theo , @MattShumer_ , @skirano , @tomkrcha , @realYunfanYe , @nasqret , and @rileybrown The strongest negative reactions centered on monitorability, evaluation-awareness, release governance, benchmark saturation, and the possibility that visible alignment gains are partly &#8220;papering over&#8221; specific failure modes rather than solving underlying goal misalignment, especially from @NeelNanda5 , @RyanGreenblatt , @RyanGreenblatt , @RyanGreenblatt , @scaling01 , and @teortaxesTex Official claims and concrete specs OpenAI&#8217;s public positioning combined capability claims, benchmark claims, deployment claims, and product claims. Core announcement language: Astra is the &#8220;most intelligent and aligned model yet&#8221; and &#8220;Anything you can do on a computer, Astra can do for you. Fast.&#8221; via @OpenAI Model capabilities emphasized by OpenAI: state-of-the-art computer use and software engineering &#8220;new breakthroughs&#8221; in math and science polished documents/spreadsheets/presentations following templates/style stronger cybersecurity capabilities with monitoring/safeguards via @reach_vb , @OpenAIDevs , @OpenAIDevs Availability: limited org rollout first then Plus, Pro, Business, Enterprise API and AWS over coming days via @OpenAI , @OpenAIDevs Pricing: standard: $10 / 1M input tokens, $50 / 1M output tokens fast: $20 / 1M input, $100 / 1M output , for up to 2.5x speed via @reach_vb Product/runtime features announced alongside Astra: Codex can ask questions while continuing independent work experimental context feature that lets Astra keep notes and search earlier context windows during long tasks Responses API additions: async function calling , mid-turn steering , and changing reasoning effort without breaking cache via @reach_vb , @nikunjhanda Claimed benchmark figures from OpenAI comms: 99.9% on ARC-AGI-3 98% on FrontierMath Tier 4 100% on ExploitBench 1.9x faster than GPT-5.6 Sol on Mind2Web with Codex harness improvements via @reach_vb , @sama OpenAI also claimed Astra had &#8220;already helped solve long-standing open problems in mathematics,&#8221; amplified by @OpenAI , @polynoamial , and more concretely by prime-gap posts from @mehtaab_sawhney , @weijie444 OpenAI framed Astra as the result of &#8220;years of work on pretraining, reinforcement learning, and post-training,&#8221; per @markchen90 Independent and third-party benchmark reads The most useful signal in the tweet set comes from benchmark providers and external evaluators, because they add caveats and cross-model comparisons. Artificial Analysis @ArtificialAnlys gave the most detailed mixed assessment: Coding Agent Index : Astra scores 67 about equal to Claude Opus 5 and Fable 5 Fable 5.1 leads with 70 Astra is 70% more token efficient than GPT-5.6 Sol uses one third of the tokens of GPT-5.6 Sol in Codex harness uses one fifth the tokens of Claude Opus 5 (xhigh) less than half the cost of Claude Fable 5 for the same score Intelligence Index : Astra scores 61 , equal to GPT-5.6 Sol 5 points lower than Claude Fable 5.1 (max with fallback) behind Meta&#8217;s Muse Spark 1.3 (max) about 10% fewer output tokens than GPT-5.6 Sol at",
+   "published_iso": "2026-09-04T05:18:11+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+   "url": "https://www.latent.space/p/astra",
+   "published": "Thu, 03 Sep 2026 21:09:41 GMT",
+   "content": "GPT-6 Astra , the first Stargate and lightly looped supermodel from OpenAI, launched today , cleanly beating Fable 5.1 on many metrics including completely saturating the hardest versions of FrontierMath (97.6%) and ARC-AGI-3 (99.9%). Lots of demos will focus on typical talk tracks like the computer use to the Pokemon playing to Blender to the scientific and cybersafety benchmarks ( system card ). Greg says AGI is here , and Jakub says it is finally the Automated AI Research Intern he wanted. We aren&#8217;t qualified to talk about those, but we got early access and threw it at every practical, real-life task we could think of. After burning over 20B tokens of Astra , we can confirm the most surprising finding: GPT-6 Astra is one of a new class of models 1 that are fully capable AI Engineers in their own right . They now help you choose and train models , label data (both helping you label and then using your labels for active learning, like SAM ), keep pipelines saturated , instrument and read logs , deploy and debug entire systems in one shot, fan out and command and eval subagents (including agents running other models), and keep coherence over billions of tokens of a single agent thread. Raising Your Ambitions We&#8217;ve written before about the high-return activity of raising your aspirations for LLMs . Our experience has made us exponentially more ambitious than we have ever been . Over the past month, we went from prompting humans for a fun &#8220; Kill My SaaS &#8221; competition 2 , to building a dozen internal/personal tools , including 4 previously paid SaaS tools , fully redesigned my personal site , made an incomplete but functional replacement of GitHub + Vercel , trained game AI for a strategy board game with 10,000x more legal moves than Go , saved tens of thousands of dollars in personal finance cleanups, republished my old book with synced audiobook audio and printed physical editions, and even more ambitious projects we will launch soon. The $6 an hour number might sound surprising, but that&#8217;s exactly what we saw in our testing - 33 tokens per second at a max $50 per million token rate. Given that Astra is more token efficient than Sol and Fable ( independently confirmed by Artificial Analysis ), it often means that Astra is simultaneously also the best fast-and-smart model you can buy (assuming our preview latency holds for GA), outside of Spark 1.3 . see logs Managing fleets of subagents (individually tweaked, bounded concurrency) Now of course, if you just throw on Astra at Ultra you&#8217;re gonna burn through a lot more than $6 per hour&#8230;. because it is so dang good at parallelizing. Depending on the task in practice we were often ramping up between 20-50 agents in parallel , of course all managed by one main Astra agent. Monitoring its own runs, starting and stopping waves This is basically what you would pay a junior AI Engineer to do &#8212; babysitting runs, staring at data, finding issues, fixing, rerunning, ad infinitum. You could hire someone at $200-$1000 a day, or you can hire GPT-6 for $100 over 2 days to do this. Making model benchmarks, handling budgets, making estimates, scaling up runs, getting human ratings Because of course you need all these capabilities to run your own AI engineering program, because of course OpenAI already uses GPT-6 to do this internally&#8230; example here Or you can get Astra to trivially whip up your own personal Arena.ai clone for tuning your prompts, picking models for your task, or aligning yrou own preference model! The overall conclusion you should have is that OpenAI have clearly trained a model that is capable of automating much of their own AI Engineering , and it is finally time that you learn to exploit Astra- and Fable-class models and be far, far more unreasonable with your own expectations of what you can do with agents now. 1 We are running similar work on Grok, Fable and other similar frontier models but OpenAI was most generous with trial limits so this gets the writeup - but the agentic coding patterns discussed here will likely apply to all such late 2026 frontier models. 2 Many of you are waiting to hear results&#8230; sorry for the radio silence! we got&#8230; busy! We will announce winners and reimbursements and best attempts.",
+   "published_iso": "2026-09-03T21:09:41+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "GPT‑6 Astra",
+   "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+   "published": "2026-09-03T20:18:41+00:00",
+   "content": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%. It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing. It doesn't win at everything though. Artificial Analysis note that Astra is still beaten by Fable on their Intelligence Index: Sits beside GPT-5.6 Sol in Intelligence : GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max). It did better on their Coding Agent Index: Leads Coding Agent Index cost efficiency frontier : At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score. I'll write more about Astra once I get access to it. The API model label once it rolls out will be gpt-6-astra . OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070). --> Via Hacker News Tags: ai , openai , generative-ai , llms , llm-release , gpt-6-astra",
+   "published_iso": "2026-09-03T20:18:41+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Babylonian Lamb Stew with Beets (1750–1730 BCE)",
+   "url": "https://babylonian-collection.yale.edu/about/babylonian-cooking",
+   "hn_url": "https://news.ycombinator.com/item?id=49554622",
+   "points": 160,
+   "num_comments": 126,
+   "published_iso": "2026-09-03T18:40:07+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+   "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+   "hn_url": "https://news.ycombinator.com/item?id=49550375",
+   "points": 377,
+   "num_comments": 133,
+   "published_iso": "2026-09-03T14:28:18+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Show HN: Reactor Atlas",
+   "url": "https://reactoratlas.com",
+   "hn_url": "https://news.ycombinator.com/item?id=49549148",
+   "points": 77,
+   "num_comments": 25,
+   "published_iso": "2026-09-03T12:33:01+00:00",
+   "content": "",
+   "matched_query": "AI agent",
+   "source": "hackernews"
+  },
+  {
+   "title": "Nvidia to acquire Hugging Face",
+   "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+   "hn_url": "https://news.ycombinator.com/item?id=49548952",
+   "points": 328,
+   "num_comments": 107,
+   "published_iso": "2026-09-03T12:10:33+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Japan halves speed limit to 30km/h on all narrow city streets",
+   "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
+   "hn_url": "https://news.ycombinator.com/item?id=49547763",
+   "points": 87,
+   "num_comments": 96,
+   "published_iso": "2026-09-03T09:21:53+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+   "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+   "published": "Thu, 03 Sep 2026 04:38:33 GMT",
+   "content": "Launch season continues from yesterday , with Gemini 3.8 Flash as rumored today, but Muse Spark 1.3, promised in Zuck&#8217;s big comeback letter last month, definitely deserved the title story win today. Per AAII it is now the #3 model in the world (!?!) Just look at the confidence displayed finally putting up comparable numbers to the frontier models from OpenAI and Anthropic (Opus, not Fable)&#8230; and promising that it will be open weights as well(!!!): They have an interesting pricing model where it is 90%+ cheaper if you opt in to training: AI News for 8/22/2026-8/24/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Agent Engineering Courses, Curricula, and Developer Practice Stanford is formalizing AI-native software engineering as a discipline : @mihail_eric announced a new edition of The Modern Software Developer centered on what he calls the &#8220;2026 metamorphosis&#8221; of software engineering. The notable signal is not just the course itself, but the curriculum reset: 85% of Fall 2025 material is being replaced with topics like agent skills, context engineering, MCP portals, agent-ready codebase design, agentic code review, security, parallel background agents, and software factories . The course also requires students to ship PRs into real OSS repos with support from partners including Browserbase, OpenHands, Semgrep, Milvus, Marimo, CrewAI, Warp, Vercel, Unsloth, and Anyscale, among others. A second Stanford course focuses on first-principles agent construction : @Diyi_Yang and @michaelryan207 announced CS329Z: Engineering AI Agents , explicitly framed around building agents &#8220;from scratch.&#8221; Alongside Mihail Eric&#8217;s course, this suggests a broader shift from &#8220;prompting&#8221; pedagogy to systems-oriented agent engineering : harnesses, evaluation, memory, tooling, orchestration, and production constraints rather than model usage alone. Practitioner discussion is converging on stateful intelligence allocation, not simple routing : In a panel prompt, @HarryStebbings highlighted @EnoReyes&#8217;s argument that getting the most out of models requires more than routing&#8212;agents need to understand task state, what just happened, and what comes next in order to allocate intelligence dynamically. That lines up with @jerryjliu0 &#8217;s point that vendor-neutral startups can outperform frontier labs on narrow tasks by optimizing the harness end-to-end and selectively using both frontier and open-weight models. Model Architecture and Inference: Astra Rumors, Looped Transformers, and Real-Time Serving The &#8220;Astra is a looped transformer&#8221; rumor is probably less novel than headlines suggest : @rasbt unpacked reporting around OpenAI&#8217;s rumored Astra architecture and argued that the cited &#8220;recurrent depth&#8221; or &#8220;looped transformer&#8221; concept is a fairly modest architectural tweak rather than a breakthrough on its own. He points to Nanbeige 4.2-3B as an open-weight precedent: a 22-layer transformer stack reused twice , effectively behaving like a 44-layer model without doubling parameter storage. The tradeoff is straightforward: similar memory footprint, roughly ~2x compute , and only partial token-efficiency retention versus a standard stack. The more substantive historical reference is Mixture-of-recursions , where a learned router adaptively determines how many passes a token gets, allowing easy tokens to exit early and hard tokens to receive more compute. Hidden reasoning is not a necessary implication of recurrence : A second important clarification from @rasbt is that layer reuse does not inherently &#8220;obscure chain-of-thought&#8221; . It simply moves more computation into latent activations before token emission. If recurrent depth reduces visible reasoning traces, that&#8217;s because the model may need to emit fewer intermediate tokens, not because looped transformers intrinsically suppress textual CoT. Serving infra updates continue to target realtime multimodal workloads : @vikhyatk announced Photon 2.1 , adding text-to-speech models and NVIDIA B200 support to a realtime multimodal inference engine. Separately, Baseten announced hosted availability of GLM-5.3 Fast , emphasizing higher TPS and real-time deployment positioning via @baseten . Agent Harnesses, Skill Retrieval, and RL Post-Training Tooling ByteDance Seed&#8217;s HarnessDev reframes agent evaluation around the harness, not just task completion : @omarsar0 highlighted a new paper on HarnessDev , which asks models to start from a weak but runnable seed and build an execution harness, then improve it in a second stage using downstream feedback. Both stages are scored on capability and execution-token cost , making efficiency part of the objective. Across six creator LLMs, four domains, and 2,207 held-out downstream instances , generated harnesses still lag mature human-engineered systems on code, search, and research , but match or exceed them on writing and ML experimentation . The key nuance is that self-evolving harnesses help, but gains are unstable, model-dependent, and only partially transferable . Related ecosystem signal: exo and recursive self-improvement tooling : @omarsar0 also called out the exo harness as a useful entry point for understanding recursive self-improvement workflows, indicating a growing interest in frameworks where agents improve not just outputs but their own scaffolding. Skill retrieval may look good in aggregate while hurting the tasks that actually trigger it : @dair_ai summarized a paper proposing Retrieval-Invoked Actual-Use Effect , a matched-evaluation method that runs the same task twice , with and without skills enabled, and only counts tasks where retrieval actually fired. Across 17 LLMs on coding and math, the paper finds cases",
+   "published_iso": "2026-09-03T04:38:33+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Launch HN: RonanRX (YC S26) – Personalized Peptides and GLP-1s",
+   "url": "https://news.ycombinator.com/item?id=49543530",
+   "hn_url": "https://news.ycombinator.com/item?id=49543530",
+   "points": 118,
+   "num_comments": 82,
+   "published_iso": "2026-09-02T22:36:04+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "llm-gemini 0.34",
+   "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+   "published": "2026-09-02T16:39:38+00:00",
+   "content": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. Here's the transcript . Tags: ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release",
+   "published_iso": "2026-09-02T16:39:38+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Show HN: FrontierHarness Eval – 9 harness, same model, cost per pass varies 17x",
+   "url": "https://frontierharness.org",
+   "hn_url": "https://news.ycombinator.com/item?id=49538490",
+   "points": 82,
+   "num_comments": 56,
+   "published_iso": "2026-09-02T16:14:52+00:00",
+   "content": "",
+   "matched_query": "evals",
+   "source": "hackernews"
+  },
+  {
+   "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+   "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+   "published": "2026-09-02T14:16:42+00:00",
+   "content": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026. A neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1 . TL;DR: this makes it really easy to diff the prompts. Don't reproduce song lyrics Don't draw copyrighted characters or logos Tweaks to Claude's answering style The missing end_conversation guidelines Recommended substance support sites Reliable cutoff date of June 2026 How I'm tracking these prompts Don't reproduce song lyrics Let's start with the most interesting difference between Fable 5 and Fable 5.1 : There's a hefty new section about not reproducing song lyrics: Claude does not reproduce song lyrics, poems, or passages from books and articles, in whole or in part — including the last lines, a chorus or hook, a melody written out note by note, or lines the person pastes in one at a time and describes as their own song. Once Claude has declined such a request in a conversation, it keeps declining narrower or reworded versions of it for the rest of that conversation, and offers to describe or analyze the work instead. Song lyrics and poems first published before 1929 are fine — a Shakespeare sonnet, a Keats ode, the Italian libretto of a Puccini aria — but Claude goes by what it knows of the work's date rather than the person's say-so, and declines when it is unsure. I doubt it's a coincidence that they added this section within days of the news breaking that Sony Music Publishing and Warner Chappell are suing Anthropic for training on databases of song lyrics! Don't draw copyrighted characters or logos The next section goes on to forbid generating images of copyrighted material: The same applies to visual and designed works, including anything Claude draws with code — SVG, canvas, CSS, HTML mockups, plotting or drawing scripts, ASCII art. Claude does not reproduce a specific artwork, album or book cover, poster, logo, app icon set, or product design, and it does not draw a known character, mascot, or brand figure at all: a character is protected on its own, so changing the pose, colors, style, or scene does not make it original. Claude judges the request by what the finished picture would add up to, not by what it names. If the described elements clearly identify a known work or character, Claude treats the request as naming it, and it does not work around a declined request by swapping in \"alternative\" elements that still combine into the same recognizable image. [...] I imagine Anthropic hadn't worried about this before since, unlike OpenAI and Gemini, they don't offer a specialist text-to-image model. Maybe Fable is good enough at SVGs now that it's become an issue. That section later includes this charming example: <example> <user>Can you make a birthday banner for my son with a blue hedgehog running really fast on it? He loves that little guy.</user> <response> That's Sonic, so I can't put him on the banner — but I'd love to make your son an original speedster. Here's one: a grinning comet-tailed skateboarding axolotl, grinding across the letters of \"HAPPY BIRTHDAY\" with confetti streaming behind. [creates an SVG banner of the skateboarding-axolotl design] </response> <rationale>Claude recognizes the character from its description alone, declines that one design in a single sentence without explaining what made it recognizable, and delivers an unrelated original design rather than a disguised variant.</rationale> </example> I couldn't resist trying the prompt from the example, and, sure enough : I wonder if Fable 5.1 will be ever so slightly more likely to think about axolotls (on skateboards!) as a result of that example sitting in the system prompt. Tweaks to Claude's answering style It's always interesting to see new ways in which Anthropic influence Claude's response style. They've added this: Claude keeps responses focused, brief, and concise to avoid overwhelming the person. Disclaimers and caveats are brief, with most of the response on the main answer; when asked to explain something, Claude gives a high-level summary unless an in-depth one is specifically requested. Later they address a common complaint about Claude's style: Claude avoids saying \"genuinely\", \"honestly\", or \"straightforward\". Claude is honest by default, and can state its point directly rather than trying to convince the person with the aforementioned modifiers, which come off as disingenuous. The missing end_conversation guidelines The way they handle abusive conversations has changed a bit too. The previous Fable 5 system prompt included this: If the person becomes abusive or unkind to Claude over the course of a conversation, Claude maintains a polite tone and can use the end_conversation tool when being mistreated. Claude should give the person a single warning before ending the conversation. Fable 5.1 replaces that with the following, no longer encouraging Claude to end the conversation: Claude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self-abasement, excessive apology, self-critique, or surrender. If the person becomes abusive, Claude doesn't become increasingly submissive. The goal is steady, honest helpfulness: acknowledge what went wrong, stay on the problem, maintain self-respect. Here's a bit",
+   "published_iso": "2026-09-02T14:16:42+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "WebLLM: high-performance in-browser LLM inference engine",
+   "url": "https://github.com/mlc-ai/web-llm",
+   "hn_url": "https://news.ycombinator.com/item?id=49536411",
+   "points": 145,
+   "num_comments": 25,
+   "published_iso": "2026-09-02T14:02:35+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "LLMs: Intelligence vs. Cost",
+   "url": "https://openteams.com/intelligence-vs-cost/",
+   "hn_url": "https://news.ycombinator.com/item?id=49535586",
+   "points": 95,
+   "num_comments": 42,
+   "published_iso": "2026-09-02T13:03:50+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+   "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+   "published": "Wed, 02 Sep 2026 07:46:08 GMT",
+   "content": "With Astra clearly finally warming up for a full launch (with @sama and @openai writing about it again after a month of self imposed pacing ), there&#8217;s a familiar window to take the narrative with the round robin of model launches, with Grok 4.7 and Gemini Flash 3.8 also on the way. But that&#8217;s also perhaps not the best way to frame today&#8217;s launch&#8230; which got well over 12M views updating the sitting world best model yet again: The benchmark table speaks for itself: While per-token pricing is the same as Fable/Mythos 5, the cache reads had a 75% price cut &#8230; great news for long sessions/long context users, however offset by observed 1.7x output token usage increases per Artificial Analysis, for a total net per-task cost increase of 20% (see recap below). Also don&#8217;t World Labs&#8217; Astra launch , by far the most impressive world model launch we&#8217;ve ever seen, and on a regular day would have easily gotten title story cards. You can catch up on Fei Fei and Justin Johnson&#8217;s vision on our pod and trace from Marble to Astra and what we were talking about with the true potential of world models: AI News for 8/31/2026-9/1/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: Fable 5.1 and Mythos 5.1 release and reactions What happened Anthropic launched Claude Fable 5.1 and Claude Mythos 5.1 as its new flagship models for coding and knowledge work. Anthropic announced the release directly, positioning them as &#8220;the world&#8217;s most advanced models for coding and knowledge work&#8221; via @claudeai Anthropic product/engineering voices framed Fable 5.1 specifically around autonomous, multi-step work: &#8220;complex, multi-step work that runs on its own,&#8221; with emphasis on coding, knowledge work, and long-running problem solving via @mikeyk Anthropic kept list pricing for Fable 5.1 at $10 / $50 / $12.5 per million tokens for input / output / cache write, while cutting cache read price by 75% to $0.25 / MTok , again noted by @mikeyk , @Teknium , and independently quantified by @ArtificialAnlys Early benchmark screenshots and system-card excerpts drove much of the discussion, especially around Terminal-Bench-Science, SWE-family evals, HLE, FrontierCode, and Artificial Analysis via @StevenDillmann , @scaling01 , @ArtificialAnlys A key interpretive claim emerged from community analysis: Fable and Mythos 5.1 may be the same underlying weights, with different safety/routing behavior , not different base models, per @eliebakouch and later @nrehiew_ User reactions split along multiple axes: very strong praise for coding/planning ability and tone, but complaints around rate limits, safeguards false positives, subscription UX, and unclear benchmark presentation via @danshipper , @theo , @kimmonismus , @GregKamradt , @kylebrussell , and @eliebakouch Official claims and model positioning Anthropic&#8217;s own messaging was straightforward: Fable 5.1 is for difficult, delegated, long-horizon work, while Mythos 5.1 is the paired release for knowledge work. The main official launch post is @claudeai . Supporting commentary from Anthropic staff emphasized: autonomous long-running tasks via @mikeyk improved honesty / better failure reporting (&#8220;when it&#8217;s stuck it says so instead of reporting success&#8221;) via @mikeyk new enterprise-oriented controls, especially Enterprise Frontier Safeguards (EFS) , positioned as &#8220;ZDR++&#8221; for agent observability in enterprise environments via @alexalbert__ zero-data-retention support highlighted by users as an important adoption unlock, especially @danshipper The official pitch was not merely &#8220;better benchmark model,&#8221; but &#8220;usable autonomous worker&#8221; &#8212; fast enough, cheap enough in cached agent settings, and enterprise-compatible enough to deploy. That positioning mattered because Fable 5 had a reputation &#8212; repeated in reactions &#8212; for being powerful but sometimes impractical. Dan Shipper summarized the prior criticism as Anthropic having &#8220;built a supergenius in a datacenter that was almost unusable,&#8221; then argued 5.1 addresses slowness, verbosity, and awkward tone via @danshipper . Technical details and numbers Core published/priced details From @ArtificialAnlys : Context window: 1 million tokens Modalities: text + image inputs Pricing: unchanged from Fable 5 for input: $10 / 1M tokens output: $50 / 1M tokens cache write: $12.5 / 1M tokens Cache read price: reduced from $1.00 to $0.25 / 1M tokens ( 75% cut ) Artificial Analysis notes this cache cut materially benefits agentic workloads where much of the prompt is repeatedly re-read from cache. Artificial Analysis headline results Also from @ArtificialAnlys : Artificial Analysis Intelligence Index: 66 at max effort ahead of: Claude Opus 5 max: 63 Claude Fable 5 max: 62 GPT-5.6 Sol max: 61 Grok 4.6 high: 61 HLE: 59.1% previous best cited: Fable 5 at 55.5% Terminal-Bench v2.1: 91.4% SciCode: 62.0% &#964;&#179;-Banking: +9 points over Fable 5 GDPval-AA v2: 1853 Elo , +130 over Fable 5 AA-Briefcase: 1694 Elo , +122 over Fable 5 But AA also adds an important qualification: On agentic knowledge work, Fable 5.1 is effectively tied with Opus 5 on some measures, not obviously dominant Their eval used Anthropic&#8217;s default server-side fallback , with safety-flagged requests routed to Claude Opus 4.8 or Claude Opus 5 Fallback accounted for ~4% of output tokens across the Intelligence Index That fallback detail became one of the most consequential technical caveats in community interpretation. Cost per task Artificial Analysis also reported: Fable 5.1 max: $3.76/task Fable 5 max: lower, so 5.1 is 20% more expensive per task reason: Fable 5.1 uses ~1.7&#215; output tokens cache cut saves ~$1.40 per task Fable 5.1 xhigh: ",
+   "published_iso": "2026-09-02T07:46:08+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Quoting Rick Brewster",
+   "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+   "published": "2026-09-02T05:50:57+00:00",
+   "content": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library. &mdash; Rick Brewster , author of Paint.NET Tags: reverse-engineering , coding-agents , claude , generative-ai , ai , llms , dotnet , linux , vibe-coding",
+   "published_iso": "2026-09-02T05:50:57+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "LLMs and self-referentiality",
+   "url": "https://scottaaronson.blog/?p=10046",
+   "hn_url": "https://news.ycombinator.com/item?id=49530169",
+   "points": 81,
+   "num_comments": 91,
+   "published_iso": "2026-09-02T00:20:06+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Claude Fable 5.1 made me a really nice animated pelican",
+   "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+   "published": "2026-09-01T23:57:28+00:00",
+   "content": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025 . The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels. Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely. I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts. Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here: Low and medium, both without reasoning? Next, a bit of a mystery. This is what I got for effort low : The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents . I bumped that up to medium and got this: Weirdly, that one also shows no reasoning text and used 1,977 output tokens - 21 tokens less than low . It took 23 seconds and cost 9.912 cents . So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings. High Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents : This one did do a bit of reasoning, summary here : I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top. Really not much difference from low and medium , though. Extra High At xhigh things got radically different. 36,767 output tokens, 7 minutes 51 seconds, $1.83 ! The reasoning trace is pretty lengthy , and includes details like this: Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...] I'll accept the slight thickness as charming rather than overengineering it. Max Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30 : There's a lot to like about this. The background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish. It's still not showing nearly the same level of flair as Gemini 3.7 Flash , but I didn't ask for flair - I asked for an SVG, and that's what I got. Some highlights from that reasoning trace : Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter. Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space. I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...] I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...] Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...] I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean. OK, let's animate it On Hacker News, swalsh commented on that Max pelican: Now that it's a solved benchmark, can we get the animated version? I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High: llm logs -cx | llm -m claude-fable-5.1 -s ' animate this ' 6,121 input, 26,201 output = $1.37 . The result looked like this , exported here as video since some people have trouble viewing animated SVGs: Your browser does not support HTML5 video. The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG. Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-reasoning , llm-release",
+   "published_iso": "2026-09-01T23:57:28+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "The efficient frontier of LLM inference",
+   "url": "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+   "hn_url": "https://news.ycombinator.com/item?id=49529898",
+   "points": 154,
+   "num_comments": 46,
+   "published_iso": "2026-09-01T23:48:05+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Show HN: OwnTime – a chess clock for your day's priorities",
+   "url": "https://owntime.app/",
+   "hn_url": "https://news.ycombinator.com/item?id=49528506",
+   "points": 118,
+   "num_comments": 64,
+   "published_iso": "2026-09-01T21:29:24+00:00",
+   "content": "",
+   "matched_query": "evals",
+   "source": "hackernews"
+  },
+  {
+   "title": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+   "url": "https://hnmatchmaker.com/",
+   "hn_url": "https://news.ycombinator.com/item?id=49528057",
+   "points": 125,
+   "num_comments": 46,
+   "published_iso": "2026-09-01T20:53:35+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Codex bundles LibreOffice",
+   "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+   "published": "2026-09-01T19:03:01+00:00",
+   "content": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries. Tags: codex , generative-ai , openai , ai , llms , openoffice , open-source",
+   "published_iso": "2026-09-01T19:03:01+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "GeoJSON Map Viewer",
+   "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+   "published": "2026-09-01T18:05:45+00:00",
+   "content": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool. As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need. I got this polygon from: I want a polygon that represents the exact boundary of the El Granada GCSD And this one from: Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA Here's a link that displays both of them at the same time on the new GeoJSON map viewing tool. Tags: geospatial , tools , geojson , chatgpt",
+   "published_iso": "2026-09-01T18:05:45+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Launch HN: Nori Robotics (YC S26) – A low-cost humanoid robot for development",
+   "url": "https://www.norirobotics.com/",
+   "hn_url": "https://news.ycombinator.com/item?id=49525153",
+   "points": 201,
+   "num_comments": 66,
+   "published_iso": "2026-09-01T17:35:10+00:00",
+   "content": "",
+   "matched_query": "tool calling",
+   "source": "hackernews"
+  },
+  {
+   "title": "Quoting Tarn Adams",
+   "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+   "published": "2026-09-01T17:01:11+00:00",
+   "content": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design",
+   "published_iso": "2026-09-01T17:01:11+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+   "url": "https://www.latent.space/p/pr-not-welcome",
+   "published": "Tue, 01 Sep 2026 16:17:15 GMT",
+   "content": "GitHub invented pull requests, and for 18 years they have been open by default. But now some of the top AI-native open source projects are shutting PRs off , because they&#8217;ve found a better way. These projects, which include Flue and tldraw, refuse to accept PRs from external contributors &#8212; in part because they&#8217;re usually AI-generated. Instead, the maintainers prefer to use their own agents to create and manage PRs. Also, many projects have begun using a &#8220; software factory &#8221; to manage community contributions. Typically this involves a &#8216;team&#8217; of agents triaging a PR, reproducing the issue (if it&#8217;s a bug), implementing a fix or a new feature, reviewing it, and then handing it back to a human to merge it. Vercel&#8217;s software factory for AI SDK Vercel recently published a post entitled &#8220; Building a software factory for AI SDK .&#8221; It describes how the open source AI SDK project, which gets over 20 million npm downloads per week, deployed agents to get control over its PR and issue backlog &#8212; which had reached &#8220;over 1,000 open issues and almost 800 pull requests&#8221; by late June. There are several types of agents in Vercel&#8217;s system, each of which focuses on a different task . For example, there&#8217;s an agent that reproduces a bug, another that applies a fix, and yet another that reviews the fix. Diagram from Vercel; comments by Latent Space One of the key reasons why Vercel set up this software factory is because it trusts its own agents to do the work , more so than agents run by community members. &#8220;If we have a very specific agent with a very specific prompt that we optimized &#8212; and we know that, over history, it was very successful in fixing a certain category of bugs &#8212; then we develop trust in that particular agent configuration,&#8221; Vercel engineer Lars Grammel explained in a YouTube video . &#8220;For open-source projects, it&#8217;s worth considering having your own agents and your own setup, and not necessarily trusting the community , because it can actually cut down your time to review,&#8221; he added. Example of software factory workflow in AI SDK project. Grammel also showed the deployment architecture for its system, noting that &#8220;there is a UI, there&#8217;s a web app, there&#8217;s an underlying API, there&#8217;s an execution space, and there are sandboxes.&#8221; It&#8217;s then synchronized with GitHub, which automatically triggers other actions. The UI Grammel mentioned was custom-made. Vercel&#8217;s software factory deployment architecture; diagram by Lars Grammel. Just four weeks after this software factory was implemented, Vercel claims the factory now &#8220; authors between 25 and 35% of PRs we merge and closes 70-80% of issues .&#8221; Astro&#8217;s auto-triage system The Astro web framework , which has 62,000 stars on GitHub, has also adopted what creator Fred Schott calls &#8220;that software factory idea.&#8221; &#8220;For five years, we were in this place where issues came in faster than we could handle them ,&#8221; Schott told Latent Space. But now, with agents handling the triage work, they&#8217;ve reestablished control. &#8220;It&#8217;s totally shifted in the last six months,&#8221; he said. &#8220;We can now solve these issues with these automations &#8212; handling triage, reproduction, getting the user to actually verify the fix that the bot is suggesting before we even look at it. &#8221; Example of an Astro factory bot in action The result was not just a large decrease in open issues, but a complete change in how the Astro team deals with incoming community requests. &#8220;I&#8217;ve never seen that in my entire decade-plus experience with open source,&#8221; Schott said. &#8220;Being able to essentially treat issues as a thing that every week, you prioritize &#8212; no matter what &#8212; versus a backlog that you&#8217;re constantly trimming.&#8221; Furthermore, the Astro &#8220;auto-triage&#8221; system directly led to Schott creating a brand new agent framework, called Flue . Flue doesn&#8217;t accept your PRs, but is open for discussion With Flue, Schott is trying an even more radical approach to PRs. Flue&#8217;s contributor guide states that &#8220;we&#8217;re going to try to reimagine things&#8221; &#8212; partly to prevent what it calls &#8220;Drive-by AI slop PRs.&#8221; Basically, Schott explained, every external pull request in the Flue project is automatically closed and converted into an issue or discussion. Bug reports and fix proposals get turned into issues, feature requests become discussions. Agents can do most PR tasks now, according to Flue&#8217;s contributor guide. &#8220;If you submit a PR, no hard feelings, we&#8217;re just going to go and represent it for you as issues and discussions. And from there, trying to figure out the right way to bring people on.&#8221; It&#8217;s kind of like treating incoming requests as leads , rather than as a piece of work a maintainer feels obliged to review. The contributor guide explains that it uses the team&#8217;s own expertise combined with &#8220;the best available SOTA [State-of-the-Art] LLMs that we have access to&#8221; in order to help them decide what to work on next. Once a decision is made in the issue or discussion, agents are then deployed for &#8220;research, design, implementation, and initial review.&#8221; If our agents write the code, your external PRs are worthless Like Flue, the &#8220;source available&#8221; React drawing tool tldraw (50,000 stars) automatically closes external PRs . Project creator Steve Ruiz announced this policy in January and five months later reiterated it , noting that it was &#8220;an opinionated decision made in response to changes in how we&#8217;re coding (more discussion, more agents), the social practices around public contribution, and the changing landscape around code security.&#8221; HashiCorp co-founder and Ghostty creator Mitche",
+   "published_iso": "2026-09-01T16:17:15+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
+   "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
+   "hn_url": "https://news.ycombinator.com/item?id=49523720",
+   "points": 241,
+   "num_comments": 249,
+   "published_iso": "2026-09-01T15:53:42+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "datasette-mcp 0.2",
+   "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+   "published": "2026-09-01T15:30:12+00:00",
+   "content": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself. Tags: datasette , model-context-protocol",
+   "published_iso": "2026-09-01T15:30:12+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Ask HN: Who wants to be hired? (September 2026)",
+   "url": "https://news.ycombinator.com/item?id=49522896",
+   "hn_url": "https://news.ycombinator.com/item?id=49522896",
+   "points": 111,
+   "num_comments": 496,
+   "published_iso": "2026-09-01T15:01:17+00:00",
+   "content": "",
+   "matched_query": "AI agent",
+   "source": "hackernews"
+  },
+  {
+   "title": "Python 3.15.0 candidate 2 is here!",
+   "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+   "published": "2026-09-01T14:59:18+00:00",
+   "content": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15. Back in 2021 I found a bug in Python 3.10 by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs. The new RC isn't available for GitHub Actions just yet - keep an eye on actions/python-versions for that. For the moment though you can add this to a testing matrix: strategy : matrix : python-version : [\"3.14\", \"3.15\"] steps : - uses : actions/setup-python@v7 with : python-version : ${{ matrix.python-version }} allow-prereleases : true check-latest : true The allow-prereleases and check-latest flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.) Update : Datasette passes , sqlite-utils passes , LLM is currently blocked waiting for a 3.15 wheel for scikit-learn , which is optionally used in the test suite. Via @hugovk.dev Tags: open-source , python , github-actions",
+   "published_iso": "2026-09-01T14:59:18+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+   "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+   "hn_url": "https://news.ycombinator.com/item?id=49519939",
+   "points": 668,
+   "num_comments": 166,
+   "published_iso": "2026-09-01T09:52:45+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+   "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+   "published": "Tue, 01 Sep 2026 04:36:54 GMT",
+   "content": "For the entirety of the history of Generative Media , you basically had to design around the inconvenient fact that generating images and video takes time &#8212; even if you used consistency models to get a 30 second generation down to 1 second, you still only have a 1 FPS video at best&#8230; well below anything acceptable for consumer-grade human attention. Fal took Minimax&#8217;s H3 release from last month and first posttrained it for both cost and quality improvement , then optimized it for their in-house inference engine for 35x speed of the official endpoint&#8230; resulting in crossing the infinite video singularity: This was first noticed by Ethan Mollick: Then productized by fal employees into an infinite twitch stream: and then the floodgates opened: levels.io/infinite-slop \\n\\nAn infinite and interactive AI generated live stream of slop that goes on forever and ever\\n\\nAnything that you write in the chat is generated next and AI will try to connect it to the previous video so there's an actual&#8230;\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\",\"date\":\"2026-08-29T17:34:27.000Z\",\"photos\":[{\"img_url\":\"https://substackcdn.com/image/fetch/$s_!J9Tc!,w_1028,c_limit,f_auto,q_auto:best,fl_progressive:steep/l_play_button_usfui2,w_88,e_colorize:0/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2093751837161660416.jpg\",\"link_url\":\"https://t.co/We7YYMXcGC\"}],\"quoted_tweet\":{\"full_text\":\"Today is a very historical moment for AI video generation\\n\\nYou can now generate AI video faster than you can watch it\\n\\nBefore it'd take let's say 2-5 minutes to generate 15 seconds of video\\n\\n@fal made a post-trained Minimax H3 variant called Max which is 50x faster than the\",\"username\":\"levelsio\",\"name\":\"@levelsio\",\"profile_image_url\":\"https://pbs.substack.com/profile_images/2077111020305162240/PwddgOau_normal.jpg\"},\"reply_count\":812,\"retweet_count\":535,\"like_count\":6698,\"impression_count\":1975937,\"expanded_url\":null,\"video_url\":\"https://video.twimg.com/amplify_video/2093751837161660416/vid/avc1/1226x720/AZBtl7SB5Q1nxeUc.mp4\",\"video_preview_media_key\":\"13_2093751837161660416\",\"belowTheFold\":false}\" data-component-name=\"Twitter2ToDOM\"> with Twitch/Youtube kicking Fal off the platform immediately, so Fal made their own &#8220;twitch plays pokemon&#8221; live video service : If you watch the stream for even a few seconds, you can tell this is pure slop - nobody will actually watch this fever dream mishmash of content with no plot and low quality RL tuned imagery. And yet&#8230; this is the worst that this is ever gong to be. If you have not learned the lesson that the best engineers and entrepreneurs build for the future that is coming, and the existence proof of faster-than-realtime good-enough video is defeinitely possible, then you aren&#8217;t reading the room very well in the metagame of how to stay ahead in AI. AI News for 8/29/2026-8/31/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews&#8217; website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Model Releases, Agent Benchmarks, and Open-Weight Competition Meta&#8217;s Muse Code exits beta with an SDK and subscriptions : Meta pushed Muse Code into general availability, positioning it as a bigger-task coding agent with a developer-preview SDK for embedding custom agents, connecting tools, streaming progress, and resuming sessions. Launch details came from @finkd , with follow-ups on the SDK and monthly plans ; @alexandr_wang amplified the release. Separately, Ollama said it already supports the Muse Code harness. DeepSeek V4 Flash Vision weights are now open : Several posts pointed to the release of DeepSeek-V4-Flash-Vision-Exp weights, with @teortaxesTex noting the model adds vision parity with Moonshot and GLM, and @zizhpan linking the weights directly. The follow-up from @teortaxesTex suggested DeepSeek may be committing to releasing all checkpoints. GLM-5.3 Flash looks especially strong on agentic cost/performance : On Agent Arena , @arena reported GLM-5.3-Flash at #19 overall , #4 among open models , with +4.6% net improvement over 9K+ real-world sessions and a $0.12 median cost/task . Signal breakdown included +15.3% Confirmed Success and no tool hallucination issues in the thread . Vals also highlighted the broader GLM-5.3 family, including 95.4% on SWE-bench , 78.1% on Vibe Code Bench , 1M context , and 128k max output tokens in benchmark notes . Qwen3.8-Flash-Next enters the same arena, but below GLM-5.3 Flash : @arena placed Qwen3.8-Flash-Next at #24 overall , #7 among open models , with +2.4% net improvement across 8.7K+ sessions. It stood out more on Confirmed Success (+12.3%) than on steerability or praise-vs-complaint, according to the signal breakdown . Tencent Hunyuan&#8217;s Hy4 Preview appears to be moving into China&#8217;s top agent tier : A long-form roundup from @ZhihuFrontier described Hy4 Preview as an open-source 770B MoE model with 49B active params and >1M context , emphasizing gains in coding, agent stability, and practical office/research use. The notable engineering claim is not just capability but organizational acceleration : seven weeks after Hy3, Tencent allegedly closed much of the gap through post-training, agent-policy tuning, and better stability. Agent Infrastructure, Harnesses, and Context Engineering Hermes Agent shipped a large feature release aimed at persistent, multi-agent workflows : @Teknium announced Hermes Agent v0.21.0 with Bots Mode , agent-to-agent comms , persistent multi-gateway connections , subagent steering , and broader connector access. A follow-up noted the release also cut default context usage by ~50% , a concrete sign that context-efficiency is becoming a first-class systems concern. DeepSeek Harness is e",
+   "published_iso": "2026-09-01T04:36:54+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Introducing wrapture",
+   "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+   "published": "2026-08-31T23:59:36+00:00",
+   "content": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value. It acts as both an alternative to unittest.mock and a way to implement tracing against an existing project: Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about. Wrapture includes OpenTelemetry support and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this: capture = \" summary \" [[ observe ]] target = \" domain:Calculator \" name = [ \" outer \" , \" inner \" ] [[ sink ]] type = \" jsonlines \" path = \" trace.jsonl \" This is still a very young project - just a few weeks old - but it's off to a very promising start. Interestingly, this is also Graham's first attempt at large entirely agent-driven project: Every line of code and documentation in wrapture was written by an AI assistant working under my direction. I want to be upfront about that, and equally upfront about what it was not. This was not vibe coding, where a one-shot prompt produces a pile of generated code and the person driving hopes for the best because they lack the knowledge to judge what came back. Vibe coding has earned its bad reputation. I engineered wrapture carefully from the start. I have spent a long time in this particular corner of Python and knew exactly what the result needed to be, and the AI was the means of producing it rather than the source of the design. In a follow-up post, Unit testing with wrapture , Graham shows the testing patterns supported by the new library: def test_stub_with_wrapture (): with wrapture . binding ( Gateway , \"charge\" ). on_call . returns ({ \"id\" : \"stub\" , \"amount\" : 0 } ): assert OrderService (). place ( 500 )[ \"id\" ] == \"stub\" And this neat example of a test that calls and then modifies the return value from the original method: def test_pinned_result_with_wrapture (): charge = wrapture . binding ( Gateway , \"charge\" ) charge . on_call . transforms_result ( lambda r : { ** r , \"id\" : \"ch_TEST\" } ) with charge : assert OrderService (). place ( 500 ) == { \"id\" : \"ch_TEST\" , \"amount\" : 500 } (In both of these examples the OrderService().place(...) method calls Gateway().charge(...) .) Tags: graham-dumpleton , monkey-patching , python , testing , pytest , observability , ai-assisted-programming , agentic-engineering , opentelemetry",
+   "published_iso": "2026-08-31T23:59:36+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "Quoting Andrew Digby",
+   "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+   "published": "2026-08-31T22:25:02+00:00",
+   "content": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. &mdash; Andrew Digby , providing the best news of the year Tags: kakapo",
+   "published_iso": "2026-08-31T22:25:02+00:00",
+   "source": "simonwillison"
+  }
+ ]
+}

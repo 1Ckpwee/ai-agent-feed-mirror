@@ -1,0 +1,38 @@
+name: mirror-feeds
+
+on:
+  schedule:
+    - cron: "41 3 * * *"   # daily 03:41 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds
+        run: python3 scripts/fetch.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "mirror-bot"
+          git config user.email "actions@github.com"
+          git add feeds/
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "mirror: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
