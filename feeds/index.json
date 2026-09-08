@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-08T02:30:03.940081+00:00",
+ "updated_at": "2026-09-08T08:19:55.617779+00:00",
  "retain_days": 60,
  "sources": {
   "simonwillison": {
@@ -25,9 +25,9 @@
   },
   "hackernews": {
    "ok": true,
-   "fetched": 31,
-   "archived": 38,
-   "new": 0,
+   "fetched": 33,
+   "archived": 39,
+   "new": 1,
    "newest_item": "2026-09-07"
   }
  }
