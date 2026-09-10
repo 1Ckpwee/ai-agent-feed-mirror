@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-09-09T08:22:27.471429+00:00",
- "count": 41,
- "newest_item": "2026-09-09",
+ "fetched_at": "2026-09-10T08:23:10.286995+00:00",
+ "count": 43,
+ "newest_item": "2026-09-10",
  "items": [
+  {
+   "title": "Quoting Calif Research",
+   "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
+   "published": "2026-09-10T00:56:41+00:00",
+   "content": "Today, we're releasing a demo of WeWorm, the first zero-click worm to spread through WeChat calls across iOS and Android. [...] The victim does not need to answer the call, or interact with their phone at all. Even if they do answer, they hear nothing, and the exploit still succeeds. [...] Working with AI, our team found the bug and wrote the first remote code execution (RCE) exploit in about two days. Building the worm took one more week. A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here. Our team provided the judgment about what to target and how to test it safely. &mdash; Calif Research , WeWorm Tags: ai-security-research , ai , llms , security , generative-ai",
+   "published_iso": "2026-09-10T00:56:41+00:00"
+  },
+  {
+   "title": ".blend URL Viewer",
+   "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+   "published": "2026-09-09T23:58:32+00:00",
+   "content": "Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that celebrate popular culture. Yesterday I decided to try out the new ChatGPT Images 2.5 by running this prompt : Generate a photo of a faberge egg that's themed after the TV show Pluribus - research first It gave me this - honestly not bad for a first attempt! Then, just to see what would happen, I pasted that image into Codex running GPT-6 Astra (high) and prompted: Use your blender local skill to create a blender model of this faverge egg (Here's the skill file , which I created like this .) It churned away for 17m51s and built me several .blend files . I already had this vibe-coded Blender viewing experiment lying around, so I added that to my tools collection and now you can use it to see my Pluribus blender model in your browser : Tags: 3d , javascript , tools , ai , generative-ai , llms , blender , coding-agents , codex , gpt-6-astra",
+   "published_iso": "2026-09-09T23:58:32+00:00"
+  },
   {
    "title": "Quoting Terence Tao",
    "url": "https://simonwillison.net/2026/Sep/9/terence-tao/",
