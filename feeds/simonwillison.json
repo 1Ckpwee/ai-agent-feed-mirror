@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-09-13T08:32:09.156804+00:00",
- "count": 60,
- "newest_item": "2026-09-12",
+ "fetched_at": "2026-09-14T09:15:00.468834+00:00",
+ "count": 62,
+ "newest_item": "2026-09-14",
  "items": [
+  {
+   "title": "commit-rewriter 0.1",
+   "url": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+   "published": "2026-09-14T00:28:10+00:00",
+   "content": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue IDs from our private repository, so they weren't fit for publication. If you want to edit the commit messages for a repository you can run it like this: uvx commit-rewriter path/to/repo Omit the path if you are already in the directory for that repo. When you submit your edits the tool creates a timestamped branch of your current repo state - to allow you to revert if you need to - and then rewrites every commit from the first one you edited to the most recent. Tags: git , projects , python , ai-assisted-programming",
+   "published_iso": "2026-09-14T00:28:10+00:00"
+  },
+  {
+   "title": "shot-scraper 1.12",
+   "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+   "published": "2026-09-13T23:58:14+00:00",
+   "content": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --quality 80 The --quality option sets the quality - without that option the WebP file will be lossless. In my experience WebP screenshots are almost always significantly smaller in file size than their JPEG or PNG equivalents. See the PR for some examples. I shipped this feature so I could use it to generate the screenshot for my new commit-rewriter tool . Tags: playwright , shot-scraper",
+   "published_iso": "2026-09-13T23:58:14+00:00"
+  },
   {
    "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
    "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
