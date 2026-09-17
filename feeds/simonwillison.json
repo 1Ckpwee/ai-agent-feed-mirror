@@ -1,9 +1,37 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-09-16T08:49:56.499897+00:00",
- "count": 66,
- "newest_item": "2026-09-15",
+ "fetched_at": "2026-09-17T08:53:54.739385+00:00",
+ "count": 70,
+ "newest_item": "2026-09-16",
  "items": [
+  {
+   "title": "datasette 1.0a40",
+   "url": "https://simonwillison.net/2026/Sep/16/datasette/",
+   "published": "2026-09-16T23:51:43+00:00",
+   "content": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Garcia . I've migrated Datasette to httpx2 for features like the internal datasette.client.get() method. A whole lot of bug fixes , many of them stemming from a recent effort to triage issues for a 1.0 stable release. Tags: security , datasette",
+   "published_iso": "2026-09-16T23:51:43+00:00"
+  },
+  {
+   "title": "datasette 0.65.5",
+   "url": "https://simonwillison.net/2026/Sep/16/datasette-2/",
+   "published": "2026-09-16T23:51:08+00:00",
+   "content": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: security , datasette",
+   "published_iso": "2026-09-16T23:51:08+00:00"
+  },
+  {
+   "title": "Claude Cowork and chat are now one Claude",
+   "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+   "published": "2026-09-16T18:09:49+00:00",
+   "content": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Claude. Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you’ve closed your laptop. [...] This is rolling out to Pro and Max plans first, in the Claude app on web, desktop, and mobile over the coming weeks to existing and new users on these plans. I guess this means Claude is becoming a general agent in its own right. Echoes of OpenAI renaming their Codex desktop app to ChatGPT a few weeks ago. On the one hand, this saves me some work, in that I was planning to finally figure out the boundaries between Cowork and regular Claude and write a follow-up to my piece on Understanding ChatGPT Work . I have a hunch that figuring out what this actually means in terms of features and surfaces is still going to take quite a bit of work. Via Hacker News Tags: ai , generative-ai , llms , anthropic , claude , general-agents",
+   "published_iso": "2026-09-16T18:09:49+00:00"
+  },
+  {
+   "title": "Quoting Mustafa Suleyman",
+   "url": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
+   "published": "2026-09-16T16:00:54+00:00",
+   "content": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to share any flavor of these rights isn’t justified by the evidence and will make the AI containment and alignment challenge even harder. &mdash; Mustafa Suleyman , A warning about ‘model welfare’ Tags: ai-ethics , generative-ai , ai , microsoft , llms",
+   "published_iso": "2026-09-16T16:00:54+00:00"
+  },
   {
    "title": "Gemini Live audio",
    "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
