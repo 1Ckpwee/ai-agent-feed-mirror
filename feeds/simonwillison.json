@@ -1,9 +1,30 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-09-25T09:05:11.611628+00:00",
- "count": 95,
- "newest_item": "2026-09-24",
+ "fetched_at": "2026-09-26T08:49:05.671276+00:00",
+ "count": 99,
+ "newest_item": "2026-09-25",
  "items": [
+  {
+   "title": "Quoting John Gruber",
+   "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+   "published": "2026-09-25T17:22:01+00:00",
+   "content": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers. [...] I don’t think people realize how powerful — and thus dangerous — Muse is, especially if it’s running on your Mac. &mdash; John Gruber , Muse Looks Cute, but Looks are Deceiving Tags: meta , ai , llms , general-agents , generative-ai , john-gruber , muse-agent , muse",
+   "published_iso": "2026-09-25T17:22:01+00:00"
+  },
+  {
+   "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+   "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+   "published": "2026-09-25T02:07:04+00:00",
+   "content": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that sign in the harbor! Tags: photography , wildlife",
+   "published_iso": "2026-09-25T02:07:04+00:00"
+  },
+  {
+   "title": "Note on 24th September 2026",
+   "url": "https://simonwillison.net/2026/Sep/24/harder/",
+   "published": "2026-09-24T23:31:08+00:00",
+   "content": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms",
+   "published_iso": "2026-09-24T23:31:08+00:00"
+  },
   {
    "title": "commit-rewriter 0.2",
    "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
@@ -171,6 +192,13 @@
    "published": "2026-09-17T23:37:27+00:00",
    "content": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual personal protective equipment you should adopt the rule that any specific turn of phrase an LLM suggests is off limits. Be strict about the rule! I won't let LLMs write content for my blog, but I use them for fact-checking, spelling and grammar and as an occasional thesaurus (see my proofreading prompt ). The rule to never use a turn of phrase suggested by an LLM feels good to me. The text has that weird smell to it, and it's also a good principle to help stay disciplined. Later in this piece Thomas shows a screenshot of his personal LLM copyediting tool (see also this Twitter thread ), and provides a prompt to help kickstart building your own. Update : Thomas also shared his system prompt in a comment on Hacker News. Tags: thomas-ptacek , writing , ai , generative-ai , llms",
    "published_iso": "2026-09-17T23:37:27+00:00"
+  },
+  {
+   "title": "Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+   "url": "https://simonwillison.net/2026/Sep/17/hn-49747390/",
+   "published": "2026-09-17T22:13:05+00:00",
+   "content": "My comment on Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint &mdash; Hacker News. If you want to try out out the GGUFs from https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf#th... be aware that you need Prism's llama.cpp fork to get them to work, from https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-... This should work: cd /tmp # Get the Prism macOS runtime curl -fL https://github.com/PrismML-Eng/llama.cpp/releases/download/prism-b10685-7dffb15/llama-prism-b10685-7dffb15-bin-macos-arm64.tar.gz -o bonsai-runtime.tar.gz tar -xzf bonsai-runtime.tar.gz # Get the ~5.95 GB GGUF model: curl -fL https://huggingface.co/prism-ml/Ternary-Bonsai-2-27B-gguf/resolve/main/Ternary-Bonsai-2-27B-PTQ1_0.gguf -o Ternary-Bonsai-2-27B-PTQ1_0.gguf # Run the server, I used port 8331 ./llama-prism-b10685-7dffb15/llama-server \\ -m Ternary-Bonsai-2-27B-PTQ1_0.gguf \\ --port 8331 -ngl 99 -fa on -c 32768 Then open http://localhost:8331 for the (very good) baked in llama-server web UI... or run a prompt via the API like this: uvx llm openai endpoint http://127.0.0.1:8331/v1 \\ --model bonsai-2-27b --responses hi That's running at ~20 token/second for me on an M5 Pro (after a server restart I got 44 token/second, not sure why), but I'm pretty sure something isn't working right, on startup the server said \" ggml_metal_device_init: - the tensor API is not supported in this environment - disabling \". Tags: llama-cpp",
+   "published_iso": "2026-09-17T22:13:05+00:00"
   },
   {
    "title": "Self-generated prompt injections in compaction summaries",
