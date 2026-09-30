@@ -1,9 +1,30 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-09-29T10:07:16.210747+00:00",
- "count": 107,
- "newest_item": "2026-09-28",
+ "fetched_at": "2026-09-30T09:59:20.874748+00:00",
+ "count": 110,
+ "newest_item": "2026-09-29",
  "items": [
+  {
+   "title": "Quoting Anthropic Frontier Red Team",
+   "url": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+   "published": "2026-09-29T22:20:28+00:00",
+   "content": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so in 6%. Although GLM-5.3 performs below Claude Mythos Preview here, a meaningful threshold has clearly been crossed: earlier models, like Claude Opus 4.6 and GLM-5.2, do not succeed in any of them. &mdash; Anthropic Frontier Red Team , GLM-5.3 and the spread of advanced cyber capabilities Tags: anthropic , generative-ai , ai-security-research , glm , ai , ai-in-china , llms",
+   "published_iso": "2026-09-29T22:20:28+00:00"
+  },
+  {
+   "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+   "url": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+   "published": "2026-09-29T18:27:48+00:00",
+   "content": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price &mdash; Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-2026-liv... Here they are for GPT-6.1-Sol: https://tools.simonwillison.net/markdown-svg-renderer?url=ht... They're not notably different from the GPT-6 family pelicans: https://static.simonwillison.net/static/2026/gpt-pelicans-gr... Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt",
+   "published_iso": "2026-09-29T18:27:48+00:00"
+  },
+  {
+   "title": "OpenAI DevDay 2026 live blog",
+   "url": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+   "published": "2026-09-29T15:55:13+00:00",
+   "content": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agents , live-blog , openai-devday",
+   "published_iso": "2026-09-29T15:55:13+00:00"
+  },
   {
    "title": "Claude Sonnet 5.5",
    "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
@@ -43,7 +64,7 @@
    "title": "Bluesky reply bot checker",
    "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
    "published": "2026-09-27T18:41:44+00:00",
-   "content": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies. They've started manifesting on Bluesky as well. Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating. So I had Opus 5.5 vibe code this tool , which examines any Bluesky profile for evidence of a likely reply bot. It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users. It also looks for question marks, because I'm extra infuriated by reply bots that I no tie me to waste my time answering a question that no human ever posed. Tags: twitter , bluesky , vibe-coding , ai-misuse",
+   "content": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automated replies. They've started manifesting on Bluesky as well. Unlike Twitter, Bluesky still has a freely available and useful API. The lack of such a thing doesn't slow down the bots, but it does make investigating them a lot more frustrating. So I had Opus 5.5 vibe code this tool , which examines any Bluesky profile for evidence of a likely reply bot. It looks for signals like replies posted within seconds of other posts from the same account, or accounts that never post their own content (or images or links) but instead consistently reply to messages from other, higher-follower users. It also looks for question marks, because I'm extra infuriated by reply bots that trick me into wasting my time answering a question that no human ever posed. Tags: twitter , bluesky , vibe-coding , ai-misuse",
    "published_iso": "2026-09-27T18:41:44+00:00"
   },
   {
