@@ -1,19 +1,19 @@
 {
- "updated_at": "2026-10-03T09:25:29.200348+00:00",
+ "updated_at": "2026-10-04T10:04:46.126342+00:00",
  "retain_days": 60,
  "sources": {
   "simonwillison": {
    "ok": true,
    "fetched": 30,
-   "archived": 113,
-   "new": 0,
-   "newest_item": "2026-10-01"
+   "archived": 116,
+   "new": 3,
+   "newest_item": "2026-10-03"
   },
   "latentspace": {
    "ok": true,
    "fetched": 20,
    "archived": 54,
-   "new": 2,
+   "new": 0,
    "newest_item": "2026-10-03"
   },
   "interconnects": {
@@ -25,10 +25,10 @@
   },
   "hackernews": {
    "ok": true,
-   "fetched": 43,
-   "archived": 168,
-   "new": 7,
-   "newest_item": "2026-10-02"
+   "fetched": 34,
+   "archived": 170,
+   "new": 2,
+   "newest_item": "2026-10-03"
   }
  }
 }
