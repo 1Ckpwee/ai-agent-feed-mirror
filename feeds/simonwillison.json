@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-05T10:50:07.096460+00:00",
- "count": 116,
- "newest_item": "2026-10-03",
+ "fetched_at": "2026-10-06T10:45:49.204192+00:00",
+ "count": 120,
+ "newest_item": "2026-10-05",
  "items": [
+  {
+   "title": "Quoting Felix Rieseberg",
+   "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+   "published": "2026-10-05T23:56:47+00:00",
+   "content": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...] We think this solves a lot of problems we've heard about (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM) &mdash; Felix Rieseberg , Anthropic, see also this help page Tags: claude-cowork , anthropic , claude , generative-ai , ai , general-agents , llms",
+   "published_iso": "2026-10-05T23:56:47+00:00"
+  },
+  {
+   "title": "Qwen3.8 27B addition in words",
+   "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+   "published": "2026-10-04T23:34:00+00:00",
+   "content": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf . Here's the result for a run of 30 attempts per combination with reasoning disabled: Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%: It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here. Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this: Wait, let me redo this more carefully. 4,299,366,105,622 6,088,794,067,970 Let me align them: 4 2 9 9 3 6 6 1 0 5 6 2 2 6 0 8 8 7 9 4 0 6 7 9 7 0 Adding from right to left: Position 1 (units): 2 + 0 = 2 Position 2 (tens): 2 + 7 = 9 Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1 Tags: mathematics , ai , generative-ai , local-llms , llms , qwen , llm-reasoning , dgx-spark",
+   "published_iso": "2026-10-04T23:34:00+00:00"
+  },
   {
    "title": "We're going to need default hard budget caps on pretty much everything",
    "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
@@ -24,6 +38,13 @@
    "published": "2026-10-02T22:57:38+00:00",
    "content": "Museum: Rex&#x27;s Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york",
    "published_iso": "2026-10-02T22:57:38+00:00"
+  },
+  {
+   "title": "pwasm 0.2a0",
+   "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+   "published": "2026-10-01T17:10:31+00:00",
+   "content": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements: Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the research repo working under it - and what it would take to speed it up 42 commits later (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of MicroPython , QuickJS and Micro QuickJS . I wouldn't trust this thing at all - hence the alpha version tag - but it's interesting seeing how today's models can improve on the work of models from 10 months ago. Tags: python , webassembly , vibe-coding",
+   "published_iso": "2026-10-01T17:10:31+00:00"
   },
   {
    "title": "Quoting Matthew Green",
@@ -66,6 +87,13 @@
    "published": "2026-09-29T15:55:13+00:00",
    "content": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the keynote. Tags: ai , openai , generative-ai , llms , coding-agents , live-blog , openai-devday",
    "published_iso": "2026-09-29T15:55:13+00:00"
+  },
+  {
+   "title": "llm-anthropic 0.30",
+   "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+   "published": "2026-09-28T23:06:21+00:00",
+   "content": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model. I also added an llm anthropic count command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt. Tags: llm , anthropic",
+   "published_iso": "2026-09-28T23:06:21+00:00"
   },
   {
    "title": "Claude Sonnet 5.5",
