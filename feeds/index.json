@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-10-10T10:07:17.351483+00:00",
+ "updated_at": "2026-10-11T10:18:19.574340+00:00",
  "retain_days": 60,
  "sources": {
   "simonwillison": {
    "ok": true,
    "fetched": 30,
-   "archived": 141,
-   "new": 4,
-   "newest_item": "2026-10-10"
+   "archived": 143,
+   "new": 2,
+   "newest_item": "2026-10-11"
   },
   "latentspace": {
    "ok": true,
    "fetched": 20,
-   "archived": 62,
+   "archived": 64,
    "new": 2,
    "newest_item": "2026-10-10"
   },
@@ -20,15 +20,15 @@
    "ok": true,
    "fetched": 20,
    "archived": 12,
-   "new": 1,
+   "new": 0,
    "newest_item": "2026-10-09"
   },
   "hackernews": {
    "ok": true,
-   "fetched": 29,
-   "archived": 189,
-   "new": 2,
-   "newest_item": "2026-10-09"
+   "fetched": 33,
+   "archived": 194,
+   "new": 5,
+   "newest_item": "2026-10-11"
   }
  }
 }
