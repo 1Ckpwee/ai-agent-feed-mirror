@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-15T08:34:56.296680+00:00",
- "count": 154,
- "newest_item": "2026-10-14",
+ "fetched_at": "2026-10-16T08:29:22.620285+00:00",
+ "count": 156,
+ "newest_item": "2026-10-15",
  "items": [
+  {
+   "title": "Chirp Pong",
+   "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+   "published": "2026-10-15T19:47:52+00:00",
+   "content": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work! Build a two player competitive pong like game where two players use their phones close to each other and the game state is sent via audio noises which the web microphone API can interpret - but add graphical and gameplay twists to make it a lot more fun and intertwine than pong Claude Opus 5.5 Extra in Claude Code . Tags: game-design , ai , generative-ai , llms , claude-code",
+   "published_iso": "2026-10-15T19:47:52+00:00"
+  },
+  {
+   "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
+   "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+   "published": "2026-10-15T13:04:03+00:00",
+   "content": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \" people with knowledge of the matter \". Key things I learned from the article: Q1 revenue (Jan/Feb/Mar) was \"about $4.8bn\" Q2 (Apr/May/Jun) was $11.5bn Q3 (Jul/Aug/Sep) was $16.8bn In Q3: $1.70 in revenue for every $1 spent on \"computing power\" Adjusted operating margins (excluding stock-based compensation) were 11% This point about distillation is worth quoting in full (highlight mine): The start-up has also clamped down on “distillation” — a controversial practice whereby rival AI labs train their models on the outputs of more advanced ones. When rival companies “distil” their models from Anthropic’s models, that involves heavy usage and spending. Anthropic told investors on Wednesday distillation accounted for 5 per cent to 7 per cent of revenue and that they had cut it back “materially” in the third quarter of the year, said four people with direct knowledge of the matter. Napkin maths says that if distillation was 5% of their Q2 revenue (before they cut it back in Q3) then unnamed \"other labs\" spent over half a billion dollars distilling Anthropic's models in that quarter! Also notable: Anthropic appear to no longer be leaning on \"annualized run-rate revenue\" ( previously ) in these communications to their investors. Tags: ai , generative-ai , llms , anthropic",
+   "published_iso": "2026-10-15T13:04:03+00:00"
+  },
   {
    "title": "Tree Appreciator",
    "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
