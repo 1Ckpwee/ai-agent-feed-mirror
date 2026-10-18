@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-17T08:01:31.190532+00:00",
- "count": 158,
- "newest_item": "2026-10-16",
+ "fetched_at": "2026-10-18T08:19:40.308734+00:00",
+ "count": 160,
+ "newest_item": "2026-10-17",
  "items": [
+  {
+   "title": "Inline rendering with document​.currentScript",
+   "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+   "published": "2026-10-17T21:11:12+00:00",
+   "content": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads: The year is <script> document.currentScript.replaceWith( new Date().getFullYear())</script> If you define a shortcut function like this: $=(...n)=>document.currentScript.replaceWith(...n) You get a tiny template language: The year is <script>$(new Date().getFullYear())</script> Tags: javascript",
+   "published_iso": "2026-10-17T21:11:12+00:00"
+  },
+  {
+   "title": "web-edit 0.1a2",
+   "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+   "published": "2026-10-17T13:16:49+00:00",
+   "content": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a laptop from my phone (here's DeepSeek 4.1 Flash 1017 ) and I wanted an easy way to copy the resulting logs into a Gist. Tags: projects , pelican-riding-a-bicycle , deepseek",
+   "published_iso": "2026-10-17T13:16:49+00:00"
+  },
   {
    "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
    "url": "https://simonwillison.net/2026/Oct/16/code-review/",
