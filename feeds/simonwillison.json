@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-18T08:19:40.308734+00:00",
- "count": 160,
- "newest_item": "2026-10-17",
+ "fetched_at": "2026-10-19T09:17:33.544053+00:00",
+ "count": 162,
+ "newest_item": "2026-10-18",
  "items": [
+  {
+   "title": "llm-tools-datasette 0.1.1",
+   "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+   "published": "2026-10-18T23:43:09+00:00",
+   "content": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugins, now fixed. Tags: datasette , llm",
+   "published_iso": "2026-10-18T23:43:09+00:00"
+  },
+  {
+   "title": "llm-echo 0.5",
+   "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+   "published": "2026-10-18T23:16:16+00:00",
+   "content": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usage counts to take tool calls, system prompts, and reasoning tokens into account. Example usage: uvx --with llm-echo llm -m echo 'hi there' -o thinking 1 --usage Outputs: First I consider the prompt, then I decide what to say. { \"prompt\": \"hi there\", \"system\": \"\", \"attachments\": [], \"stream\": true, \"previous\": [] } Token usage: 2 input, 24 output Tags: llm",
+   "published_iso": "2026-10-18T23:16:16+00:00"
+  },
   {
    "title": "Inline rendering with document​.currentScript",
    "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
