@@ -1,9 +1,30 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-22T08:54:32.350669+00:00",
- "count": 168,
- "newest_item": "2026-10-21",
+ "fetched_at": "2026-10-23T08:49:30.270399+00:00",
+ "count": 171,
+ "newest_item": "2026-10-22",
  "items": [
+  {
+   "title": "DE STAAT - FREEDOM (Official Music Video)",
+   "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+   "published": "2026-10-22T19:42:26+00:00",
+   "content": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Leave it . Via flir on Hacker News Tags: music , ai , generative-ai , pelican-riding-a-bicycle",
+   "published_iso": "2026-10-22T19:42:26+00:00"
+  },
+  {
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+   "published": "2026-10-22T18:09:56+00:00",
+   "content": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which we co-founded with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP). I'm pleased to note I called this one last December , when Anthropic first declared skills to be an \"open standard\": I wouldn't be surprised to see this end up in the AAIF , recently the new home of the MCP specification. Fun side note: since my blog content is available to Claude via the datasette-mcp plugin I found that post by prompting Claude to \" Use simonwillison.net MCP to find if I ever talked about how I want skills to be donated to a standards body \". Tags: standards , ai , generative-ai , llms , anthropic , model-context-protocol , skills",
+   "published_iso": "2026-10-22T18:09:56+00:00"
+  },
+  {
+   "title": "Quoting Armin Ronacher",
+   "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+   "published": "2026-10-22T15:34:13+00:00",
+   "content": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. &mdash; Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , llms",
+   "published_iso": "2026-10-22T15:34:13+00:00"
+  },
   {
    "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
    "url": "https://simonwillison.net/2026/Oct/21/php-security-release/",
@@ -22,7 +43,7 @@
    "title": "eMudhra Intermediate CA Compromise",
    "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
    "published": "2026-10-20T23:50:25+00:00",
-   "content": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this GitHub repository - Linux distros need to update their ca-certificates packages. In Python world uv 0.13.4 and pip 26.2.2 and certifi 2026.10.19 have been released with upgraded certificate lists. Tags: encryption , https , pip , python , security , uv",
+   "content": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stores. Any software that bundles a list of trusted certificates needs to be updated. This site is tracking software updates via this GitHub repository - Linux distros need to update their ca-certificates packages. In Python world uv 0.13.4 and pip 26.2.2 and certifi 2026.10.19 have been released with upgraded certificate lists. There's a very informative thread about this on the official Python forum. Tags: encryption , https , pip , python , security , uv",
    "published_iso": "2026-10-20T23:50:25+00:00"
   },
   {
