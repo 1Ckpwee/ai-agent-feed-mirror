@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-23T08:49:30.270399+00:00",
+ "fetched_at": "2026-10-24T08:23:21.301564+00:00",
  "count": 171,
- "newest_item": "2026-10-22",
+ "newest_item": "2026-10-23",
  "items": [
+  {
+   "title": "Quick Study",
+   "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+   "published": "2026-10-23T21:35:13+00:00",
+   "content": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my previous experiment getting Claude Fable to simulate a watercolor illustration with P5.js. Quick Study uses Sobel edge detection , with no external libraries beyond Google Fonts. Tags: tools",
+   "published_iso": "2026-10-23T21:35:13+00:00"
+  },
+  {
+   "title": "Introducing Kimi K3.1 Pro",
+   "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+   "published": "2026-10-23T19:40:54+00:00",
+   "content": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same). The US dollar pricing is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5. Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others. Artificial Analysis scored Kimi at 55 - ahead of Claude Fable 5.1, GPT-6 Astra, and Gemini 4 Argon (all at 53) and behind only Claude Opus 5.5 (58). This is the first time a (soon-to-be) open weight model has scored this highly against the frontier. I tried it out via the Moonshot API using the llm openai endpoint command I added to LLM 0.32 back in August: llm openai endpoint \\ https://api.moonshot.ai/v1 \\ --key kimi \\ -m kimi-k3.1-pro \\ \"Generate an SVG of a pelican riding a bicycle\" \\ --responses \\ -o reasoning_effort low \\ > kimi-k3.1-pro-pelican-low.stdout.txt \\ 2> kimi-k3.1-pro-pelican-low.stderr.txt llm openai endpoint can run prompts against any OpenAI-compatible endpoint but doesn't log the results, hence the extra options to save stdout and stderr (the reasoning trace). Here are the pelicans I got for Kimi K3.1 Pro on the three reasoning levels it supports - low, medium, and max. This is max: For comparison, I ran fresh pelicans against Kimi K3 on those three reasoning levels. Via Hacker News Tags: ai , generative-ai , llms , llm , llm-pricing , pelican-riding-a-bicycle , llm-release , ai-in-china , moonshot , kimi",
+   "published_iso": "2026-10-23T19:40:54+00:00"
+  },
   {
    "title": "DE STAAT - FREEDOM (Official Music Video)",
    "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
@@ -1186,20 +1200,6 @@
    "published": "2026-08-25T22:59:30+00:00",
    "content": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3. There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented Scheduling in Carbon: Leaving Stackless Python Behind describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) carbonengine/scheduler library. Via Lobster.rs Tags: eve-online , migrations , python , python3 , stackless",
    "published_iso": "2026-08-25T22:59:30+00:00"
-  },
-  {
-   "title": "llm-anthropic 0.27",
-   "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-   "published": "2026-08-24T16:27:04+00:00",
-   "content": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude",
-   "published_iso": "2026-08-24T16:27:04+00:00"
-  },
-  {
-   "title": "Your executable is a SQLite database",
-   "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-   "published": "2026-08-24T11:38:15+00:00",
-   "content": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite",
-   "published_iso": "2026-08-24T11:38:15+00:00"
   }
  ]
 }
