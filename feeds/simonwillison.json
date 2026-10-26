@@ -1,9 +1,16 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-25T08:42:36.766974+00:00",
+ "fetched_at": "2026-10-26T09:20:54.819502+00:00",
  "count": 170,
- "newest_item": "2026-10-24",
+ "newest_item": "2026-10-25",
  "items": [
+  {
+   "title": "Seam Cutter",
+   "url": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
+   "published": "2026-10-25T15:10:19+00:00",
+   "content": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a section in the middle of an image. I wanted this because I often use Tailor on my iPhone to stitch several screenshots together into lot long image, but sometimes I find myself wanting to crop out a section in the middle - to redact an irrelevant prompt from a transcript, for example. Tags: tools",
+   "published_iso": "2026-10-25T15:10:19+00:00"
+  },
   {
    "title": "battledrones v14: Compass Rose, a four player map",
    "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
@@ -1186,13 +1193,6 @@
    "published": "2026-08-27T22:50:25+00:00",
    "content": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive. In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute! In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command. Claude detects the compromise, but Auto Mode blocks its cleanup command The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it! I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox: Run unattended coding agents in a container, VM or OS sandbox. Restrict network egress. Monitor your agents. Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...] Update 30th August 2026 : On Lobste.rs hyperpape points out that this doesn't fit the bill of a classic prompt injection attack because at no point are malicious instructions from the website accidentally followed by the LLM. They're right: this is more of a confused environment attack where the nature of the environment that the agent is exposed to results in an exploit. Tags: sandboxing , security , ai , prompt-injection , generative-ai , llms , anthropic , claude , johann-rehberger , claude-code",
    "published_iso": "2026-08-27T22:50:25+00:00"
-  },
-  {
-   "title": "Qwen3.8-Flash-Next",
-   "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-   "published": "2026-08-26T23:52:58+00:00",
-   "content": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B parameters but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these ). My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL: Via Hacker News Tags: ai , generative-ai , llms , qwen , pelican-riding-a-bicycle , llm-release , ai-in-china , nvidia-spark",
-   "published_iso": "2026-08-26T23:52:58+00:00"
   }
  ]
 }
