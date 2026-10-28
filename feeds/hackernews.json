@@ -1,15 +1,35 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-10-27T09:19:56.385807+00:00",
- "count": 269,
+ "fetched_at": "2026-10-28T10:00:00.687262+00:00",
+ "count": 270,
  "newest_item": "2026-10-27",
  "items": [
+  {
+   "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
+   "url": "https://www.brangus.io/survival-llm",
+   "hn_url": "https://news.ycombinator.com/item?id=50264853",
+   "points": 346,
+   "num_comments": 141,
+   "published_iso": "2026-10-27T19:55:06+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Introducing LFM3: Every Modality for Specialized Intelligence",
+   "url": "https://www.liquid.ai/blog/lfm3",
+   "hn_url": "https://news.ycombinator.com/item?id=50262229",
+   "points": 145,
+   "num_comments": 55,
+   "published_iso": "2026-10-27T17:04:50+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "There are now 5 inference providers for abliterated DeepSeek",
    "url": "https://allmodels.io/llm/abliterated",
    "hn_url": "https://news.ycombinator.com/item?id=50254836",
-   "points": 69,
-   "num_comments": 76,
+   "points": 95,
+   "num_comments": 119,
    "published_iso": "2026-10-27T04:53:52+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -18,8 +38,8 @@
    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model (155 responses)",
    "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
    "hn_url": "https://news.ycombinator.com/item?id=50252159",
-   "points": 135,
-   "num_comments": 43,
+   "points": 179,
+   "num_comments": 78,
    "published_iso": "2026-10-26T22:41:48+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -28,8 +48,8 @@
    "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
    "url": "https://github.com/FrigadeHQ/hob",
    "hn_url": "https://news.ycombinator.com/item?id=50246238",
-   "points": 146,
-   "num_comments": 33,
+   "points": 169,
+   "num_comments": 42,
    "published_iso": "2026-10-26T16:12:29+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -38,8 +58,8 @@
    "title": "Fixing Tool-Call Accuracy in vLLM",
    "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
    "hn_url": "https://news.ycombinator.com/item?id=50242870",
-   "points": 163,
-   "num_comments": 68,
+   "points": 172,
+   "num_comments": 71,
    "published_iso": "2026-10-26T12:59:48+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -48,8 +68,8 @@
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://minimaxir.com/2026/10/cheap-llms/",
    "hn_url": "https://news.ycombinator.com/item?id=50236102",
-   "points": 424,
-   "num_comments": 431,
+   "points": 436,
+   "num_comments": 435,
    "published_iso": "2026-10-25T21:11:31+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -58,8 +78,8 @@
    "title": "The State of Context Engineering",
    "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
    "hn_url": "https://news.ycombinator.com/item?id=50235780",
-   "points": 261,
-   "num_comments": 64,
+   "points": 270,
+   "num_comments": 65,
    "published_iso": "2026-10-25T20:32:31+00:00",
    "content": "",
    "matched_query": "context engineering"
@@ -78,8 +98,8 @@
    "title": "A 10-year-old CNN outperforms frontier LLMs for skin cancer diagnosis",
    "url": "https://lynchlab.net/llm-skin-cancer",
    "hn_url": "https://news.ycombinator.com/item?id=50233779",
-   "points": 659,
-   "num_comments": 271,
+   "points": 666,
+   "num_comments": 272,
    "published_iso": "2026-10-25T17:15:38+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -89,7 +109,7 @@
    "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
    "hn_url": "https://news.ycombinator.com/item?id=50231722",
    "points": 90,
-   "num_comments": 129,
+   "num_comments": 128,
    "published_iso": "2026-10-25T14:05:03+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -98,7 +118,7 @@
    "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
    "url": "https://huggingface.co/destined/hurston-1",
    "hn_url": "https://news.ycombinator.com/item?id=50227330",
-   "points": 65,
+   "points": 67,
    "num_comments": 25,
    "published_iso": "2026-10-25T01:30:13+00:00",
    "content": "",
@@ -109,7 +129,7 @@
    "url": "https://adrs.systems",
    "hn_url": "https://news.ycombinator.com/item?id=50227041",
    "points": 66,
-   "num_comments": 54,
+   "num_comments": 56,
    "published_iso": "2026-10-25T00:43:47+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -149,7 +169,7 @@
    "url": "https://swurf.org/",
    "hn_url": "https://news.ycombinator.com/item?id=50205320",
    "points": 77,
-   "num_comments": 37,
+   "num_comments": 38,
    "published_iso": "2026-10-23T06:54:52+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -159,7 +179,7 @@
    "url": "https://www.anthropic.com/research/formal-verification",
    "hn_url": "https://news.ycombinator.com/item?id=50202217",
    "points": 462,
-   "num_comments": 311,
+   "num_comments": 312,
    "published_iso": "2026-10-22T22:54:43+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -168,7 +188,7 @@
    "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
    "url": "https://github.com/NVIDIA/OpenShell",
    "hn_url": "https://news.ycombinator.com/item?id=50198675",
-   "points": 504,
+   "points": 507,
    "num_comments": 218,
    "published_iso": "2026-10-22T17:44:06+00:00",
    "content": "",
@@ -219,7 +239,7 @@
    "url": "https://layerfs.ai/",
    "hn_url": "https://news.ycombinator.com/item?id=50179857",
    "points": 76,
-   "num_comments": 47,
+   "num_comments": 48,
    "published_iso": "2026-10-21T12:34:46+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -229,7 +249,7 @@
    "url": "https://alterauth.com/",
    "hn_url": "https://news.ycombinator.com/item?id=50176908",
    "points": 69,
-   "num_comments": 55,
+   "num_comments": 58,
    "published_iso": "2026-10-21T06:42:12+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -239,7 +259,7 @@
    "url": "https://rumple.github.io/blog/2026/10/20/asking-llm-for-confidence.html",
    "hn_url": "https://news.ycombinator.com/item?id=50176082",
    "points": 227,
-   "num_comments": 106,
+   "num_comments": 107,
    "published_iso": "2026-10-21T04:27:51+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -248,7 +268,7 @@
    "title": "A practical guide to AI image generation, from diffusion to agents",
    "url": "https://danielball.com/notes/ai_image_generation.html",
    "hn_url": "https://news.ycombinator.com/item?id=50171379",
-   "points": 285,
+   "points": 286,
    "num_comments": 94,
    "published_iso": "2026-10-20T19:22:39+00:00",
    "content": "",
@@ -288,7 +308,7 @@
    "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
    "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
    "hn_url": "https://news.ycombinator.com/item?id=50159341",
-   "points": 743,
+   "points": 744,
    "num_comments": 222,
    "published_iso": "2026-10-19T23:22:18+00:00",
    "content": "",
@@ -308,7 +328,7 @@
    "title": "DeepSeek banned from U.S. federal civilian agencies under new DHS order",
    "url": "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/",
    "hn_url": "https://news.ycombinator.com/item?id=50154244",
-   "points": 580,
+   "points": 581,
    "num_comments": 544,
    "published_iso": "2026-10-19T16:16:46+00:00",
    "content": "",
@@ -342,7 +362,7 @@
    "num_comments": 55,
    "published_iso": "2026-10-19T13:07:07+00:00",
    "content": "",
-   "matched_query": "tool calling"
+   "matched_query": "evals"
   },
   {
    "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
@@ -2681,16 +2701,6 @@
    "points": 108,
    "num_comments": 43,
    "published_iso": "2026-08-29T18:22:00+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "I accidentally turned LLM memory into program analysis",
-   "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
-   "hn_url": "https://news.ycombinator.com/item?id=49485416",
-   "points": 302,
-   "num_comments": 86,
-   "published_iso": "2026-08-28T23:27:45+00:00",
    "content": "",
    "matched_query": "LLM"
   }
