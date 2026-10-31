@@ -1,9 +1,16 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-10-30T10:26:49.022528+00:00",
- "count": 177,
- "newest_item": "2026-10-29",
+ "fetched_at": "2026-10-31T09:56:43.435632+00:00",
+ "count": 176,
+ "newest_item": "2026-10-30",
  "items": [
+  {
+   "title": "dbreunig/nesformer",
+   "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+   "published": "2026-10-30T21:59:22+00:00",
+   "content": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen! In a comment on Hacker News Drew reveals the Opus 5.5 prompts he used to build this system: Read this article and any relevant source code: https://divagr.com/blog/qwenputer. Then explore if you could emulate the chip and ram in a Nintendo Entertainment System (as people do today with FPGAs in MISTRs) using this technique. If so, what size model would you have to build and if you could use smaller faster ones, could you get it to be at the standard clockspeed. Followed by: I think we should build it! Just for fun. It's okay if it's not fast. We want to be able to have the weights, and a cli to run them that we can point at a ROM. Apparently Opus found and then used this collection of conformance tests for the NES CPU released 15 years ago by Christopher Pow. Via Hacker News Tags: games , ai , generative-ai , llms , drew-breunig , qwen , conformance-suites",
+   "published_iso": "2026-10-30T21:59:22+00:00"
+  },
   {
    "title": "API credits benefit for eligible ChatGPT subscriptions",
    "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
@@ -1228,20 +1235,6 @@
    "published": "2026-09-01T14:59:18+00:00",
    "content": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15. Back in 2021 I found a bug in Python 3.10 by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs. The new RC isn't available for GitHub Actions just yet - keep an eye on actions/python-versions for that. For the moment though you can add this to a testing matrix: strategy : matrix : python-version : [\"3.14\", \"3.15\"] steps : - uses : actions/setup-python@v7 with : python-version : ${{ matrix.python-version }} allow-prereleases : true check-latest : true The allow-prereleases and check-latest flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.) Update : Datasette passes , sqlite-utils passes , LLM is currently blocked waiting for a 3.15 wheel for scikit-learn , which is optionally used in the test suite. Via @hugovk.dev Tags: open-source , python , github-actions",
    "published_iso": "2026-09-01T14:59:18+00:00"
-  },
-  {
-   "title": "Introducing wrapture",
-   "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
-   "published": "2026-08-31T23:59:36+00:00",
-   "content": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value. It acts as both an alternative to unittest.mock and a way to implement tracing against an existing project: Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about. Wrapture includes OpenTelemetry support and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this: capture = \" summary \" [[ observe ]] target = \" domain:Calculator \" name = [ \" outer \" , \" inner \" ] [[ sink ]] type = \" jsonlines \" path = \" trace.jsonl \" This is still a very young project - just a few weeks old - but it's off to a very promising start. Interestingly, this is also Graham's first attempt at large entirely agent-driven project: Every line of code and documentation in wrapture was written by an AI assistant working under my direction. I want to be upfront about that, and equally upfront about what it was not. This was not vibe coding, where a one-shot prompt produces a pile of generated code and the person driving hopes for the best because they lack the knowledge to judge what came back. Vibe coding has earned its bad reputation. I engineered wrapture carefully from the start. I have spent a long time in this particular corner of Python and knew exactly what the result needed to be, and the AI was the means of producing it rather than the source of the design. In a follow-up post, Unit testing with wrapture , Graham shows the testing patterns supported by the new library: def test_stub_with_wrapture (): with wrapture . binding ( Gateway , \"charge\" ). on_call . returns ({ \"id\" : \"stub\" , \"amount\" : 0 } ): assert OrderService (). place ( 500 )[ \"id\" ] == \"stub\" And this neat example of a test that calls and then modifies the return value from the original method: def test_pinned_result_with_wrapture (): charge = wrapture . binding ( Gateway , \"charge\" ) charge . on_call . transforms_result ( lambda r : { ** r , \"id\" : \"ch_TEST\" } ) with charge : assert OrderService (). place ( 500 ) == { \"id\" : \"ch_TEST\" , \"amount\" : 500 } (In both of these examples the OrderService().place(...) method calls Gateway().charge(...) .) Tags: graham-dumpleton , monkey-patching , python , testing , pytest , observability , ai-assisted-programming , agentic-engineering , opentelemetry",
-   "published_iso": "2026-08-31T23:59:36+00:00"
-  },
-  {
-   "title": "Quoting Andrew Digby",
-   "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
-   "published": "2026-08-31T22:25:02+00:00",
-   "content": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. &mdash; Andrew Digby , providing the best news of the year Tags: kakapo",
-   "published_iso": "2026-08-31T22:25:02+00:00"
   }
  ]
 }

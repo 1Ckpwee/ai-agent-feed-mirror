@@ -1,15 +1,25 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-10-30T10:26:50.559986+00:00",
+ "fetched_at": "2026-10-31T09:56:45.142057+00:00",
  "count": 277,
- "newest_item": "2026-10-29",
+ "newest_item": "2026-10-30",
  "items": [
+  {
+   "title": "Sam Altman Thinks You're Wasting DRAM",
+   "url": "https://frvr.com/blog/news/openai-ceo-sam-altman-says-its-terrible-to-have-everybody-have-a-bunch-of-the-worlds-limited-supply-of-dram-instead-of-shoving-it-all-in-datacentres/",
+   "hn_url": "https://news.ycombinator.com/item?id=50305797",
+   "points": 88,
+   "num_comments": 93,
+   "published_iso": "2026-10-30T15:58:39+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "We ran AI agent swarms in Minecraft and Mindustry",
    "url": "https://labs.ycombinator.com/projects/games/index.html",
    "hn_url": "https://news.ycombinator.com/item?id=50296486",
-   "points": 293,
-   "num_comments": 101,
+   "points": 402,
+   "num_comments": 166,
    "published_iso": "2026-10-29T21:40:28+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -18,8 +28,8 @@
    "title": "The importance of communities around software",
    "url": "https://lumi.codeberg.page/blog/software-community.html",
    "hn_url": "https://news.ycombinator.com/item?id=50294507",
-   "points": 107,
-   "num_comments": 113,
+   "points": 108,
+   "num_comments": 122,
    "published_iso": "2026-10-29T19:27:47+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -28,8 +38,8 @@
    "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
    "url": "https://github.com/johncassil/dontallow",
    "hn_url": "https://news.ycombinator.com/item?id=50294506",
-   "points": 136,
-   "num_comments": 102,
+   "points": 152,
+   "num_comments": 128,
    "published_iso": "2026-10-29T19:27:44+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -38,8 +48,8 @@
    "title": "After 28 years walking across the globe, he's almost home",
    "url": "https://www.nytimes.com/2026/10/29/world/europe/karl-bushby-walking-globe-uk.html",
    "hn_url": "https://news.ycombinator.com/item?id=50293023",
-   "points": 92,
-   "num_comments": 73,
+   "points": 95,
+   "num_comments": 82,
    "published_iso": "2026-10-29T17:42:22+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -48,8 +58,8 @@
    "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
    "url": "https://news.ycombinator.com/item?id=50291116",
    "hn_url": "https://news.ycombinator.com/item?id=50291116",
-   "points": 69,
-   "num_comments": 21,
+   "points": 76,
+   "num_comments": 33,
    "published_iso": "2026-10-29T15:56:32+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -58,8 +68,8 @@
    "title": "I went to Mexico to test-drive the cars Americans can’t buy",
    "url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
    "hn_url": "https://news.ycombinator.com/item?id=50290668",
-   "points": 306,
-   "num_comments": 354,
+   "points": 322,
+   "num_comments": 387,
    "published_iso": "2026-10-29T15:30:22+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -68,8 +78,8 @@
    "title": "LLM Voice",
    "url": "https://martinfowler.com/bliki/LLM-Voice.html",
    "hn_url": "https://news.ycombinator.com/item?id=50290177",
-   "points": 483,
-   "num_comments": 255,
+   "points": 594,
+   "num_comments": 328,
    "published_iso": "2026-10-29T14:57:55+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -78,8 +88,8 @@
    "title": "Claude Code regularly sends each background agent’s transcript to its model",
    "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
    "hn_url": "https://news.ycombinator.com/item?id=50284255",
-   "points": 567,
-   "num_comments": 230,
+   "points": 583,
+   "num_comments": 235,
    "published_iso": "2026-10-29T03:33:42+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -88,8 +98,8 @@
    "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
    "url": "https://surgehq.ai/blog/dayjob-tax",
    "hn_url": "https://news.ycombinator.com/item?id=50275626",
-   "points": 257,
-   "num_comments": 173,
+   "points": 263,
+   "num_comments": 174,
    "published_iso": "2026-10-28T15:46:30+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -98,8 +108,8 @@
    "title": "Sleep framework: A new way for LLMs to retain knowledge in continual learning",
    "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
    "hn_url": "https://news.ycombinator.com/item?id=50272479",
-   "points": 78,
-   "num_comments": 6,
+   "points": 224,
+   "num_comments": 30,
    "published_iso": "2026-10-28T12:24:25+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -108,8 +118,8 @@
    "title": "Survival LLM: AI assistant and emergency library that runs on your own computer",
    "url": "https://www.brangus.io/survival-llm",
    "hn_url": "https://news.ycombinator.com/item?id=50264853",
-   "points": 538,
-   "num_comments": 202,
+   "points": 541,
+   "num_comments": 203,
    "published_iso": "2026-10-27T19:55:06+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -148,8 +158,8 @@
    "title": "OpenAI's agents talked to each other through the CPU Cache",
    "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
    "hn_url": "https://news.ycombinator.com/item?id=50251200",
-   "points": 358,
-   "num_comments": 248,
+   "points": 361,
+   "num_comments": 253,
    "published_iso": "2026-10-26T21:24:18+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -169,7 +179,7 @@
    "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
    "hn_url": "https://news.ycombinator.com/item?id=50242870",
    "points": 172,
-   "num_comments": 73,
+   "num_comments": 74,
    "published_iso": "2026-10-26T12:59:48+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -178,7 +188,7 @@
    "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
    "url": "https://minimaxir.com/2026/10/cheap-llms/",
    "hn_url": "https://news.ycombinator.com/item?id=50236102",
-   "points": 442,
+   "points": 443,
    "num_comments": 437,
    "published_iso": "2026-10-25T21:11:31+00:00",
    "content": "",
@@ -229,7 +239,7 @@
    "url": "https://huggingface.co/destined/hurston-1",
    "hn_url": "https://news.ycombinator.com/item?id=50227330",
    "points": 68,
-   "num_comments": 27,
+   "num_comments": 28,
    "published_iso": "2026-10-25T01:30:13+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -239,7 +249,7 @@
    "url": "https://adrs.systems",
    "hn_url": "https://news.ycombinator.com/item?id=50227041",
    "points": 66,
-   "num_comments": 58,
+   "num_comments": 59,
    "published_iso": "2026-10-25T00:43:47+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -308,7 +318,7 @@
    "title": "Show HN: OnKey – I'm a bad singer, so I built an app to show where I'm off-key",
    "url": "https://github.com/dsmurrell/onkey",
    "hn_url": "https://news.ycombinator.com/item?id=50195488",
-   "points": 236,
+   "points": 237,
    "num_comments": 94,
    "published_iso": "2026-10-22T14:04:44+00:00",
    "content": "",
@@ -2763,16 +2773,6 @@
    "published_iso": "2026-09-01T15:01:17+00:00",
    "content": "",
    "matched_query": "AI agent"
-  },
-  {
-   "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
-   "url": "https://mvakde.github.io/blog/44-on-arc-1/",
-   "hn_url": "https://news.ycombinator.com/item?id=49519939",
-   "points": 671,
-   "num_comments": 168,
-   "published_iso": "2026-09-01T09:52:45+00:00",
-   "content": "",
-   "matched_query": "LLM"
   }
  ]
 }
