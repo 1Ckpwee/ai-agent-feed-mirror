@@ -1,9 +1,16 @@
 {
  "source": "interconnects",
- "fetched_at": "2026-11-04T11:32:53.401249+00:00",
- "count": 14,
- "newest_item": "2026-10-30",
+ "fetched_at": "2026-11-05T11:28:43.320456+00:00",
+ "count": 15,
+ "newest_item": "2026-11-04",
  "items": [
+  {
+   "title": "How big is the open model economy today?",
+   "url": "https://www.interconnects.ai/p/how-well-can-we-measure-open-model",
+   "published": "Wed, 04 Nov 2026 16:35:44 GMT",
+   "content": "My longest running agent testbed has been building the Interconnects Dashboard &#8212; an aggregator of all of the best data on open model adoption and performance from across the web. This dashboard is freely available and becoming quite useful. Still, all the measurements we have on open model adoption are incredibly imprecise. We have noisy platform metrics, marketing-related metrics from startups, and imperfect public evaluations. It takes an informed eye to figure out where things are going. These research notes are my current best approximations of where we stand. As with most things on Interconnects, our goal is to build well more value than we capture, so the data on the dashboard will remain free for the foreseeable future. These notes will be more raw than many of my articles, a place for sharing what I&#8217;m mulling over but don&#8217;t have complete evidence for (yet). They will be primarily paid, enabling me to speak more freely. If you work in AI policy or policy-facing research, please reach out to us and we can likely get discounted or free access. The primary question I wanted to address today is: What is the market for open model inference? Is it growing? Is it a rounding error relative to OpenAI/Anthropic? Share I&#8217;ve been building the best measurements I can here, primarily using the open model inference startups Baseten, Fireworks, and Together AI as the bellwethers here (along with the open model share of OpenRouter&#8217;s token volume, which they thankfully report in their API). The hyperscalers also likely have a major footprint here, e.g. Amazon Bedrock and Azure&#8217;s model garden, but I haven&#8217;t seen them break down usage by model category. The startups&#8217; fates are much more directly correlated with the success of open model inference as a category. For the latest data, we can start with a slide from my talk on the open model economy (recording here ). These are the public disclosures from the open model startups on their token volume, over time, log-scale. This shows near-exponential growth, before the uptick that would follow GLM 5.2&#8217;s step change in open agents . For example, Fireworks announced at their first company conference this week that they&#8217;re serving more than 40T tokens per day to customers&#8217; customized models. This is just one slice of their inference, a vertical that they said grew over 2x from this summer, so I would expect their total number this fall to be well above 100T tokens when we get the next update. My first instinct with these numbers has been to ground them versus any closed model or hyperscale company we can, at least in terms of token volume. Thankfully, Google releases token volumes for the entire platform and API usage in their earnings reports. We can overlay those two numbers on top of the open model inference platforms, with the resulting plot below: Read more",
+   "published_iso": "2026-11-04T16:35:44+00:00"
+  },
   {
    "title": "Was I wrong about open models & cyber risks?",
    "url": "https://www.interconnects.ai/p/was-i-wrong-about-open-models-and",
