@@ -1,9 +1,16 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-11-06T11:28:08.469755+00:00",
- "count": 168,
- "newest_item": "2026-11-05",
+ "fetched_at": "2026-11-07T10:40:02.133499+00:00",
+ "count": 164,
+ "newest_item": "2026-11-06",
  "items": [
+  {
+   "title": "Quoting Nilay Patel",
+   "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+   "published": "2026-11-06T17:13:12+00:00",
+   "content": "The products aren't good enough to sell people on the costs. You cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history. It's not worth it. It just isn't worth it to anyone. And agents aren't real and they might not be being used the way that anyone wants them to yet. All these companies are spending more than they're making on these products. Refrigerators holding blood storage in Europe are being hacked. The costs are too high. The benefits are not real. And if you connect that to corruption, you're like, in order to impose these costs on me, these CEOs are in the White House shaking Trump's hand, renaming it to the Gulf of America, paying for this ballroom that we don't want. It's obvious crypto-corruption, and it's still slop. The AI industry will not get out of it until they make better products . Until everyone can see without needing to be convinced, without needing an ad campaign, without any of this stuff that just using these products makes your life better. &mdash; Nilay Patel , The Vergecast: Big Tech lost big in the 2026 election Tags: nilay-patel , slop , ai , generative-ai , ai-ethics",
+   "published_iso": "2026-11-06T17:13:12+00:00"
+  },
   {
    "title": "Quoting Paul Ford",
    "url": "https://simonwillison.net/2026/Nov/5/paul-ford/",
@@ -1144,41 +1151,6 @@
    "published": "2026-09-08T22:46:33+00:00",
    "content": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-following ability across multiple turns, responds faster, and \"is better at preserving the subjects in your reference photos\". There are two new model IDs in the API: gpt-image-2.5-sunburst and gpt-image-2.5-flare . Based on this I think Sunburst is the stronger option: Choose Sunburst for workflows where editing precision matters most, and Flare for fast, high-quality everyday image generation. I upgraded my openai_image.py CLI tool to support passing in one or more reference images, so now this works: uv run https://tools.simonwillison.net/python/openai_image.py \\ ' add a raccoon scientist studying the chart thoughtfully ' \\ -i https://static.simonwillison.net/static/2026/openai-agent-usage.webp \\ -m gpt-image-2.5-sunburst This is the original image , and here's what I got back from that prompt to \"add a raccoon scientist studying the chart thoughtfully\": Tags: tools , ai , openai , generative-ai , uv , text-to-image",
    "published_iso": "2026-09-08T22:46:33+00:00"
-  },
-  {
-   "title": "llm 0.35",
-   "url": "https://simonwillison.net/2026/Sep/7/llm/",
-   "published": "2026-09-07T23:54:54+00:00",
-   "content": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
-   "published_iso": "2026-09-07T23:54:54+00:00"
-  },
-  {
-   "title": "Creepy crawlies",
-   "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
-   "published": "2026-09-07T23:08:58+00:00",
-   "content": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics",
-   "published_iso": "2026-09-07T23:08:58+00:00"
-  },
-  {
-   "title": "Quoting Jakub Pachocki",
-   "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
-   "published": "2026-09-07T22:26:25+00:00",
-   "content": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. &mdash; Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai",
-   "published_iso": "2026-09-07T22:26:25+00:00"
-  },
-  {
-   "title": "Video compressor",
-   "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-   "published": "2026-09-07T18:29:07+00:00",
-   "content": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable",
-   "published_iso": "2026-09-07T18:29:07+00:00"
-  },
-  {
-   "title": "Mercator ↔ Equal Earth",
-   "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-   "published": "2026-09-07T16:24:16+00:00",
-   "content": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra",
-   "published_iso": "2026-09-07T16:24:16+00:00"
   }
  ]
 }
