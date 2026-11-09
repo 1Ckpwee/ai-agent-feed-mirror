@@ -1,15 +1,55 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-11-08T10:45:03.309595+00:00",
- "count": 270,
- "newest_item": "2026-11-06",
+ "fetched_at": "2026-11-09T12:06:06.177672+00:00",
+ "count": 271,
+ "newest_item": "2026-11-08",
  "items": [
+  {
+   "title": "Silicon Valley Promises AI Will Cure Disease. Drugmaker CEOs Aren't Buying It",
+   "url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+   "hn_url": "https://news.ycombinator.com/item?id=50415817",
+   "points": 96,
+   "num_comments": 122,
+   "published_iso": "2026-11-08T18:43:07+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "Why I will not be using LLMs in my coding",
+   "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+   "hn_url": "https://news.ycombinator.com/item?id=50412591",
+   "points": 115,
+   "num_comments": 231,
+   "published_iso": "2026-11-08T12:14:10+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+   "url": "https://github.com/synchopate/llama-modchip",
+   "hn_url": "https://news.ycombinator.com/item?id=50411961",
+   "points": 432,
+   "num_comments": 193,
+   "published_iso": "2026-11-08T10:22:04+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
+   "url": "https://news.ycombinator.com/item?id=50403153",
+   "hn_url": "https://news.ycombinator.com/item?id=50403153",
+   "points": 68,
+   "num_comments": 45,
+   "published_iso": "2026-11-07T10:01:48+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
   {
    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
    "hn_url": "https://news.ycombinator.com/item?id=50397429",
-   "points": 581,
-   "num_comments": 151,
+   "points": 597,
+   "num_comments": 153,
    "published_iso": "2026-11-06T19:48:51+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -18,7 +58,7 @@
    "title": "Memorilla: Latent Semantic Memory for LLMs",
    "url": "https://arxiv.org/abs/2610.21375",
    "hn_url": "https://news.ycombinator.com/item?id=50395919",
-   "points": 116,
+   "points": 124,
    "num_comments": 13,
    "published_iso": "2026-11-06T18:03:33+00:00",
    "content": "",
@@ -35,10 +75,20 @@
    "matched_query": "AI agent"
   },
   {
+   "title": "Swipeblocked: The phrases your iPhone won't suggest",
+   "url": "https://swipeblocked.com/",
+   "hn_url": "https://news.ycombinator.com/item?id=50394070",
+   "points": 85,
+   "num_comments": 24,
+   "published_iso": "2026-11-06T16:01:54+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
    "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
    "url": "https://jhr.pensoft.net/articles.php?id=9096",
    "hn_url": "https://news.ycombinator.com/item?id=50390525",
-   "points": 181,
+   "points": 182,
    "num_comments": 60,
    "published_iso": "2026-11-06T10:21:15+00:00",
    "content": "",
@@ -58,8 +108,8 @@
    "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
    "url": "https://github.com/piercefreeman/waymark",
    "hn_url": "https://news.ycombinator.com/item?id=50379221",
-   "points": 81,
-   "num_comments": 45,
+   "points": 85,
+   "num_comments": 46,
    "published_iso": "2026-11-05T14:06:31+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -68,9 +118,19 @@
    "title": "Lemmings CSS Animation",
    "url": "https://markblah.github.io/lemmings/",
    "hn_url": "https://news.ycombinator.com/item?id=50375354",
-   "points": 412,
+   "points": 413,
    "num_comments": 78,
    "published_iso": "2026-11-05T04:54:10+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Nyquist Limit:The frequency of changes in tech is invalidating our understanding",
+   "url": "https://www.ryanprior.com/posts/nyquist-limit-frequency-of-changes-in-tech-invalidates-understanding/",
+   "hn_url": "https://news.ycombinator.com/item?id=50370793",
+   "points": 76,
+   "num_comments": 24,
+   "published_iso": "2026-11-04T20:07:01+00:00",
    "content": "",
    "matched_query": "LLM"
   },
@@ -88,8 +148,8 @@
    "title": "YC's Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
    "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
    "hn_url": "https://news.ycombinator.com/item?id=50366971",
-   "points": 111,
-   "num_comments": 178,
+   "points": 112,
+   "num_comments": 179,
    "published_iso": "2026-11-04T15:28:31+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -98,8 +158,8 @@
    "title": "Ask HN: What's your current AI agentic setup?",
    "url": "https://news.ycombinator.com/item?id=50366117",
    "hn_url": "https://news.ycombinator.com/item?id=50366117",
-   "points": 557,
-   "num_comments": 691,
+   "points": 566,
+   "num_comments": 696,
    "published_iso": "2026-11-04T14:37:22+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -108,8 +168,8 @@
    "title": "Giant canyon on Mars is still tectonically active",
    "url": "https://lamont.columbia.edu/news/giant-canyon-mars-still-tectonically-active-today",
    "hn_url": "https://news.ycombinator.com/item?id=50360573",
-   "points": 148,
-   "num_comments": 49,
+   "points": 149,
+   "num_comments": 53,
    "published_iso": "2026-11-04T01:40:42+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -139,7 +199,7 @@
    "url": "https://news.ycombinator.com/item?id=50355959",
    "hn_url": "https://news.ycombinator.com/item?id=50355959",
    "points": 85,
-   "num_comments": 51,
+   "num_comments": 52,
    "published_iso": "2026-11-03T18:22:22+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -158,8 +218,8 @@
    "title": "Can GROUP BY still be optimized after all these years?",
    "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
    "hn_url": "https://news.ycombinator.com/item?id=50354097",
-   "points": 120,
-   "num_comments": 25,
+   "points": 124,
+   "num_comments": 28,
    "published_iso": "2026-11-03T16:30:23+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -179,7 +239,7 @@
    "url": "https://javahippie.net/programming/llm/2026/03/05/the-lisp-curse-coming-to-your-ecosystem.html",
    "hn_url": "https://news.ycombinator.com/item?id=50349667",
    "points": 239,
-   "num_comments": 216,
+   "num_comments": 218,
    "published_iso": "2026-11-03T08:59:31+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -208,7 +268,7 @@
    "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
    "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
    "hn_url": "https://news.ycombinator.com/item?id=50341462",
-   "points": 626,
+   "points": 627,
    "num_comments": 221,
    "published_iso": "2026-11-02T18:39:38+00:00",
    "content": "",
@@ -218,7 +278,7 @@
    "title": "Show HN: Subvocal – Talk to your computer without making noise",
    "url": "https://news.ycombinator.com/item?id=50340088",
    "hn_url": "https://news.ycombinator.com/item?id=50340088",
-   "points": 843,
+   "points": 846,
    "num_comments": 395,
    "published_iso": "2026-11-02T17:16:17+00:00",
    "content": "",
@@ -229,7 +289,7 @@
    "url": "https://momentic.ai/",
    "hn_url": "https://news.ycombinator.com/item?id=50339913",
    "points": 167,
-   "num_comments": 133,
+   "num_comments": 134,
    "published_iso": "2026-11-02T17:05:25+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -239,7 +299,7 @@
    "url": "https://arstechnica.com/ai/2026/10/doordash-says-outside-ai-agents-have-only-led-to-hundreds-of-orders-so-far/",
    "hn_url": "https://news.ycombinator.com/item?id=50338474",
    "points": 178,
-   "num_comments": 334,
+   "num_comments": 335,
    "published_iso": "2026-11-02T15:48:45+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -279,7 +339,7 @@
    "url": "https://hackerbooks.org",
    "hn_url": "https://news.ycombinator.com/item?id=50326821",
    "points": 1868,
-   "num_comments": 307,
+   "num_comments": 308,
    "published_iso": "2026-11-01T15:58:28+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -338,7 +398,7 @@
    "title": "Digital minimalism",
    "url": "https://vitalik.eth.limo/general/2026/10/31/digital_minimalism.html",
    "hn_url": "https://news.ycombinator.com/item?id=50313661",
-   "points": 363,
+   "points": 364,
    "num_comments": 273,
    "published_iso": "2026-10-31T06:16:36+00:00",
    "content": "",
@@ -2651,56 +2711,6 @@
    "points": 868,
    "num_comments": 404,
    "published_iso": "2026-09-11T13:11:04+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Training a 3.8B LLM to 0.384 CORE for $998",
-   "url": "https://hugovergnes.github.io/little-lm-3-8b/",
-   "hn_url": "https://news.ycombinator.com/item?id=49637435",
-   "points": 120,
-   "num_comments": 20,
-   "published_iso": "2026-09-10T02:04:11+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Getting 50 GB/S Back from the Apple Neural Engine",
-   "url": "https://eiln.github.io/posts/ane-dma.html",
-   "hn_url": "https://news.ycombinator.com/item?id=49636479",
-   "points": 217,
-   "num_comments": 36,
-   "published_iso": "2026-09-10T00:16:10+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Muse, the band, lost its social media handles to Muse, Meta's new AI agent",
-   "url": "https://www.engadget.com/2254419/muse-the-band-lost-its-social-media-handles-to-muse-meta-s-new-ai-agent/",
-   "hn_url": "https://news.ycombinator.com/item?id=49636345",
-   "points": 184,
-   "num_comments": 8,
-   "published_iso": "2026-09-09T23:57:29+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "No Man's Sky Cosmos",
-   "url": "https://www.nomanssky.com/cosmos-update/",
-   "hn_url": "https://news.ycombinator.com/item?id=49628493",
-   "points": 457,
-   "num_comments": 470,
-   "published_iso": "2026-09-09T15:47:42+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Ask HN: Anyone still coding like 2021? Where do you work?",
-   "url": "https://news.ycombinator.com/item?id=49626431",
-   "hn_url": "https://news.ycombinator.com/item?id=49626431",
-   "points": 72,
-   "num_comments": 94,
-   "published_iso": "2026-09-09T13:41:55+00:00",
    "content": "",
    "matched_query": "LLM"
   }
