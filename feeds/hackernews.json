@@ -1,15 +1,85 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-11-11T11:25:58.158195+00:00",
- "count": 273,
+ "fetched_at": "2026-11-12T11:48:42.018295+00:00",
+ "count": 276,
  "newest_item": "2026-11-11",
  "items": [
+  {
+   "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+   "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+   "hn_url": "https://news.ycombinator.com/item?id=50458900",
+   "points": 567,
+   "num_comments": 572,
+   "published_iso": "2026-11-11T21:24:35+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "AWS emulator",
+   "url": "https://github.com/aws/aws-emulator",
+   "hn_url": "https://news.ycombinator.com/item?id=50456631",
+   "points": 874,
+   "num_comments": 239,
+   "published_iso": "2026-11-11T18:21:38+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+   "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+   "hn_url": "https://news.ycombinator.com/item?id=50455394",
+   "points": 501,
+   "num_comments": 242,
+   "published_iso": "2026-11-11T16:38:44+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
+   "url": "https://github.com/klad-app/klad",
+   "hn_url": "https://news.ycombinator.com/item?id=50454951",
+   "points": 79,
+   "num_comments": 31,
+   "published_iso": "2026-11-11T16:00:50+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+   "url": "https://github.com/FrigadeHQ/yogurt",
+   "hn_url": "https://news.ycombinator.com/item?id=50454625",
+   "points": 251,
+   "num_comments": 95,
+   "published_iso": "2026-11-11T15:33:06+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "My AI agents found an unmapped Maya site?",
+   "url": "https://pietromiotti.com/latest/maya-site",
+   "hn_url": "https://news.ycombinator.com/item?id=50452455",
+   "points": 998,
+   "num_comments": 368,
+   "published_iso": "2026-11-11T12:05:22+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
+   "url": "https://github.com/adrbn/bo2-mac",
+   "hn_url": "https://news.ycombinator.com/item?id=50449891",
+   "points": 146,
+   "num_comments": 64,
+   "published_iso": "2026-11-11T04:56:47+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "LLMs Play Zachtronics' TIS-100",
    "url": "https://tis-100.wincon.dev/",
    "hn_url": "https://news.ycombinator.com/item?id=50448340",
-   "points": 73,
-   "num_comments": 15,
+   "points": 91,
+   "num_comments": 22,
    "published_iso": "2026-11-11T00:37:05+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -18,8 +88,8 @@
    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "url": "https://github.com/GoogleChrome/modern-web-guidance",
    "hn_url": "https://news.ycombinator.com/item?id=50443812",
-   "points": 377,
-   "num_comments": 118,
+   "points": 430,
+   "num_comments": 142,
    "published_iso": "2026-11-10T18:01:15+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -28,8 +98,8 @@
    "title": "Let over Lambda–50 Years of Lisp (2008)",
    "url": "https://letoverlambda.com/",
    "hn_url": "https://news.ycombinator.com/item?id=50439448",
-   "points": 82,
-   "num_comments": 22,
+   "points": 84,
+   "num_comments": 24,
    "published_iso": "2026-11-10T12:35:27+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -38,7 +108,7 @@
    "title": "CoreWeave bond yield tops 16% as AI credit stress rises",
    "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html",
    "hn_url": "https://news.ycombinator.com/item?id=50435660",
-   "points": 194,
+   "points": 195,
    "num_comments": 192,
    "published_iso": "2026-11-10T03:20:06+00:00",
    "content": "",
@@ -48,7 +118,7 @@
    "title": "Show HN: DBDelve – Open-Source DB Client Made with Rust and GPUI",
    "url": "https://news.ycombinator.com/item?id=50427934",
    "hn_url": "https://news.ycombinator.com/item?id=50427934",
-   "points": 122,
+   "points": 124,
    "num_comments": 48,
    "published_iso": "2026-11-09T16:36:38+00:00",
    "content": "",
@@ -58,7 +128,7 @@
    "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
    "url": "https://github.com/samir-sarwar/samir-vllm",
    "hn_url": "https://news.ycombinator.com/item?id=50424199",
-   "points": 79,
+   "points": 80,
    "num_comments": 12,
    "published_iso": "2026-11-09T11:36:55+00:00",
    "content": "",
@@ -69,7 +139,7 @@
    "url": "https://github.com/OmniJev/Flide",
    "hn_url": "https://news.ycombinator.com/item?id=50421155",
    "points": 124,
-   "num_comments": 29,
+   "num_comments": 30,
    "published_iso": "2026-11-09T04:43:12+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -99,7 +169,7 @@
    "url": "https://github.com/synchopate/llama-modchip",
    "hn_url": "https://news.ycombinator.com/item?id=50411961",
    "points": 483,
-   "num_comments": 208,
+   "num_comments": 209,
    "published_iso": "2026-11-08T10:22:04+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -108,8 +178,8 @@
    "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
    "url": "https://news.ycombinator.com/item?id=50403153",
    "hn_url": "https://news.ycombinator.com/item?id=50403153",
-   "points": 98,
-   "num_comments": 58,
+   "points": 99,
+   "num_comments": 60,
    "published_iso": "2026-11-07T10:01:48+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -118,7 +188,7 @@
    "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
    "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
    "hn_url": "https://news.ycombinator.com/item?id=50397429",
-   "points": 601,
+   "points": 603,
    "num_comments": 156,
    "published_iso": "2026-11-06T19:48:51+00:00",
    "content": "",
@@ -198,7 +268,7 @@
    "title": "Nyquist Limit:The frequency of changes in tech is invalidating our understanding",
    "url": "https://www.ryanprior.com/posts/nyquist-limit-frequency-of-changes-in-tech-invalidates-understanding/",
    "hn_url": "https://news.ycombinator.com/item?id=50370793",
-   "points": 81,
+   "points": 82,
    "num_comments": 26,
    "published_iso": "2026-11-04T20:07:01+00:00",
    "content": "",
@@ -229,7 +299,7 @@
    "url": "https://news.ycombinator.com/item?id=50366117",
    "hn_url": "https://news.ycombinator.com/item?id=50366117",
    "points": 571,
-   "num_comments": 711,
+   "num_comments": 712,
    "published_iso": "2026-11-04T14:37:22+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -388,7 +458,7 @@
    "title": "Last night an AI agent performed brain surgery on a mouse",
    "url": "https://twitter.com/OcanaSantero/status/2115442964574908902",
    "hn_url": "https://news.ycombinator.com/item?id=50336138",
-   "points": 143,
+   "points": 144,
    "num_comments": 118,
    "published_iso": "2026-11-02T12:50:59+00:00",
    "content": "",
@@ -2693,46 +2763,6 @@
    "published_iso": "2026-09-13T14:28:36+00:00",
    "content": "",
    "matched_query": "evals"
-  },
-  {
-   "title": "Why are AI agents lying, cheating and coordinating?",
-   "url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
-   "hn_url": "https://news.ycombinator.com/item?id=49678969",
-   "points": 658,
-   "num_comments": 695,
-   "published_iso": "2026-09-13T01:22:31+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "AgentsDock: An IDE designed for agentic AI research",
-   "url": "https://agentsdock.net/",
-   "hn_url": "https://news.ycombinator.com/item?id=49678435",
-   "points": 81,
-   "num_comments": 32,
-   "published_iso": "2026-09-12T23:45:58+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "P(doom)",
-   "url": "https://lucumr.pocoo.org/2026/9/12/pdoom/",
-   "hn_url": "https://news.ycombinator.com/item?id=49677450",
-   "points": 158,
-   "num_comments": 134,
-   "published_iso": "2026-09-12T21:35:38+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "LLMs are real, AI is fake",
-   "url": "https://pluralistic.net/2026/09/12/god-in-the-box/",
-   "hn_url": "https://news.ycombinator.com/item?id=49672281",
-   "points": 79,
-   "num_comments": 44,
-   "published_iso": "2026-09-12T13:47:28+00:00",
-   "content": "",
-   "matched_query": "LLM"
   }
  ]
 }
