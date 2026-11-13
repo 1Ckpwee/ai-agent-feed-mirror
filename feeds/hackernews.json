@@ -1,15 +1,55 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-11-12T11:48:42.018295+00:00",
- "count": 276,
- "newest_item": "2026-11-11",
+ "fetched_at": "2026-11-13T11:31:05.938736+00:00",
+ "count": 278,
+ "newest_item": "2026-11-12",
  "items": [
+  {
+   "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+   "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+   "hn_url": "https://news.ycombinator.com/item?id=50471650",
+   "points": 109,
+   "num_comments": 28,
+   "published_iso": "2026-11-12T18:15:48+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "AWS Lambda Web Functions keep billing memory ~7 minutes after the last request",
+   "url": "https://www.easel.sh/blog/lambda-web-functions-idle-memory",
+   "hn_url": "https://news.ycombinator.com/item?id=50470445",
+   "points": 76,
+   "num_comments": 29,
+   "published_iso": "2026-11-12T16:59:26+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "I'm making LLMs work on small and old devices",
+   "url": "https://github.com/hyperionaidev/smolmaxxing/",
+   "hn_url": "https://news.ycombinator.com/item?id=50468888",
+   "points": 386,
+   "num_comments": 136,
+   "published_iso": "2026-11-12T15:23:10+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Jensen Huang resigns",
+   "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+   "hn_url": "https://news.ycombinator.com/item?id=50467087",
+   "points": 3622,
+   "num_comments": 3174,
+   "published_iso": "2026-11-12T13:52:29+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
    "hn_url": "https://news.ycombinator.com/item?id=50458900",
-   "points": 567,
-   "num_comments": 572,
+   "points": 671,
+   "num_comments": 697,
    "published_iso": "2026-11-11T21:24:35+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -18,9 +58,19 @@
    "title": "AWS emulator",
    "url": "https://github.com/aws/aws-emulator",
    "hn_url": "https://news.ycombinator.com/item?id=50456631",
-   "points": 874,
-   "num_comments": 239,
+   "points": 973,
+   "num_comments": 264,
    "published_iso": "2026-11-11T18:21:38+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+   "url": "https://news.ycombinator.com/item?id=50455811",
+   "hn_url": "https://news.ycombinator.com/item?id=50455811",
+   "points": 61,
+   "num_comments": 48,
+   "published_iso": "2026-11-11T17:11:56+00:00",
    "content": "",
    "matched_query": "AI agent"
   },
@@ -28,8 +78,8 @@
    "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
    "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
    "hn_url": "https://news.ycombinator.com/item?id=50455394",
-   "points": 501,
-   "num_comments": 242,
+   "points": 581,
+   "num_comments": 273,
    "published_iso": "2026-11-11T16:38:44+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -38,8 +88,8 @@
    "title": "Show HN: Klad, a paint app your coding agent can drive (source-available)",
    "url": "https://github.com/klad-app/klad",
    "hn_url": "https://news.ycombinator.com/item?id=50454951",
-   "points": 79,
-   "num_comments": 31,
+   "points": 83,
+   "num_comments": 33,
    "published_iso": "2026-11-11T16:00:50+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -48,8 +98,8 @@
    "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "hn_url": "https://news.ycombinator.com/item?id=50454625",
-   "points": 251,
-   "num_comments": 95,
+   "points": 290,
+   "num_comments": 111,
    "published_iso": "2026-11-11T15:33:06+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -58,8 +108,8 @@
    "title": "My AI agents found an unmapped Maya site?",
    "url": "https://pietromiotti.com/latest/maya-site",
    "hn_url": "https://news.ycombinator.com/item?id=50452455",
-   "points": 998,
-   "num_comments": 368,
+   "points": 1032,
+   "num_comments": 391,
    "published_iso": "2026-11-11T12:05:22+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -68,8 +118,8 @@
    "title": "Show HN: Black Ops II statically recompiled to native ARM64 macOS",
    "url": "https://github.com/adrbn/bo2-mac",
    "hn_url": "https://news.ycombinator.com/item?id=50449891",
-   "points": 146,
-   "num_comments": 64,
+   "points": 149,
+   "num_comments": 66,
    "published_iso": "2026-11-11T04:56:47+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -78,7 +128,7 @@
    "title": "LLMs Play Zachtronics' TIS-100",
    "url": "https://tis-100.wincon.dev/",
    "hn_url": "https://news.ycombinator.com/item?id=50448340",
-   "points": 91,
+   "points": 94,
    "num_comments": 22,
    "published_iso": "2026-11-11T00:37:05+00:00",
    "content": "",
@@ -88,9 +138,19 @@
    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "url": "https://github.com/GoogleChrome/modern-web-guidance",
    "hn_url": "https://news.ycombinator.com/item?id=50443812",
-   "points": 430,
-   "num_comments": 142,
+   "points": 440,
+   "num_comments": 145,
    "published_iso": "2026-11-10T18:01:15+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
+   "url": "https://aircad.com",
+   "hn_url": "https://news.ycombinator.com/item?id=50441350",
+   "points": 90,
+   "num_comments": 42,
+   "published_iso": "2026-11-10T15:01:19+00:00",
    "content": "",
    "matched_query": "AI agent"
   },
@@ -119,7 +179,7 @@
    "url": "https://news.ycombinator.com/item?id=50427934",
    "hn_url": "https://news.ycombinator.com/item?id=50427934",
    "points": 124,
-   "num_comments": 48,
+   "num_comments": 49,
    "published_iso": "2026-11-09T16:36:38+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -268,7 +328,7 @@
    "title": "Nyquist Limit:The frequency of changes in tech is invalidating our understanding",
    "url": "https://www.ryanprior.com/posts/nyquist-limit-frequency-of-changes-in-tech-invalidates-understanding/",
    "hn_url": "https://news.ycombinator.com/item?id=50370793",
-   "points": 82,
+   "points": 83,
    "num_comments": 26,
    "published_iso": "2026-11-04T20:07:01+00:00",
    "content": "",
@@ -299,7 +359,7 @@
    "url": "https://news.ycombinator.com/item?id=50366117",
    "hn_url": "https://news.ycombinator.com/item?id=50366117",
    "points": 571,
-   "num_comments": 712,
+   "num_comments": 713,
    "published_iso": "2026-11-04T14:37:22+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -319,7 +379,7 @@
    "url": "https://uncracked.city",
    "hn_url": "https://news.ycombinator.com/item?id=50358352",
    "points": 128,
-   "num_comments": 69,
+   "num_comments": 76,
    "published_iso": "2026-11-03T21:20:03+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -358,7 +418,7 @@
    "title": "Can GROUP BY still be optimized after all these years?",
    "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
    "hn_url": "https://news.ycombinator.com/item?id=50354097",
-   "points": 124,
+   "points": 125,
    "num_comments": 28,
    "published_iso": "2026-11-03T16:30:23+00:00",
    "content": "",
@@ -2723,46 +2783,6 @@
    "published_iso": "2026-09-14T13:20:22+00:00",
    "content": "",
    "matched_query": "LLM"
-  },
-  {
-   "title": "OpenArch – PyTorch implementations of modern LLM architectures",
-   "url": "https://github.com/anuj0456/OpenArch",
-   "hn_url": "https://news.ycombinator.com/item?id=49693384",
-   "points": 140,
-   "num_comments": 32,
-   "published_iso": "2026-09-14T07:55:19+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
-   "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich",
-   "hn_url": "https://news.ycombinator.com/item?id=49688695",
-   "points": 1218,
-   "num_comments": 571,
-   "published_iso": "2026-09-13T21:06:13+00:00",
-   "content": "",
-   "matched_query": "evals"
-  },
-  {
-   "title": "Libraries Run Rust Inside Python (With PyO3)",
-   "url": "https://belderbos.dev/blog/how-libraries-run-rust-inside-python/",
-   "hn_url": "https://news.ycombinator.com/item?id=49685037",
-   "points": 72,
-   "num_comments": 40,
-   "published_iso": "2026-09-13T15:24:05+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Astra and Fable still hack on simple variants of alignment evals from 2025",
-   "url": "https://www.lesswrong.com/posts/munJKF7iWMsWJLAH2/astra-and-fable-still-hack-on-simple-variants-of-alignment",
-   "hn_url": "https://news.ycombinator.com/item?id=49684393",
-   "points": 480,
-   "num_comments": 235,
-   "published_iso": "2026-09-13T14:28:36+00:00",
-   "content": "",
-   "matched_query": "evals"
   }
  ]
 }
