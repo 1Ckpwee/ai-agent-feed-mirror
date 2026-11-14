@@ -1,9 +1,23 @@
 {
  "source": "simonwillison",
- "fetched_at": "2026-11-13T11:31:01.553856+00:00",
- "count": 158,
- "newest_item": "2026-11-12",
+ "fetched_at": "2026-11-14T10:54:27.866857+00:00",
+ "count": 157,
+ "newest_item": "2026-11-13",
  "items": [
+  {
+   "title": "datasette-cluster-map 0.19",
+   "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+   "published": "2026-11-13T23:02:45+00:00",
+   "content": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requested with a referrer header. Here's a map of power plants owned by California's PG&E , also demonstrating Datasette's recently redesigned facets : Tags: datasette , geospatial , openstreetmap",
+   "published_iso": "2026-11-13T23:02:45+00:00"
+  },
+  {
+   "title": "datasette-leaflet 0.3",
+   "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+   "published": "2026-11-13T22:30:54+00:00",
+   "content": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy. datasette-leaflet is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to strict-origin-when-cross-origin , passing the host but not the full path to the page. Tags: leaflet , datasette , openstreetmap",
+   "published_iso": "2026-11-13T22:30:54+00:00"
+  },
   {
    "title": "llm-gemini 0.37",
    "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
@@ -1088,27 +1102,6 @@
    "published": "2026-09-15T22:47:07+00:00",
    "content": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking. The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback. Here's the Gemini Live tutorial for getting started with that WebSockets API. Tags: google , tools , websockets , generative-ai , llms , gemini , llm-release , speech-to-text",
    "published_iso": "2026-09-15T22:47:07+00:00"
-  },
-  {
-   "title": "The contagion of fear",
-   "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-   "published": "2026-09-14T21:18:13+00:00",
-   "content": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a story of his own youthful mistakes causing unjustified panic among less technical peers, and warns against doing the same: These ghoulish claims strike brazenly at the hearth, and given the obvious importance of AI, it is unsurprising that they have leapt into the mainstream, with people asking the natural question: how would that happen? The answers always rely on hand-wavy extrapolation into the future; for example, Jacob Coxon cites \"hacking critical infrastructure\" and \"extinction-level bioweapons\" without further elaboration. But Coxon is not an expert on critical infrastructure, nor on bioweapons — nor, for that matter, on extinction. [...] That said, we should not expect the public to understand LLMs, critical infrastructure, bioweapons, extinction biology, etc. — that burden must lie with those making the claim. The lesson that I learned (shamefully) decades ago is that domain experts, by way of their expertise, implicitly hold the public’s trust — and we must not abuse it. It is incumbent upon us to be circumspect in our claims — and maximally so when raising the alarm. Bryan talked about his doubts about the bioweapons concerns in the recent episode of Oxide and Friends that I joined. You can hear more of his thoughts on that starting at 51m44s in that episode. Here's 57m04s : I really think we need to be careful because it's so easy to be overcome with fear when we kind of make up these... it can give you biological weapons. Like, how? I mean, can we please have a biologist weigh in on this? Or can we have like someone who's got experience with bioweapons? [...] The bioweapon thing just gets under my fingernails because it leaves so much to the imagination that we insert with fear. Via Lobste.rs Tags: ai , anthropic , bryan-cantrill , ai-ethics",
-   "published_iso": "2026-09-14T21:18:13+00:00"
-  },
-  {
-   "title": "What blog posts influenced your thinking the most?",
-   "url": "https://simonwillison.net/2026/Sep/14/influences/",
-   "published": "2026-09-14T20:21:48+00:00",
-   "content": "My comment on What blog posts influenced your thinking the most? &mdash; Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always be looking for improved understanding of the layers under where I'm working, just in case one of those abstractions leaks. A more recent one, from 2018, is Migrations: the sole scalable fix to tech debt by Will Larson. I absolutely love his idea that migrations (e.g. replacing one service with a new one, or switching database engines, or whatever) are part and parcel of software engineering and are a skill that you should invest in and get good at, not avoid or treat as special one-offs. The Engineer/Manager Pendulum by Charity Majors was hugely influential for me. I was stuck in engineering management and worried that if I switched back to being an \"Individual Contributor\" (ugh I hate that term) I'd damage my career. Charity gave me permission to make the switch by pointing out that many of the most successful software developers pendulum from one track to the other multiple times over their career, and doing so makes you better at both sides. Tags: joel-spolsky , software-engineering , will-larson , charity-majors",
-   "published_iso": "2026-09-14T20:21:48+00:00"
-  },
-  {
-   "title": "Quoting Laurie Voss",
-   "url": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-   "published": "2026-09-14T14:34:29+00:00",
-   "content": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it precisely, and making it pleasant to use. That cost is per piece of software and doesn't transfer, so as the amount of software goes to infinity, which it will because there's no ceiling on demand, that cost becomes the whole job. &mdash; Laurie Voss , We are all Product Engineers now Tags: laurie-voss , generative-ai , agentic-engineering , ai , llms , deep-blue , careers",
-   "published_iso": "2026-09-14T14:34:29+00:00"
   }
  ]
 }
