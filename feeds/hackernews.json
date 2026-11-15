@@ -1,15 +1,45 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-11-14T10:54:30.842180+00:00",
- "count": 272,
- "newest_item": "2026-11-13",
+ "fetched_at": "2026-11-15T11:28:46.828692+00:00",
+ "count": 270,
+ "newest_item": "2026-11-14",
  "items": [
+  {
+   "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+   "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+   "hn_url": "https://news.ycombinator.com/item?id=50497155",
+   "points": 138,
+   "num_comments": 68,
+   "published_iso": "2026-11-14T14:09:25+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
+   "url": "https://gitlab.com/snipedbywifi/terminactory",
+   "hn_url": "https://news.ycombinator.com/item?id=50497132",
+   "points": 157,
+   "num_comments": 39,
+   "published_iso": "2026-11-14T14:05:54+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+   "url": "https://news.ycombinator.com/item?id=50494696",
+   "hn_url": "https://news.ycombinator.com/item?id=50494696",
+   "points": 83,
+   "num_comments": 51,
+   "published_iso": "2026-11-14T06:56:42+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
   {
    "title": "Perplexity Decider v1.3: Training, eval, and use cases",
    "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
    "hn_url": "https://news.ycombinator.com/item?id=50488464",
-   "points": 131,
-   "num_comments": 23,
+   "points": 145,
+   "num_comments": 26,
    "published_iso": "2026-11-13T19:24:47+00:00",
    "content": "",
    "matched_query": "evals"
@@ -18,8 +48,8 @@
    "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
    "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
    "hn_url": "https://news.ycombinator.com/item?id=50471650",
-   "points": 135,
-   "num_comments": 39,
+   "points": 137,
+   "num_comments": 40,
    "published_iso": "2026-11-12T18:15:48+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -35,10 +65,20 @@
    "matched_query": "LLM"
   },
   {
+   "title": "Show HN: Apron Chat Protocol",
+   "url": "https://apron.chat/",
+   "hn_url": "https://news.ycombinator.com/item?id=50470343",
+   "points": 66,
+   "num_comments": 6,
+   "published_iso": "2026-11-12T16:52:31+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
    "title": "I'm making LLMs work on small and old devices",
    "url": "https://github.com/hyperionaidev/smolmaxxing/",
    "hn_url": "https://news.ycombinator.com/item?id=50468888",
-   "points": 475,
+   "points": 479,
    "num_comments": 180,
    "published_iso": "2026-11-12T15:23:10+00:00",
    "content": "",
@@ -48,8 +88,8 @@
    "title": "Jensen Huang resigns",
    "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
    "hn_url": "https://news.ycombinator.com/item?id=50467087",
-   "points": 4025,
-   "num_comments": 3432,
+   "points": 4045,
+   "num_comments": 3449,
    "published_iso": "2026-11-12T13:52:29+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -58,8 +98,8 @@
    "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
    "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
    "hn_url": "https://news.ycombinator.com/item?id=50458900",
-   "points": 677,
-   "num_comments": 705,
+   "points": 680,
+   "num_comments": 707,
    "published_iso": "2026-11-11T21:24:35+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -68,7 +108,7 @@
    "title": "AWS emulator",
    "url": "https://github.com/aws/aws-emulator",
    "hn_url": "https://news.ycombinator.com/item?id=50456631",
-   "points": 986,
+   "points": 989,
    "num_comments": 266,
    "published_iso": "2026-11-11T18:21:38+00:00",
    "content": "",
@@ -108,8 +148,8 @@
    "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
    "url": "https://github.com/FrigadeHQ/yogurt",
    "hn_url": "https://news.ycombinator.com/item?id=50454625",
-   "points": 300,
-   "num_comments": 114,
+   "points": 303,
+   "num_comments": 115,
    "published_iso": "2026-11-11T15:33:06+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -118,7 +158,7 @@
    "title": "My AI agents found an unmapped Maya site?",
    "url": "https://pietromiotti.com/latest/maya-site",
    "hn_url": "https://news.ycombinator.com/item?id=50452455",
-   "points": 1035,
+   "points": 1036,
    "num_comments": 392,
    "published_iso": "2026-11-11T12:05:22+00:00",
    "content": "",
@@ -138,7 +178,7 @@
    "title": "LLMs Play Zachtronics' TIS-100",
    "url": "https://tis-100.wincon.dev/",
    "hn_url": "https://news.ycombinator.com/item?id=50448340",
-   "points": 94,
+   "points": 95,
    "num_comments": 23,
    "published_iso": "2026-11-11T00:37:05+00:00",
    "content": "",
@@ -148,18 +188,28 @@
    "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
    "url": "https://github.com/GoogleChrome/modern-web-guidance",
    "hn_url": "https://news.ycombinator.com/item?id=50443812",
-   "points": 442,
+   "points": 446,
    "num_comments": 146,
    "published_iso": "2026-11-10T18:01:15+00:00",
    "content": "",
    "matched_query": "AI agent"
   },
   {
+   "title": "A rare glimpse inside the high-risk, high-reward Hormuz trade",
+   "url": "https://www.lloydslist.com/LL1158922/A-rare-glimpse-inside-the-highrisk-highreward-Hormuz-trade",
+   "hn_url": "https://news.ycombinator.com/item?id=50443331",
+   "points": 78,
+   "num_comments": 68,
+   "published_iso": "2026-11-10T17:21:48+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
    "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
    "url": "https://aircad.com",
    "hn_url": "https://news.ycombinator.com/item?id=50441350",
    "points": 95,
-   "num_comments": 46,
+   "num_comments": 47,
    "published_iso": "2026-11-10T15:01:19+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -229,7 +279,7 @@
    "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
    "hn_url": "https://news.ycombinator.com/item?id=50412591",
    "points": 119,
-   "num_comments": 243,
+   "num_comments": 244,
    "published_iso": "2026-11-08T12:14:10+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -248,8 +298,8 @@
    "title": "Ask HN: How do you manage your AI agents' context across clients and projects?",
    "url": "https://news.ycombinator.com/item?id=50403153",
    "hn_url": "https://news.ycombinator.com/item?id=50403153",
-   "points": 100,
-   "num_comments": 63,
+   "points": 101,
+   "num_comments": 71,
    "published_iso": "2026-11-07T10:01:48+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -2653,76 +2703,6 @@
    "published_iso": "2026-09-16T13:51:15+00:00",
    "content": "",
    "matched_query": "AI agent"
-  },
-  {
-   "title": "Learning Programming in an Age of LLMs",
-   "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/",
-   "hn_url": "https://news.ycombinator.com/item?id=49723873",
-   "points": 262,
-   "num_comments": 195,
-   "published_iso": "2026-09-16T09:12:34+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Learning to solve hard problems in RL for LLMs by never giving up",
-   "url": "https://mnoukhov.github.io/posts/ngu/",
-   "hn_url": "https://news.ycombinator.com/item?id=49717280",
-   "points": 119,
-   "num_comments": 9,
-   "published_iso": "2026-09-15T19:07:38+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Why I'm still bearish on LLMs after Navier-Stokes",
-   "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
-   "hn_url": "https://news.ycombinator.com/item?id=49715927",
-   "points": 495,
-   "num_comments": 652,
-   "published_iso": "2026-09-15T17:37:12+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Subnormal floating-point numbers are expensive on Intel processors",
-   "url": "https://lemire.me/blog/2026/09/15/subnormal-floating-point-numbers-are-expensive-on-intel-processors/",
-   "hn_url": "https://news.ycombinator.com/item?id=49715408",
-   "points": 67,
-   "num_comments": 54,
-   "published_iso": "2026-09-15T16:58:22+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
-   "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-   "hn_url": "https://news.ycombinator.com/item?id=49715113",
-   "points": 234,
-   "num_comments": 171,
-   "published_iso": "2026-09-15T16:38:45+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
-   "url": "https://github.com/pizza-bot-app/pizza-bot",
-   "hn_url": "https://news.ycombinator.com/item?id=49713894",
-   "points": 61,
-   "num_comments": 37,
-   "published_iso": "2026-09-15T15:20:26+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "A Cop Searched 19,000 Flock Cameras Across 1,558 Cities. His Reason: 'LMAO'",
-   "url": "https://www.techtimes.co.uk/police-flock-search-licence-plate-lmao-1808683",
-   "hn_url": "https://news.ycombinator.com/item?id=49713395",
-   "points": 122,
-   "num_comments": 77,
-   "published_iso": "2026-09-15T14:47:21+00:00",
-   "content": "",
-   "matched_query": "LLM"
   }
  ]
 }
