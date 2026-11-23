@@ -1,15 +1,65 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-11-22T11:58:03.147224+00:00",
- "count": 257,
- "newest_item": "2026-11-21",
+ "fetched_at": "2026-11-23T13:37:52.505889+00:00",
+ "count": 256,
+ "newest_item": "2026-11-23",
  "items": [
+  {
+   "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+   "url": "https://z.ai/blog/glm-5.4",
+   "hn_url": "https://news.ycombinator.com/item?id=50609685",
+   "points": 354,
+   "num_comments": 153,
+   "published_iso": "2026-11-23T10:06:43+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "A Partial Evaluator for C",
+   "url": "https://phoenix.labri.fr/software/tempo/",
+   "hn_url": "https://news.ycombinator.com/item?id=50607627",
+   "points": 83,
+   "num_comments": 20,
+   "published_iso": "2026-11-23T04:51:48+00:00",
+   "content": "",
+   "matched_query": "evals"
+  },
+  {
+   "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
+   "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+   "hn_url": "https://news.ycombinator.com/item?id=50600677",
+   "points": 168,
+   "num_comments": 151,
+   "published_iso": "2026-11-22T15:42:40+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Show HN: I built a game where you are an LLM's subagent",
+   "url": "https://github.com/gulivan/worker755",
+   "hn_url": "https://news.ycombinator.com/item?id=50599762",
+   "points": 340,
+   "num_comments": 79,
+   "published_iso": "2026-11-22T13:56:58+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+   "url": "https://arxiv.org/abs/2606.14068",
+   "hn_url": "https://news.ycombinator.com/item?id=50597743",
+   "points": 93,
+   "num_comments": 78,
+   "published_iso": "2026-11-22T09:18:36+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "Pandex – Official European Law for AI Agents, over MCP",
    "url": "https://www.pandex.io",
    "hn_url": "https://news.ycombinator.com/item?id=50593481",
-   "points": 101,
-   "num_comments": 24,
+   "points": 140,
+   "num_comments": 33,
    "published_iso": "2026-11-21T20:47:41+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -18,7 +68,7 @@
    "title": "ClawDOS – An AI coding agent for DOS",
    "url": "http://ricapar.net/ClawDOS/",
    "hn_url": "https://news.ycombinator.com/item?id=50586292",
-   "points": 166,
+   "points": 175,
    "num_comments": 52,
    "published_iso": "2026-11-21T05:38:01+00:00",
    "content": "",
@@ -28,8 +78,8 @@
    "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "hn_url": "https://news.ycombinator.com/item?id=50583761",
-   "points": 692,
-   "num_comments": 777,
+   "points": 737,
+   "num_comments": 831,
    "published_iso": "2026-11-20T23:18:32+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -38,8 +88,8 @@
    "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
    "url": "https://signal.org/blog/protecting-your-privacy/",
    "hn_url": "https://news.ycombinator.com/item?id=50572348",
-   "points": 574,
-   "num_comments": 341,
+   "points": 581,
+   "num_comments": 348,
    "published_iso": "2026-11-20T09:42:16+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -49,8 +99,18 @@
    "url": "https://github.com/onlook-dev/onlook/",
    "hn_url": "https://news.ycombinator.com/item?id=50562320",
    "points": 125,
-   "num_comments": 85,
+   "num_comments": 87,
    "published_iso": "2026-11-19T16:34:04+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Inside PyPy: First Contact with RPython",
+   "url": "https://bernsteinbear.com/blog/inside-pypy-first-contact-with-rpython/",
+   "hn_url": "https://news.ycombinator.com/item?id=50562207",
+   "points": 66,
+   "num_comments": 9,
+   "published_iso": "2026-11-19T16:26:51+00:00",
    "content": "",
    "matched_query": "LLM"
   },
@@ -58,8 +118,8 @@
    "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
    "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
    "hn_url": "https://news.ycombinator.com/item?id=50561199",
-   "points": 136,
-   "num_comments": 46,
+   "points": 140,
+   "num_comments": 52,
    "published_iso": "2026-11-19T15:16:02+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -68,11 +128,21 @@
    "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
    "url": "https://foolscap.works/",
    "hn_url": "https://news.ycombinator.com/item?id=50559749",
-   "points": 129,
-   "num_comments": 94,
+   "points": 132,
+   "num_comments": 96,
    "published_iso": "2026-11-19T13:21:20+00:00",
    "content": "",
    "matched_query": "AI agent"
+  },
+  {
+   "title": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
+   "url": "https://news.ycombinator.com/item?id=50555002",
+   "hn_url": "https://news.ycombinator.com/item?id=50555002",
+   "points": 144,
+   "num_comments": 87,
+   "published_iso": "2026-11-19T01:37:45+00:00",
+   "content": "",
+   "matched_query": "LLM"
   },
   {
    "title": "LLM assisted reverse engineering",
@@ -98,8 +168,8 @@
    "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
    "url": "https://news.ycombinator.com/item?id=50548660",
    "hn_url": "https://news.ycombinator.com/item?id=50548660",
-   "points": 157,
-   "num_comments": 44,
+   "points": 158,
+   "num_comments": 45,
    "published_iso": "2026-11-18T16:53:42+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -108,8 +178,8 @@
    "title": "AI agents ask better questions than KPMG accountants in audit trial",
    "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
    "hn_url": "https://news.ycombinator.com/item?id=50547777",
-   "points": 499,
-   "num_comments": 264,
+   "points": 502,
+   "num_comments": 265,
    "published_iso": "2026-11-18T15:49:34+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -118,8 +188,8 @@
    "title": "LLMs can read and write executables byte by byte from a hex dump",
    "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
    "hn_url": "https://news.ycombinator.com/item?id=50546587",
-   "points": 258,
-   "num_comments": 160,
+   "points": 314,
+   "num_comments": 184,
    "published_iso": "2026-11-18T14:15:58+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -128,8 +198,8 @@
    "title": "Show HN: Tinnitus frequency finder and audio notch tool",
    "url": "https://trynotched.com/find",
    "hn_url": "https://news.ycombinator.com/item?id=50541568",
-   "points": 226,
-   "num_comments": 134,
+   "points": 232,
+   "num_comments": 138,
    "published_iso": "2026-11-18T03:40:01+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -138,7 +208,7 @@
    "title": "Show HN: An ASCII cell aquarium for your terminal",
    "url": "https://github.com/kborer/cells/",
    "hn_url": "https://news.ycombinator.com/item?id=50541047",
-   "points": 61,
+   "points": 67,
    "num_comments": 22,
    "published_iso": "2026-11-18T02:18:29+00:00",
    "content": "",
@@ -148,8 +218,8 @@
    "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
    "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
    "hn_url": "https://news.ycombinator.com/item?id=50538303",
-   "points": 328,
-   "num_comments": 465,
+   "points": 331,
+   "num_comments": 467,
    "published_iso": "2026-11-17T21:16:12+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -188,7 +258,7 @@
    "title": "Show HN: An API for word timestamps from speech, 75% within 20ms",
    "url": "https://quebec.yarn.so",
    "hn_url": "https://news.ycombinator.com/item?id=50532515",
-   "points": 81,
+   "points": 82,
    "num_comments": 11,
    "published_iso": "2026-11-17T15:16:45+00:00",
    "content": "",
@@ -208,8 +278,8 @@
    "title": "How to CAD Almost Anything",
    "url": "https://ocw.mit.edu/courses/res-16-002-how-to-cad-almost-anything-january-iap-2024/",
    "hn_url": "https://news.ycombinator.com/item?id=50528119",
-   "points": 383,
-   "num_comments": 142,
+   "points": 390,
+   "num_comments": 147,
    "published_iso": "2026-11-17T06:29:57+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -218,7 +288,7 @@
    "title": "How to make almost anything",
    "url": "https://pub.cba.mit.edu/863.26/site/",
    "hn_url": "https://news.ycombinator.com/item?id=50514470",
-   "points": 920,
+   "points": 924,
    "num_comments": 149,
    "published_iso": "2026-11-16T05:50:37+00:00",
    "content": "",
@@ -248,8 +318,8 @@
    "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
    "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
    "hn_url": "https://news.ycombinator.com/item?id=50497155",
-   "points": 149,
-   "num_comments": 73,
+   "points": 150,
+   "num_comments": 74,
    "published_iso": "2026-11-14T14:09:25+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -269,7 +339,7 @@
    "url": "https://github.com/ZigaoWang/zigzag",
    "hn_url": "https://news.ycombinator.com/item?id=50496787",
    "points": 123,
-   "num_comments": 76,
+   "num_comments": 77,
    "published_iso": "2026-11-14T13:17:10+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -2493,86 +2563,6 @@
    "published_iso": "2026-09-24T14:09:57+00:00",
    "content": "",
    "matched_query": "LLM"
-  },
-  {
-   "title": "What Is RLCD? The Secret Behind Jev",
-   "url": "https://di-zhang-llm.github.io/blog/what-is-rlcd-the-secret-behind-jev/",
-   "hn_url": "https://news.ycombinator.com/item?id=49829625",
-   "points": 68,
-   "num_comments": 8,
-   "published_iso": "2026-09-24T12:21:16+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Fourier Analysis: Drawing Llamas with Circles",
-   "url": "https://adekau.github.io/posts/2020/llamas.html",
-   "hn_url": "https://news.ycombinator.com/item?id=49829472",
-   "points": 79,
-   "num_comments": 11,
-   "published_iso": "2026-09-24T12:03:35+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Early rogue AI agent activity and attempts to hack found on urlquery.net",
-   "url": "https://transluce.org/agent-activity",
-   "hn_url": "https://news.ycombinator.com/item?id=49826565",
-   "points": 267,
-   "num_comments": 313,
-   "published_iso": "2026-09-24T05:21:10+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "Contrastive Language Models",
-   "url": "https://contrastive-lm.notion.site/",
-   "hn_url": "https://news.ycombinator.com/item?id=49826221",
-   "points": 176,
-   "num_comments": 59,
-   "published_iso": "2026-09-24T04:20:59+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Feds Target AI Critics as \"Foreign Agents\"",
-   "url": "https://www.kenklippenstein.com/p/feds-think-ai-critics-are-foreign",
-   "hn_url": "https://news.ycombinator.com/item?id=49824686",
-   "points": 396,
-   "num_comments": 457,
-   "published_iso": "2026-09-24T00:41:31+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "Linux support is coming to Snapdragon X2 series",
-   "url": "https://www.qualcomm.com/news/onq/2026/09/snapdragon-summit-agentic-ai-pcs-linux",
-   "hn_url": "https://news.ycombinator.com/item?id=49823582",
-   "points": 625,
-   "num_comments": 273,
-   "published_iso": "2026-09-23T22:38:16+00:00",
-   "content": "",
-   "matched_query": "AI agent"
-  },
-  {
-   "title": "Mercury 2.5 LLM hits 770 tokens per second",
-   "url": "https://artificialanalysis.ai/models/mercury-2-5",
-   "hn_url": "https://news.ycombinator.com/item?id=49823348",
-   "points": 151,
-   "num_comments": 92,
-   "published_iso": "2026-09-23T22:16:19+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Cloud Agents Are Inevitable AI Prisons",
-   "url": "https://normanponte.io/19df691f",
-   "hn_url": "https://news.ycombinator.com/item?id=49820267",
-   "points": 74,
-   "num_comments": 156,
-   "published_iso": "2026-09-23T18:16:41+00:00",
-   "content": "",
-   "matched_query": "AI agent"
   }
  ]
 }
