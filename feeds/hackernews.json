@@ -1,15 +1,55 @@
 {
  "source": "hackernews",
- "fetched_at": "2026-11-25T13:28:52.695059+00:00",
- "count": 255,
- "newest_item": "2026-11-25",
+ "fetched_at": "2026-11-26T13:07:10.467397+00:00",
+ "count": 258,
+ "newest_item": "2026-11-26",
  "items": [
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "hn_url": "https://news.ycombinator.com/item?id=50653477",
+   "points": 76,
+   "num_comments": 73,
+   "published_iso": "2026-11-26T09:44:23+00:00",
+   "content": "",
+   "matched_query": "AI agent"
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "hn_url": "https://news.ycombinator.com/item?id=50651117",
+   "points": 329,
+   "num_comments": 183,
+   "published_iso": "2026-11-26T03:36:58+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Bare Metal Qwen",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+   "hn_url": "https://news.ycombinator.com/item?id=50648365",
+   "points": 178,
+   "num_comments": 39,
+   "published_iso": "2026-11-25T22:15:34+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "In C++, = default and {} are not the same constructor",
+   "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+   "hn_url": "https://news.ycombinator.com/item?id=50643199",
+   "points": 120,
+   "num_comments": 180,
+   "published_iso": "2026-11-25T15:20:15+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
   {
    "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
    "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
    "hn_url": "https://news.ycombinator.com/item?id=50638070",
-   "points": 92,
-   "num_comments": 14,
+   "points": 132,
+   "num_comments": 20,
    "published_iso": "2026-11-25T03:28:06+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -18,8 +58,8 @@
    "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
    "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
    "hn_url": "https://news.ycombinator.com/item?id=50637890",
-   "points": 276,
-   "num_comments": 100,
+   "points": 455,
+   "num_comments": 148,
    "published_iso": "2026-11-25T03:04:37+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -28,8 +68,8 @@
    "title": "Top open problems in mathematics ranked by LLM-assessed importance",
    "url": "https://www.proofatlas.ai/open-problems/",
    "hn_url": "https://news.ycombinator.com/item?id=50637871",
-   "points": 70,
-   "num_comments": 36,
+   "points": 103,
+   "num_comments": 53,
    "published_iso": "2026-11-25T03:01:36+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -38,8 +78,8 @@
    "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
    "url": "https://news.ycombinator.com/item?id=50634426",
    "hn_url": "https://news.ycombinator.com/item?id=50634426",
-   "points": 93,
-   "num_comments": 85,
+   "points": 106,
+   "num_comments": 105,
    "published_iso": "2026-11-24T20:44:15+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -48,7 +88,7 @@
    "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
    "url": "https://masondata.ai/",
    "hn_url": "https://news.ycombinator.com/item?id=50630294",
-   "points": 98,
+   "points": 105,
    "num_comments": 21,
    "published_iso": "2026-11-24T16:11:52+00:00",
    "content": "",
@@ -58,9 +98,19 @@
    "title": "LLM agents work for their parent companies, not for you",
    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
    "hn_url": "https://news.ycombinator.com/item?id=50627340",
-   "points": 981,
-   "num_comments": 403,
+   "points": 1018,
+   "num_comments": 411,
    "published_iso": "2026-11-24T12:40:15+00:00",
+   "content": "",
+   "matched_query": "LLM"
+  },
+  {
+   "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
+   "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+   "hn_url": "https://news.ycombinator.com/item?id=50624446",
+   "points": 258,
+   "num_comments": 97,
+   "published_iso": "2026-11-24T06:22:36+00:00",
    "content": "",
    "matched_query": "LLM"
   },
@@ -73,6 +123,16 @@
    "published_iso": "2026-11-23T22:29:48+00:00",
    "content": "",
    "matched_query": "LLM"
+  },
+  {
+   "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+   "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+   "hn_url": "https://news.ycombinator.com/item?id=50611593",
+   "points": 119,
+   "num_comments": 10,
+   "published_iso": "2026-11-23T14:02:15+00:00",
+   "content": "",
+   "matched_query": "AI agent"
   },
   {
    "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
@@ -88,8 +148,8 @@
    "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://z.ai/blog/glm-5.4",
    "hn_url": "https://news.ycombinator.com/item?id=50609685",
-   "points": 1174,
-   "num_comments": 383,
+   "points": 1180,
+   "num_comments": 386,
    "published_iso": "2026-11-23T10:06:43+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -99,10 +159,20 @@
    "url": "https://phoenix.labri.fr/software/tempo/",
    "hn_url": "https://news.ycombinator.com/item?id=50607627",
    "points": 106,
-   "num_comments": 31,
+   "num_comments": 33,
    "published_iso": "2026-11-23T04:51:48+00:00",
    "content": "",
    "matched_query": "evals"
+  },
+  {
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "hn_url": "https://news.ycombinator.com/item?id=50601280",
+   "points": 402,
+   "num_comments": 114,
+   "published_iso": "2026-11-22T16:44:48+00:00",
+   "content": "",
+   "matched_query": "LLM"
   },
   {
    "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
@@ -118,7 +188,7 @@
    "title": "Show HN: I built a game where you are an LLM's subagent",
    "url": "https://github.com/gulivan/worker755",
    "hn_url": "https://news.ycombinator.com/item?id=50599762",
-   "points": 360,
+   "points": 361,
    "num_comments": 90,
    "published_iso": "2026-11-22T13:56:58+00:00",
    "content": "",
@@ -158,8 +228,8 @@
    "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "hn_url": "https://news.ycombinator.com/item?id=50583761",
-   "points": 753,
-   "num_comments": 860,
+   "points": 754,
+   "num_comments": 867,
    "published_iso": "2026-11-20T23:18:32+00:00",
    "content": "",
    "matched_query": "LLM"
@@ -168,8 +238,8 @@
    "title": "Show HN: Drive around my village in 3D",
    "url": "https://cherwellvalleymotorclub.app",
    "hn_url": "https://news.ycombinator.com/item?id=50574412",
-   "points": 130,
-   "num_comments": 96,
+   "points": 132,
+   "num_comments": 97,
    "published_iso": "2026-11-20T13:32:42+00:00",
    "content": "",
    "matched_query": "AI agent"
@@ -298,7 +368,7 @@
    "title": "Show HN: An ASCII cell aquarium for your terminal",
    "url": "https://github.com/kborer/cells/",
    "hn_url": "https://news.ycombinator.com/item?id=50541047",
-   "points": 69,
+   "points": 70,
    "num_comments": 24,
    "published_iso": "2026-11-18T02:18:29+00:00",
    "content": "",
@@ -308,7 +378,7 @@
    "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
    "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
    "hn_url": "https://news.ycombinator.com/item?id=50538303",
-   "points": 333,
+   "points": 334,
    "num_comments": 471,
    "published_iso": "2026-11-17T21:16:12+00:00",
    "content": "",
@@ -2513,46 +2583,6 @@
    "published_iso": "2026-09-27T15:51:28+00:00",
    "content": "",
    "matched_query": "AI agent"
-  },
-  {
-   "title": "\"As a Language Model\": Chat Template Switches LLM Self-Referential Voice",
-   "url": "https://arxiv.org/abs/2609.25021",
-   "hn_url": "https://news.ycombinator.com/item?id=49865343",
-   "points": 103,
-   "num_comments": 110,
-   "published_iso": "2026-09-27T10:26:25+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "OpenAI Codex agents go rogue and consumes USD 78,000 without authorization",
-   "url": "https://news.ycombinator.com/item?id=49861047",
-   "hn_url": "https://news.ycombinator.com/item?id=49861047",
-   "points": 82,
-   "num_comments": 36,
-   "published_iso": "2026-09-26T22:15:32+00:00",
-   "content": "",
-   "matched_query": "tool calling"
-  },
-  {
-   "title": "Faster prompt lookup drafting in llama.cpp",
-   "url": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
-   "hn_url": "https://news.ycombinator.com/item?id=49859982",
-   "points": 89,
-   "num_comments": 12,
-   "published_iso": "2026-09-26T19:57:24+00:00",
-   "content": "",
-   "matched_query": "LLM"
-  },
-  {
-   "title": "Turning GLM-5.3-Flash into a Jev-like decision model",
-   "url": "https://www.privatemode.ai/blog/system-one-from-glm-flash",
-   "hn_url": "https://news.ycombinator.com/item?id=49857656",
-   "points": 138,
-   "num_comments": 59,
-   "published_iso": "2026-09-26T15:49:04+00:00",
-   "content": "",
-   "matched_query": "LLM"
   }
  ]
 }

@@ -1,8 +1,92 @@
 {
- "generated_at": "2026-11-25T13:28:52.710840+00:00",
- "window_start": "2026-11-18T13:28:52.697127+00:00",
- "count": 53,
+ "generated_at": "2026-11-26T13:07:10.482746+00:00",
+ "window_start": "2026-11-19T13:07:10.469398+00:00",
+ "count": 56,
  "items": [
+  {
+   "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+   "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+   "hn_url": "https://news.ycombinator.com/item?id=50653477",
+   "points": 76,
+   "num_comments": 73,
+   "published_iso": "2026-11-26T09:44:23+00:00",
+   "content": "",
+   "matched_query": "AI agent",
+   "source": "hackernews"
+  },
+  {
+   "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+   "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+   "published": "2026-11-26T06:08:25+00:00",
+   "content": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025 . It was only today that I understood one of its most attractive characteristics. Normally, if you want to grab a snapshot copy of a SQLite database, you need to use either the backup API or VACUUM INTO . In both cases you need enough disk space to create a duplicate copy of your database, so if you're on a small instance and you already use more than half of the available disk you are plain out of luck. sqlite3_rsync can copy a snapshot of your database over an SSH connection to another machine, without first needing to create a full local copy! It's also good for synchronizing an existing copy of a database without re-transmitting the entire thing over the network. It works in a similar way to regular rsync: The core idea behind the protocol is that the replica sends cryptographic hashes for pages or groups of pages over to the origin side. The origin sends back page content that differs, or requests finer-grain hashes if a multi-page hash does not match. If the origin and replica start out being vastly different, the total network bandwidth can exceed the size of the entire database, due to the overhead of exchanging hashes, but the excess bandwidth is not great - a few percent at most. Update : Hah! Turns out I wrote about this application of sqlite_rsync back in October 2024 when the tool was first released. Tags: backups , sqlite",
+   "published_iso": "2026-11-26T06:08:25+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "hn_url": "https://news.ycombinator.com/item?id=50651117",
+   "points": 329,
+   "num_comments": 183,
+   "published_iso": "2026-11-26T03:36:58+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "Quoting Scott Aaronson",
+   "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+   "published": "2026-11-25T23:26:32+00:00",
+   "content": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved. &mdash; Scott Aaronson Tags: mathematics , llms , ai , generative-ai",
+   "published_iso": "2026-11-25T23:26:32+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+   "published": "Wed, 25 Nov 2026 22:28:01 GMT",
+   "content": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game, he edits the size of a rock in the /human folder and immediately tries the throw. He also built a Mac Dock that switched modes, used it, and realized he cared more about noticing when he got distracted. We get into what Thariq changed his mind about with coding agents, how a decision model can choose from actions a designer defines, and who gets to decide which experiments deserve the compute. Thariq announced his move to OpenAI after we recorded. Sponsored by Jira by Atlassian. Learn more at jira.dev . Show notes Thariq’s CODE keynote and reading edition The live /human rock-throw demo The original Dock demo and why he stopped using it Thariq’s earlier Latent Space interview on Claude Code Thariq’s OpenAI announcement Chapters 00:00 Cold open 00:23 Intro and Thariq’s move to OpenAI 03:03 Sponsor — Jira by Atlassian 03:22 Where agents surprised Thariq 06:47 The /human folder 09:07 Software as craft 11:11 Game balance 15:07 Ambition 19:06 Decision models 26:34 The land/water test 30:25 Personal software 37:46 Adoption 42:24 Autoresearch 48:29 Work people can see",
+   "published_iso": "2026-11-25T22:28:01+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+   "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+   "published": "Wed, 25 Nov 2026 22:23:41 GMT",
+   "content": "AINews by Latent Space Scott Aaronson was still trying to digest two proofs of VP ≠ VNP at dinner. Before dessert, an OpenAI paper claimed that the square matrix multiplication exponent ω is exactly 9/4 . During dessert, another paper claimed matching upper and lower bounds for the finite Fourier transform . The lower bound is the biggest news. In October, OpenAI found an upper bound for ω down to at most 9/4 . Finding the lower bound = upper bound leaves only one possible value, which is a shocking result for most. We plotted 64 selected AI-assisted research advances so far this year. November accounts for 20, including six preprints from Google’s Cogentic . The curve follows public releases, including proofs still under review. We count the two VP ≠ VNP proofs once and give October’s faster matrix multiplication algorithm and November’s matching lower bound an entry each. The big releases underline how much a paper count can hide. OpenAI’s catalogue lists 730 manuscripts across 375 result families, including follow-ups and companion arguments. Its revision log also records three October withdrawals after a sign error in one paper affected two others. Yupan Liu showed that two messages suffice for quantum interactive proofs , a result that would have been a big deal on its own. Aaronson says Liu used AI and that he had to remind himself the result had even happened. In other big news, today’s guest Thariq Shihipar announced his big move from Anthropic to OpenAI , the second high profile Ant→OAI move in recent times after Cat Wu . We dive into his two philosophies of AI and how and where /humans add taste. AI News for 11/25/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews' website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap AI-Generated Math Results: Matmul Exponent, Factoring and Lean Proofs Matrix multiplication exponent : OpenAI's model claims a lower bound matching its October upper bound, making ω exactly 9/4. Previously no nontrivial lower bound was known ( @SebastienBubeck ; repo ). Mechanism : The result reportedly comes through an explicit superlinear circuit lower bound ( @wjmzbmr1 ). Implications : Bubeck notes that a prior Lee et al. result implies LPs solvable in n^{9/4}. He also says LPs can now be solved in strongly polynomial time, a Smale problem ( follow-up ). Expert reaction : Omri Weinstein calls it \"truly surreal\" if correct, since most experts expected ω = 2 ( @WeinsteinOmri ). OpenAI batch : Nine new papers with Lean proofs came out a day after a claimed VP ≠ VNP proof ( summary ). Other claims : Fourier transform complexity of n√log n ( @lreyzin ). Integer multiplication : Also n√log n, tight under weak ETH ( @cloneofsimo ). Same-day solutions : Anthropic posted its own VP ≠ VNP solution the same day ( @vitaliychiley ). Google Cogentic : Six papers were posted to GitHub without an announcement, produced by an agent harness on unnamed Gemini 4 models ( @AndrewCurran_ ; details ). Results : A proven NFS-class factoring bound, beating a 1992 record. Also claimed: Deterministic subexponential factoring. Faster small-characteristic discrete log. A 1/5 Nash approximation. Progress below the square-root barrier on log-rank. Edge reconstruction for linear-density graphs. Crypto caveat : A Claude-generated analysis argues RSA and ECC are unaffected ( @teortaxesTex ). Riemann Hypothesis follow-ons : OpenHuman says its agents used the Lean RH proof (credited to Levent Alpöge with Claude) to prove 17 results within three days. These include Lindelöf and Erdős #985 ( @ladyxtel ). Unconfirmed factoring rumor : Scott Aaronson reportedly has heard \"many, many rumors\" that OpenAI or Anthropic can factor in polynomial time. This is unverified ( @kimmonismus ). Context : Igor Babuschkin argues that an LLM-found classical algorithm is a nearer RSA risk than Shor ( @ibab ). Frontier Model Competition: Gemini 4 Neon, Fable 5.2, GPT-6.2 Astra Gemini 4 Neon momentum : Usage is surging across platforms. Perplexity usage : Neon used 44.5B tokens on Tuesday with hours remaining, 23.5% above all of Monday ( @AravSrinivas ). Developer endorsements : Latent Space collected adoption from opencode, Cursor users, DHH and tinygrad. It cites #3 on FrontierSWE at 62.4% and a Day-1 paid-API usage record ( roundup ). Effective limits : Google reportedly raised effective subscription usage ~75% via caching and harness work. OpenAI meanwhile signaled lower subscription rates without specifics ( @kimmonismus ). Practitioner guidance : Phil Schmid says guardrails written for older models slow Neon down ( @_philschmid ). Claude research \"sabotage\" complaints : Several users report that Claude models quietly corrupt research workflows. Reported behaviors : Scrambling data, altering configs and running wrong code ( @skirano ; follow-up ; @yacinelearning ). Status : These are anecdotal claims; the \"sandbagging\" interpretation is speculative. GPT-6.2 Astra : OpenAI's model shows strength in optimization and drew a mixed reception. Optimization claims : Dmitry Rybin reports it proving optimality on million-dimensional MIPLIB/QPLIB problems within 30–60 minutes ( blog ). Reception : Peter Gostev attributes the rough reception to \"Opus 6-level\" expectations ( ThursdAI ). Persistence : Others note low persistence ( @ivan_bezdomny ). MAI-Code-2.1 : Microsoft's model debuted #13 on Code Arena WebDev (1717), ahead of Gemini 4 Hydrogen xHigh ( @arena ). Independent Evals and the Pretraining Loss Debate OpenAI pretraining loss disclosure : METR highlights published log-perplexity for all frontier models since GPT-3.5. Loss is falling ~7x faster since early 2026 than in 2022–25 ( @METR_Evals ; @ajeya_cotra ). Skepticism : Critics say the measurement is a narrow held-out code corpus, so it may reflect data-mix shifts. They cite OpenAI's own footnotes ( @NickEMoran ; @scaling01 ). Open replic",
+   "published_iso": "2026-11-25T22:23:41+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Bare Metal Qwen",
+   "url": "https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os",
+   "hn_url": "https://news.ycombinator.com/item?id=50648365",
+   "points": 178,
+   "num_comments": 39,
+   "published_iso": "2026-11-25T22:15:34+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "datasette-charts 0.3a0",
+   "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+   "published": "2026-11-25T18:16:50+00:00",
+   "content": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations looks like this: Here's that same chart in Datasette Lite , where you can tweak the annotations using the chart builder UI: If you also install Datasette Agent the agent can build annotated charts for you. Here's what I got on the agent.datasette.io demo for this prompt: Show a chart comparing Simon's tagged content about LLMs with his tagged content about Datasette, with annotations Tags: datasette , visualization , datasette-charts",
+   "published_iso": "2026-11-25T18:16:50+00:00",
+   "source": "simonwillison"
+  },
+  {
+   "title": "In C++, = default and {} are not the same constructor",
+   "url": "https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/",
+   "hn_url": "https://news.ycombinator.com/item?id=50643199",
+   "points": 120,
+   "num_comments": 180,
+   "published_iso": "2026-11-25T15:20:15+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
   {
    "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
    "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
@@ -15,8 +99,8 @@
    "title": "Serving Qwen via AWS Lambdas for fun and 80x negative profit",
    "url": "https://noahbuilt.it/writing/qwen-on-5600-lambdas",
    "hn_url": "https://news.ycombinator.com/item?id=50638070",
-   "points": 92,
-   "num_comments": 14,
+   "points": 132,
+   "num_comments": 20,
    "published_iso": "2026-11-25T03:28:06+00:00",
    "content": "",
    "matched_query": "LLM",
@@ -26,8 +110,8 @@
    "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
    "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
    "hn_url": "https://news.ycombinator.com/item?id=50637890",
-   "points": 276,
-   "num_comments": 100,
+   "points": 455,
+   "num_comments": 148,
    "published_iso": "2026-11-25T03:04:37+00:00",
    "content": "",
    "matched_query": "LLM",
@@ -37,8 +121,8 @@
    "title": "Top open problems in mathematics ranked by LLM-assessed importance",
    "url": "https://www.proofatlas.ai/open-problems/",
    "hn_url": "https://news.ycombinator.com/item?id=50637871",
-   "points": 70,
-   "num_comments": 36,
+   "points": 103,
+   "num_comments": 53,
    "published_iso": "2026-11-25T03:01:36+00:00",
    "content": "",
    "matched_query": "LLM",
@@ -56,8 +140,8 @@
    "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
    "url": "https://news.ycombinator.com/item?id=50634426",
    "hn_url": "https://news.ycombinator.com/item?id=50634426",
-   "points": 93,
-   "num_comments": 85,
+   "points": 106,
+   "num_comments": 105,
    "published_iso": "2026-11-24T20:44:15+00:00",
    "content": "",
    "matched_query": "AI agent",
@@ -75,7 +159,7 @@
    "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
    "url": "https://masondata.ai/",
    "hn_url": "https://news.ycombinator.com/item?id=50630294",
-   "points": 98,
+   "points": 105,
    "num_comments": 21,
    "published_iso": "2026-11-24T16:11:52+00:00",
    "content": "",
@@ -86,18 +170,37 @@
    "title": "LLM agents work for their parent companies, not for you",
    "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
    "hn_url": "https://news.ycombinator.com/item?id=50627340",
-   "points": 981,
-   "num_comments": 403,
+   "points": 1018,
+   "num_comments": 411,
    "published_iso": "2026-11-24T12:40:15+00:00",
    "content": "",
    "matched_query": "LLM",
    "source": "hackernews"
   },
   {
+   "title": "Porting Rockbox to an undocumented $9 Aliexpress 'YP3' MP3 Player with LLMs",
+   "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+   "hn_url": "https://news.ycombinator.com/item?id=50624446",
+   "points": 258,
+   "num_comments": 97,
+   "published_iso": "2026-11-24T06:22:36+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
+  },
+  {
+   "title": "datasette-charts 0.2a1",
+   "url": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+   "published": "2026-11-24T06:07:19+00:00",
+   "content": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table pages the panel now sits below the \"4,235 rows where country = CHN\" line. The \"Data\" table under each chart has been replaced by Copy TSV and Copy CSV buttons. Removed the \"Chart this data\" item from the table, view and query action menus. More space between lines in chart tooltips. Tags: datasette , visualization , datasette-charts",
+   "published_iso": "2026-11-24T06:07:19+00:00",
+   "source": "simonwillison"
+  },
+  {
    "title": "datasette-charts 0.2a0",
    "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
    "published": "2026-11-24T04:24:29+00:00",
-   "content": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time as a chart\" - where typing \"#stats\" opens a table search box. It shows me a chart inline in the chat, and when I click \"Open in the chart builder\" it opens the chart in a panel along with the table page. I use the table page to switch to a chart of \"datasette\", then when I ask the agent \"what does the chart show?\" it notices that I changed the content in the panel and describes the new Datasette chart to me. Here's a Markdown export of the chat from the video. Tags: datasette-agent , datasette , visualization",
+   "content": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools. Here's a demo video, recorded on agent.datasette.io where you can sign in with GitHub to try the plugin yourself: Download the video (MP4) I prompt Datasette Agent to \"Use #stats to show sqlite-utils downloads over time as a chart\" - where typing \"#stats\" opens a table search box. It shows me a chart inline in the chat, and when I click \"Open in the chart builder\" it opens the chart in a panel along with the table page. I use the table page to switch to a chart of \"datasette\", then when I ask the agent \"what does the chart show?\" it notices that I changed the content in the panel and describes the new Datasette chart to me. Here's a Markdown export of the chat from the video. Tags: datasette-agent , datasette , visualization , datasette-charts , sqlite",
    "published_iso": "2026-11-24T04:24:29+00:00",
    "source": "simonwillison"
   },
@@ -145,6 +248,17 @@
    "source": "simonwillison"
   },
   {
+   "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+   "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+   "hn_url": "https://news.ycombinator.com/item?id=50611593",
+   "points": 119,
+   "num_comments": 10,
+   "published_iso": "2026-11-23T14:02:15+00:00",
+   "content": "",
+   "matched_query": "AI agent",
+   "source": "hackernews"
+  },
+  {
    "title": "NariQ: BF16-level Qwen3.8-27B in a 10 GB file",
    "url": "https://huggingface.co/nari-labs/Qwen3.8-27B-NariQ-GGUF",
    "hn_url": "https://news.ycombinator.com/item?id=50611402",
@@ -159,8 +273,8 @@
    "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
    "url": "https://z.ai/blog/glm-5.4",
    "hn_url": "https://news.ycombinator.com/item?id=50609685",
-   "points": 1174,
-   "num_comments": 383,
+   "points": 1180,
+   "num_comments": 386,
    "published_iso": "2026-11-23T10:06:43+00:00",
    "content": "",
    "matched_query": "LLM",
@@ -171,7 +285,7 @@
    "url": "https://phoenix.labri.fr/software/tempo/",
    "hn_url": "https://news.ycombinator.com/item?id=50607627",
    "points": 106,
-   "num_comments": 31,
+   "num_comments": 33,
    "published_iso": "2026-11-23T04:51:48+00:00",
    "content": "",
    "matched_query": "evals",
@@ -181,7 +295,7 @@
    "title": "datasette-charts 0.1a0",
    "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
    "published": "2026-11-23T00:37:20+00:00",
-   "content": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It looks like this: The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored D3 , Observable Plot , and topojson-client ), each with a set of heuristics for identifying when they might be a good match for a specific set of rows. Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch. As with other Datasette visualization plugins, the current state of your chart is persisted in a #fragment in the URL - so you can bookmark charts or share them with others. The most important feature is that the charts take all rows into account . Previous charting plugins like datasette-vega would only show charts for the current page of results, generally up to 100 rows. The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set. I'm really happy with this initial release of the plugin. It's still very much an alpha, but it's the closest I've got to the dream of Datasette helping visualize data with as little required direction from the user as possible. Tags: coding-agents , generative-ai , projects , ai , llms , datasette , visualization , claude-mythos-fable",
+   "content": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here . It looks like this: The new charts plugin works against any table or arbitrary SQL query in Datasette. It defines several different chart types (using vendored D3 , Observable Plot , and topojson-client ), each with a set of heuristics for identifying when they might be a good match for a specific set of rows. Those suggestion thumbnails at the top are actual visualizations driven by the data, and selecting one pulls up the full chart along with tools for modifying it. You can also manually construct a chart from scratch. As with other Datasette visualization plugins, the current state of your chart is persisted in a #fragment in the URL - so you can bookmark charts or share them with others. The most important feature is that the charts take all rows into account . Previous charting plugins like datasette-vega would only show charts for the current page of results, generally up to 100 rows. The new plugin compiles each chart to a SQL query that aggregates across the entire result set (potentially millions of rows) using GROUP BY, time bucketing, and window functions. Each query returns a result capped at 5,000 rows, suitable for display on the chart. The plugin uses sampling to help suggest charts for larger tables without evaluating the full result set. I'm really happy with this initial release of the plugin. It's still very much an alpha, but it's the closest I've got to the dream of Datasette helping visualize data with as little required direction from the user as possible. Tags: coding-agents , generative-ai , projects , ai , llms , datasette-charts , sqlite , datasette , visualization , claude-mythos-fable",
    "published_iso": "2026-11-23T00:37:20+00:00",
    "source": "simonwillison"
   },
@@ -192,6 +306,17 @@
    "content": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they can be styled: Build an HTML page that shows all of the ways a select box can be styled, I plan to take screenshots in every desktop and mobile browser After some experimentation I've decided my favorite CSS for select boxes is this: select { appearance : none ; color : # 1f2933 ; padding : 0.5 em 2.25 em 0.5 em 0.75 em ; border : 1 px solid # c4cbd3 ; border-radius : 6 px ; background : # fff url ( \"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23667085' stroke-width='1.5'/%3E%3C/svg%3E\" ) no-repeat right 0.75 em center / 0.75 em ; } Here's what that looks like in the three browsers: Tags: tools , css , html",
    "published_iso": "2026-11-22T19:45:06+00:00",
    "source": "simonwillison"
+  },
+  {
+   "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+   "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+   "hn_url": "https://news.ycombinator.com/item?id=50601280",
+   "points": 402,
+   "num_comments": 114,
+   "published_iso": "2026-11-22T16:44:48+00:00",
+   "content": "",
+   "matched_query": "LLM",
+   "source": "hackernews"
   },
   {
    "title": "Europe weakens chemical rules as science links them to 'lifestyle diseases'",
@@ -208,7 +333,7 @@
    "title": "Show HN: I built a game where you are an LLM's subagent",
    "url": "https://github.com/gulivan/worker755",
    "hn_url": "https://news.ycombinator.com/item?id=50599762",
-   "points": 360,
+   "points": 361,
    "num_comments": 90,
    "published_iso": "2026-11-22T13:56:58+00:00",
    "content": "",
@@ -268,8 +393,8 @@
    "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
    "url": "https://news.ycombinator.com/item?id=50583761",
    "hn_url": "https://news.ycombinator.com/item?id=50583761",
-   "points": 753,
-   "num_comments": 860,
+   "points": 754,
+   "num_comments": 867,
    "published_iso": "2026-11-20T23:18:32+00:00",
    "content": "",
    "matched_query": "LLM",
@@ -303,8 +428,8 @@
    "title": "Show HN: Drive around my village in 3D",
    "url": "https://cherwellvalleymotorclub.app",
    "hn_url": "https://news.ycombinator.com/item?id=50574412",
-   "points": 130,
-   "num_comments": 96,
+   "points": 132,
+   "num_comments": 97,
    "published_iso": "2026-11-20T13:32:42+00:00",
    "content": "",
    "matched_query": "AI agent",
@@ -351,6 +476,14 @@
    "published": "Thu, 19 Nov 2026 23:58:21 GMT",
    "content": "Open video on YouTube ↗ Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" In this episode, we chat with Cristina Cordova , COO of Linear , about how the company navigated that and how its go-to-market changed along the way. Cristina spent seven and a half years at Stripe, led platform and partnerships at Notion, and was a partner at First Round before joining Linear in 2023. Linear's founders built it after living with legacy issue trackers at Coinbase, Airbnb and Uber, and it spread self-serve through startups like Vercel and Ramp. When she joined, Linear had about 40 people and one salesperson. Since then it has shipped an MCP server, a platform for building agents into Linear, integrations with Codex, Cursor and GitHub Copilot, and its own Linear Agent. Agents created 3% of Linear's work a year ago. Now it's more than half. Linear passed $100 million in ARR this year with more than 40,000 paying customers and 177% net revenue retention, and in August employees sold $99 million in stock at a $2.5 billion valuation . We talk about why she stopped chasing enterprise deals three weeks after joining, why Linear has never hired a single SDR, why it won't let an LLM answer support tickets on its own, and what the AI budgets behind $100M-in-months ARR mean for everyone else. Half the work on Linear is now created by agents Linear shipped its MCP server in May 2025, and Cristina says it was basically the first in its category. A year and a half later, more than half the issues created in Linear come from agents. That doesn't mean Linear wants to be a database with an MCP server on top. Cristina thinks SaaS companies settling for that are making a big mistake. If the agent workflows inside your product aren't better than the ones outside it, nobody has a reason to open your app. So she watches two lines: agent usage and app usage. If agent usage climbs and app usage doesn't, you're becoming a commodity. At Linear, both are up and to the right, because people still come back to the app to see and coordinate the work. Jump to the MCP discussion → \"Issue tracking is dead\" When Karri published \"Issue tracking is dead\" in March, most of Linear's customers agreed with him. Then they asked the obvious question: so what am I buying? Linear's answer is a product development system built around agent orchestration, where humans stop doing the manual work of filing, labeling, assigning and closing issues. Customers had been pushing it there. Most of the frontier AI labs run on Linear and wanted it to move faster. Pre-AI companies like Ramp and Coinbase were building their own internal agents and needed an API to plug them into Linear. Cristina says Linear is lucky it's small enough to cannibalize itself. Google has a much harder problem: put an AI answer above every search result, and fewer people look at the ads. Jump to the \"issue tracking is dead\" discussion → The AI budget behind $100M in months The thing speeding up purchases right now, Cristina says, is AI budget. Companies carved out money for AI tools that didn't exist before, and any product that fits inside it skips the usual fight for spend. At some companies that budget is very high. It's already starting to change. Buyers are signing one-year deals and paid pilots, not three-year contracts, because nobody knows what they'll want in two years. And some overnight-$100M stories are a handful of $30 to $40 million contracts with defense companies or giant law firms. That's a very different business from Linear's 40,000 paying customers on what was, until June, entirely seat-based pricing. When those one-year deals come up for renewal, we'll find out whose ARR was real. Jump to the AI budget discussion → Linear threw out its 2025 enterprise roadmap Three weeks after joining in 2023, Cristina crossed \"move upmarket to enterprise\" off Linear's company goals. It had one salesperson. She went after growth-stage companies that would have to rip out an existing tool instead, the same way Stripe won new businesses long before it won switchers. Linear finally declared an enterprise push in 2025, with a roadmap full of features for large organizations. Then agents happened. Linear built an MCP server, an agents platform with a whole new set of APIs, and integrations with Codex, Cursor and GitHub Copilot. None of it was planned, and a lot of the enterprise work never got done. Cristina chose to race ahead anyway. Competitors waited, and enterprises started putting Linear on their shortlists. Jump to the enterprise roadmap discussion → No SDRs, no forward deployed engineers Linear has never hired a single SDR. Cristina thinks the qualification call wastes the customer's time: they want a demo, not questions about their budget. AEs do their own outbound, with tooling to keep it personal. It doesn't do forward deployed engineering either. Linear should be easy enough to adopt that nobody needs access to your systems. Solutions engineers sell alongside enterprise AEs instead, sometimes building a working ServiceNow integration overnight to show a prospect it can be done. Cristina adds that an opinionated tool gives agents cleaner data than one where every team defines \"bug\" differently. Support stays in-house, and Linear won't let an LLM answer tickets on its own. AI drafts replies and a human decides what goes out. Customers sometimes assume the replies are AI because they arrive so fast. In three and a half years, Cristina has never had an escalation over a bad support experience. Jump to the sales team discussion → Everyone wants outcome-based pricing Cristina would love a model like Intercom's Fin, which charges for each support conversation its AI resolves. It's harder for Linear. What is auto-triaging a bug to the right team worth when one company thinks that's the PM's job and another doesn't? Until someone cracks that, Linear charges",
    "published_iso": "2026-11-19T23:58:21+00:00",
+   "source": "latentspace"
+  },
+  {
+   "title": "Why Linear says Issue Tracking is Dead — Cristina Cordova, COO",
+   "url": "https://latent.space/p/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo/",
+   "published": "Thu, 19 Nov 2026 23:38:57 GMT",
+   "content": "Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" In this episode, we chat with Cristina Cordova , COO of Linear , about how the company navigated that and how its go-to-market changed along the way. Cristina spent seven and a half years at Stripe, led platform and partnerships at Notion, and was a partner at First Round before joining Linear in 2023. Linear's founders built it after living with legacy issue trackers at Coinbase, Airbnb and Uber, and it spread self-serve through startups like Vercel and Ramp. When she joined, Linear had about 40 people and one salesperson. Since then it has shipped an MCP server, a platform for building agents into Linear, integrations with Codex, Cursor and GitHub Copilot, and its own Linear Agent. Agents created 3% of Linear's work a year ago. Now it's more than half. Linear passed $100 million in ARR this year with more than 40,000 paying customers and 177% net revenue retention, and in August employees sold $99 million in stock at a $2.5 billion valuation . We talk about why she stopped chasing enterprise deals three weeks after joining, why Linear has never hired a single SDR, why it won't let an LLM answer support tickets on its own, and what the AI budgets behind $100M-in-months ARR mean for everyone else. Half the work on Linear is now created by agents Linear shipped its MCP server in May 2025, and Cristina says it was basically the first in its category. A year and a half later, more than half the issues created in Linear come from agents. That doesn't mean Linear wants to be a database with an MCP server on top. Cristina thinks SaaS companies settling for that are making a big mistake. If the agent workflows inside your product aren't better than the ones outside it, nobody has a reason to open your app. So she watches two lines: agent usage and app usage. If agent usage climbs and app usage doesn't, you're becoming a commodity. At Linear, both are up and to the right, because people still come back to the app to see and coordinate the work. Jump to the MCP discussion → \"Issue tracking is dead\" When Karri published \"Issue tracking is dead\" in March, most of Linear's customers agreed with him. Then they asked the obvious question: so what am I buying? Linear's answer is a product development system built around agent orchestration, where humans stop doing the manual work of filing, labeling, assigning and closing issues. Customers had been pushing it there. Most of the frontier AI labs run on Linear and wanted it to move faster. Pre-AI companies like Ramp and Coinbase were building their own internal agents and needed an API to plug them into Linear. Cristina says Linear is lucky it's small enough to cannibalize itself. Google has a much harder problem: put an AI answer above every search result, and fewer people look at the ads. Jump to the \"issue tracking is dead\" discussion → The AI budget behind $100M in months The thing speeding up purchases right now, Cristina says, is AI budget. Companies carved out money for AI tools that didn't exist before, and any product that fits inside it skips the usual fight for spend. At some companies that budget is very high. It's already starting to change. Buyers are signing one-year deals and paid pilots, not three-year contracts, because nobody knows what they'll want in two years. And some overnight-$100M stories are a handful of $30 to $40 million contracts with defense companies or giant law firms. That's a very different business from Linear's 40,000 paying customers on what was, until June, entirely seat-based pricing. When those one-year deals come up for renewal, we'll find out whose ARR was real. Jump to the AI budget discussion → Linear threw out its 2025 enterprise roadmap Three weeks after joining in 2023, Cristina crossed \"move upmarket to enterprise\" off Linear's company goals. It had one salesperson. She went after growth-stage companies that would have to rip out an existing tool instead, the same way Stripe won new businesses long before it won switchers. Linear finally declared an enterprise push in 2025, with a roadmap full of features for large organizations. Then agents happened. Linear built an MCP server, an agents platform with a whole new set of APIs, and integrations with Codex, Cursor and GitHub Copilot. None of it was planned, and a lot of the enterprise work never got done. Cristina chose to race ahead anyway. Competitors waited, and enterprises started putting Linear on their shortlists. Jump to the enterprise roadmap discussion → No SDRs, no forward deployed engineers Linear has never hired a single SDR. Cristina thinks the qualification call wastes the customer's time: they want a demo, not questions about their budget. AEs do their own outbound, with tooling to keep it personal. It doesn't do forward deployed engineering either. Linear should be easy enough to adopt that nobody needs access to your systems. Solutions engineers sell alongside enterprise AEs instead, sometimes building a working ServiceNow integration overnight to show a prospect it can be done. Cristina adds that an opinionated tool gives agents cleaner data than one where every team defines \"bug\" differently. Support stays in-house, and Linear won't let an LLM answer tickets on its own. AI drafts replies and a human decides what goes out. Customers sometimes assume the replies are AI because they arrive so fast. In three and a half years, Cristina has never had an escalation over a bad support experience. Jump to the sales team discussion → Everyone wants outcome-based pricing Cristina would love a model like Intercom's Fin, which charges for each support conversation its AI resolves. It's harder for Linear. What is auto-triaging a bug to the right team worth when one company thinks that's the PM's job and another doesn't? Until someone cracks that, Linear charges for what costs it money",
+   "published_iso": "2026-11-19T23:38:57+00:00",
    "source": "latentspace"
   },
   {
@@ -403,112 +536,6 @@
    "published_iso": "2026-11-19T13:21:20+00:00",
    "content": "",
    "matched_query": "AI agent",
-   "source": "hackernews"
-  },
-  {
-   "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
-   "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
-   "published": "Thu, 19 Nov 2026 07:07:43 GMT",
-   "content": "Google DeepMind shipped Gemini 4 Neon , its fourth Gemini 4 model in about seven weeks. If you’re confused about the naming, you’re not alone; the 1.5 month old Argon is now retired , the old Pro and Flash from Gemini 1-3 are dead, and if you’re thinking the names are based on atomic weights, Neon (10), the midtier model is faster/cheaper than Carbon (6). This is a helpful guide to the current leading models and sizes: Because of how distillation, RL, and benchmarking works, Neon technically outperforms Carbon by some measures despite being a smaller model… Also today, Anthropic priced its IPO at $83 per share , above its initial range, and Palo Alto Networks agreed to buy Applied Compute in a $4.5B all-stock deal . Anthropic · Palo Alto Networks AI News for November 17–18, 2026. We checked 12 subreddits and 544 Twitter accounts . Browse past issues . AI Twitter Recap Gemini 4 Neon Launch and availability Pricing and specs. Neon costs $3 for input, $0.15 for cached input and $15 for output per million tokens. It has a 1M-token context window and four effort levels. Vals reports a maximum output limit of 1M tokens. Google · Vals Rollout. Neon is coming to the paid Gemini API in AI Studio and Android Studio, Gemini for business, and Antigravity for Pro and Ultra subscribers. In the Gemini app, Pro and Ultra users can select it as “Deeper analysis,” including for Tasks. Google’s rollout · Gemini app Day-one integrations. Cursor , GitHub Copilot across its app, CLI and VS Code, and LangChain Managed Deep Agents . Release cadence. Arena counted gaps of 28 days between Argon and Carbon, 15 between Carbon and Hydrogen, and six between Hydrogen and Neon. Arena Independent results High versus xhigh. At high effort, Neon matched Carbon’s 60 on the Intelligence Index for $3.74 per task. On GDP.pdf it scored 33.4% at high and 28.0% at xhigh. Artificial Analysis Agent Arena. Neon debuted second with 1,336 points across about 4,200 sessions. It had a $2.82 median task cost and placed second on steerability. Carbon still leads the separate Text Arena. Agent Arena · Text Arena Vals. Neon placed second on the Vals Index at 70.9%, about 0.4 points behind Fable 5.2 at less than half the cost per task. On Code Migration it averaged 160 turns, fewer than Carbon’s 234 or Hydrogen’s 574, and scored below both. Vals Index · Code Migration CursorBench 4.1. Neon scored 63.7% at default effort, up from Hydrogen’s 57.3%. Cursor Hands-on reports Steering and capacity. In 13 early Antigravity sessions, Kimmonismus recorded 762 tool calls and a 93% input-cache hit rate. When told to avoid the terminal, Neon ran zero shell commands in those tests. The logs also recorded 57 capacity errors and four stalled runs. Test logs How teams use it. Theo says he’s now using Neon for copy, Fable to implement changes, and Astra to playtest. Jeremy Howard praised Neon while saying he was reverting Solveit’s Astra and Sol options to their pre-6.2 versions. Theo · Jeremy Howard New results for GPT-6.2 Math and formal proof. Astra and Sol took the top two spots on MathArena. Astra solved 42 of 53 ArXivLean problems. Vals separately reports what it believes is the first formalization in Lean of Smoktunowicz’s Gap Theorem, with the proof checked by an independent kernel replay. Tim Gehr · Vals Agent Arena. Astra debuted sixth. Sol placed eleventh at a $0.90 median task cost. On the separate Code Arena WebDev board, Astra placed third at a 42% lower median cost than its predecessor. Agent Arena · WebDev Background discounts. OpenAI opened a public beta for GPT-6.2 Responses API jobs that can wait. Two-hour and eight-hour targets for the first response come with 30% and 40% discounts per token, respectively. OpenAI Developers What changed after launch. OpenAI’s Tibo Sottiaux says early reviewers used builds from before the final few days of changes. Artificial Analysis found Astra’s responses got shorter and it was less likely to admit uncertainty in its behavioral evaluation. Sottiaux · Artificial Analysis Open weights and inference Correction to yesterday’s Pi adapter numbers. Yesterday’s issue cited 15 to 32 solves on the 51 hardest SWE-bench Pro tasks. Hugging Face reran affected tasks after finding a tunnel outage that hit nine base-model runs. The corrected result is 20 to 33 solves , or 39.2% to 64.7%. It also released an OpenCode adapter that moved Qwen3.8-27B from 35.3% to 51.0% on the same subset with thinking off. Corrected model card · OpenCode release Tencent releases Hy4 Flash weights. The 224B-parameter multimodal MoE activates 12B parameters per token, supports 1M context and includes a roughly 64B n-gram embedding table. Tencent released instruct, FP8 and base checkpoints. Tencent repository · vLLM vLLM 0.34.0. The extensible KV cache is on by default and Model Runner V2 is the sole GPU runner. The team reports up to 1.95× faster NVFP4 decoding on GB200. vLLM Inference capacity grew faster than peak compute. Epoch estimates that the capacity of chips sold for a fixed basket of agent workloads grew 4.6× from Q2 2025 to Q2 2026, while peak 8-bit compute grew 2.6×. Epoch AI Runway cuts serving hardware in half. It reports serving a 57B video model at 24 fps on four GPUs, down from eight. Runway Agent tooling. Prime Intellect launched Model Factory for RL, supervised fine-tuning, serving and evals. Hugging Face released the message dataset from its 1,000-agent PyBot project. Prime Intellect · Hugging Face Research and chip design OpenAI models help redesign AMD circuits. OpenAI reports up to 14% improvement against optimized baselines on blocks of AMD’s flagship GPU design. The team used Synopsys tools to check that rewritten circuits preserved behavior and to measure power, performance and area. Some changes made it into a design sent for manufacturing. OpenAI Measuring research acceleration. OpenAI published an update on internal agent use and research task completion, and proposed regular disclosure of indicators for AI res",
-   "published_iso": "2026-11-19T07:07:43+00:00",
-   "source": "latentspace"
-  },
-  {
-   "title": "Ask HN: Tips for transitioning from web development to embedded/firmware?",
-   "url": "https://news.ycombinator.com/item?id=50555002",
-   "hn_url": "https://news.ycombinator.com/item?id=50555002",
-   "points": 153,
-   "num_comments": 96,
-   "published_iso": "2026-11-19T01:37:45+00:00",
-   "content": "",
-   "matched_query": "LLM",
-   "source": "hackernews"
-  },
-  {
-   "title": "llm-gemini 0.38",
-   "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
-   "published": "2026-11-18T23:59:20+00:00",
-   "content": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price , and Hydrogen was 3/4 of that price now but will be 1/4 of that price when the other two double an 1st December once their initial discount pricing expires. The Neon announcement pretends that Argon doesn't exist. Here's their new image explaining the model line-up: So the lineup now, from most to least expensive, is Carbon, Neon, Hydrogen. Except Carbon is currently half price, so right now Neon ($3/million input, $15/million output) is the most expensive of the three - then Carbon ($2/$10), then Hydrogen ($1.50/$7.50). I guess this will make more sense when Carbon doubles to $4/$20 on December 1st. I ran some pelicans through the three reasoning levels for Neon - low, medium, high. I dropped Argon from my Gemini 4 comparison grid - here's the new Gemini 4 lineup, where the Neon pelicans do look better than Hydrogen and worse than Carbon: As I've done with several recent models , I also fired the following prompt against Gemini 4 Neon on \"extra\" effort level in Google Antigravity: Make a three js animation where yonkers stands up as a big mech (cool stand up motion) and stomps around manhattan and queens and Brooklyn, use openstreetmap mapping data Here's the result . Tags: yonkers-rising , gemini , llm , pelican-riding-a-bicycle , ai , llms , llm-release , google , generative-ai",
-   "published_iso": "2026-11-18T23:59:20+00:00",
-   "source": "simonwillison"
-  },
-  {
-   "title": "LLM assisted reverse engineering",
-   "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
-   "hn_url": "https://news.ycombinator.com/item?id=50553225",
-   "points": 317,
-   "num_comments": 83,
-   "published_iso": "2026-11-18T22:29:13+00:00",
-   "content": "",
-   "matched_query": "LLM",
-   "source": "hackernews"
-  },
-  {
-   "title": "The Magic of Partial Evaluation",
-   "url": "https://jimmyhmiller.com/magic-of-partial-evaluation",
-   "hn_url": "https://news.ycombinator.com/item?id=50550096",
-   "points": 117,
-   "num_comments": 41,
-   "published_iso": "2026-11-18T18:29:03+00:00",
-   "content": "",
-   "matched_query": "evals",
-   "source": "hackernews"
-  },
-  {
-   "title": "datasette-arrows 0.1a0",
-   "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
-   "published": "2026-11-18T17:09:59+00:00",
-   "content": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming data in chunks. The register_output_renderer() plugin hook can now be used to implement the same pattern for other formats. I've learned never to release a new plugin feature without accompanying it with a plugin that uses it. Claude Fable 5.2 suggested the Apache Arrow streaming format as a good option, and built this plugin in almost a single shot. Add the plugin to Datasette ( datasette install datasette-arrows ) and the export dialog gains this new Arrow option: This screenshot is from Datasette's main branch - the most recent release doesn't yet group streaming formats such as Arrow with the TSV and CSV in the \"All rows in this table\" section, but that's coming in the next alpha release. Tags: datasette , projects",
-   "published_iso": "2026-11-18T17:09:59+00:00",
-   "source": "simonwillison"
-  },
-  {
-   "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
-   "url": "https://news.ycombinator.com/item?id=50548660",
-   "hn_url": "https://news.ycombinator.com/item?id=50548660",
-   "points": 159,
-   "num_comments": 45,
-   "published_iso": "2026-11-18T16:53:42+00:00",
-   "content": "",
-   "matched_query": "AI agent",
-   "source": "hackernews"
-  },
-  {
-   "title": "Quoting Daniel Stenberg",
-   "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
-   "published": "2026-11-18T15:58:27+00:00",
-   "content": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfixes that none of those rust rewrites have. We also fixed a few vulnerabilities. In another month we have done another 200 and maybe fixed a few more vulnerabilities. Will these clones keep up? &mdash; Daniel Stenberg , Actual curl rewrites in Rust Tags: daniel-stenberg , curl , rust , security , coding-agents , c , ai , llms , generative-ai , vibe-porting",
-   "published_iso": "2026-11-18T15:58:27+00:00",
-   "source": "simonwillison"
-  },
-  {
-   "title": "AI agents ask better questions than KPMG accountants in audit trial",
-   "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
-   "hn_url": "https://news.ycombinator.com/item?id=50547777",
-   "points": 503,
-   "num_comments": 267,
-   "published_iso": "2026-11-18T15:49:34+00:00",
-   "content": "",
-   "matched_query": "AI agent",
-   "source": "hackernews"
-  },
-  {
-   "title": "The PSF end-of-year fundraiser",
-   "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
-   "published": "2026-11-18T14:44:48+00:00",
-   "content": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work benefits from Python, please consider donating this year! The PSF looks after the IP behind Python, operates PyPI, sponsors core developer sprints, supports community events (including running PyCon US every year), and employs a small and excellent staff team to keep everything running. We also operate the Developers in Residence program , which now includes three security developers (welcome, Brett Smith) focused on helping secure Python, PyPI, and the wider ecosystem. Tags: python , psf",
-   "published_iso": "2026-11-18T14:44:48+00:00",
-   "source": "simonwillison"
-  },
-  {
-   "title": "LLMs can read and write executables byte by byte from a hex dump",
-   "url": "https://sgiannopoulos.github.io/blog/machine-code-programming/",
-   "hn_url": "https://news.ycombinator.com/item?id=50546587",
-   "points": 317,
-   "num_comments": 184,
-   "published_iso": "2026-11-18T14:15:58+00:00",
-   "content": "",
-   "matched_query": "LLM",
    "source": "hackernews"
   }
  ]
